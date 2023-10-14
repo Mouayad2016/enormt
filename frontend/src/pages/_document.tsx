@@ -1,5 +1,3 @@
-// pages/_document.js
-// eslint-disable-next-line @next/next/no-document-import-in-page
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import React from 'react';
 
@@ -49,7 +47,7 @@ class MyDocument extends Document {
           {/* ... additional CSS files or other resources */}
 
           {/* Google Tag Manager */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCL9E8MFP9"></script>
+          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCL9E8MFP9"></script> */}
           <script
             dangerouslySetInnerHTML={{
               __html: `

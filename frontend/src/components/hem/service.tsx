@@ -5,6 +5,7 @@ import OpenAI from './assets/openai.svg'; // Import the SVG as a component
 import Google from './assets/google.svg'; // Import the SVG as a component
 import Link from "next/link";
 import { useRouter } from 'next/router';
+import Image from "next/image";
 
 
 type ServiceProps = {
@@ -50,8 +51,6 @@ const Service: React.FC<ServiceProps> = ({ className,title,desc ,link, responsiv
     // <a href="/contact" >
 
 <div className="parent m-sm-3" onClick={handleNavigation}>
-
-
         <div className="card_service">
             <div className="logo">
                 <span className="circle circle1"></span>
@@ -59,7 +58,7 @@ const Service: React.FC<ServiceProps> = ({ className,title,desc ,link, responsiv
                 <span className="circle circle3"></span>
                 <span className="circle circle4"></span>
                 <span className="circle circle5">
-                    <img src="/assets/img/enormt/logo/logo-round-wight.png"  alt="Description"/>
+                    <img src="/assets/img/enormt/logo/logo-round-wight.png" alt="Description"/>
                      
                 </span>
 

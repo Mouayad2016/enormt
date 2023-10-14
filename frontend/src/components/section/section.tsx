@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
-import "./style.css";
+import "./style.module.css";
 import { list } from "postcss";
 
 type ServiceProps = {
