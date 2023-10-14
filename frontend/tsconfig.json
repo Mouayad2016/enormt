@@ -22,9 +22,8 @@
     "paths": {
       "@/*": ["./*"]
     }
-  }
-  ,
-    "awesomeTypescriptLoaderOptions": {
+  },
+  "awesomeTypescriptLoaderOptions": {
       "useWebpackText": true,
       "useTranspileModule": true,
       "doTypeCheck": true,
