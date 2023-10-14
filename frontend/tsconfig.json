@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -21,7 +22,16 @@
     "paths": {
       "@/*": ["./*"]
     }
+  }
+  ,
+    "awesomeTypescriptLoaderOptions": {
+      "useWebpackText": true,
+      "useTranspileModule": true,
+      "doTypeCheck": true,
+      "forkChecker": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/meta/PageMeta.tsx", "src/components/section/section.tsx", "src/pages/service/[title].jsx", "src/components/header/PageHeader.jsx", "src/components/header/Navbar.jsx", "src/pages/contact.jsx", "src/components/hem/service.tsx", "src/pages/404.tsx"],
   "exclude": ["node_modules"]
+
+  
 }
