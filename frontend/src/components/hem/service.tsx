@@ -1,5 +1,4 @@
 
-import "./service.css";
 import DevOPs from './assets/devops.svg'; // Import the SVG as a component
 import OpenAI from './assets/openai.svg'; // Import the SVG as a component
 import Google from './assets/google.svg'; // Import the SVG as a component

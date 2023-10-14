@@ -1,6 +1,5 @@
 import React from "react";
 import ServiceProps from "./service"
-import "./cryptoCustomer.css";
 
 const CryptoCustomerCounter = () => {
   return (

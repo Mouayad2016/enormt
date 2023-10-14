@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./support_card.css"
 import Link from "next/link";
 
 function SupportCard() {

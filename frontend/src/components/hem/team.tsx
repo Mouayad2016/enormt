@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import data from "../../data/db/team";
 import TeamMember from './teamMember';
 
-import "./team.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 

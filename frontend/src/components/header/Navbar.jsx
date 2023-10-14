@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import OffCanvasMenu from "./OffCanvasMenu";
-import "./style.css";
 import Link from "next/link";
 import { useRouter } from 'next/router';
 

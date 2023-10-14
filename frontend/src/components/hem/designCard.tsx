@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./designCard.css"
 import Link from "next/link";
 
 function DesignCard() {

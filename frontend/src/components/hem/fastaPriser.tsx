@@ -1,4 +1,3 @@
-import "./hemsidorFastaPriser.css";
 import HomeSection from "../../components/hem/HomeSection";
 import Link from "next/link";
 
