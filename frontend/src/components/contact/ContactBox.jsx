@@ -7,7 +7,7 @@ import { schedulingPageUrl } from "../../developmen/services_links";
 import SectionTitle from "../section/SectionTitle";
 import { useRouter } from 'next/router';
 
-import "./style.css";
+import "./style.module.css";
 import Link from "next/link";
 
 const ContactBox = () => {
