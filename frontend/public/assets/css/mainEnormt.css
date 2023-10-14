@@ -1,0 +1,36 @@
+.row-items-plan {
+    width: 100%;
+    max-width: 400px;
+    margin: 15px;
+}
+
+.row-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1400px) {
+    .row-items-plan {
+        max-width: 300px;
+        /* margin: 15px 0px; */
+    }
+    .row-items {
+        align-items: start;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .row-items-plan {
+        max-width: 800px;
+        margin: 15px 0px;
+    }
+    .row-items {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* Stack them in a single column on mobile */
+    }
+}

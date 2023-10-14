@@ -1,0 +1,174 @@
+        .container-card-box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            margin: 16px;
+            width: 30%;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        
+        .seo-hemsida-priser {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            /* Adjust this property to control horizontal alignment */
+            align-items: flex-start;
+        }
+        
+        .card-box-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+        }
+        
+        .card-box-content .title {
+            color: #c685ff;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        
+        .card-box-content .ul-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+        
+        .card_box {
+            width: 100%;
+            /* Set the width to 100% to make it take up the full width */
+            height: 500px;
+            border-radius: 20px;
+            background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+            position: relative;
+            -webkit-box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+            cursor: pointer;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+        }
+        
+        .card_box:hover {
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        
+        .card_box span {
+            position: absolute;
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+            top: -10px;
+            left: -10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        
+        .card_box span::before {
+            position: absolute;
+            width: 150%;
+            height: 40px;
+            -webkit-transform: rotate(-45deg) translateY(-20px);
+            -ms-transform: rotate(-45deg) translateY(-20px);
+            transform: rotate(-45deg) translateY(-20px);
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+        }
+        
+        .card_box span::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            bottom: 0;
+            left: 0;
+            height: 10px;
+            z-index: -1;
+            box-shadow: 140px -140px #cc3f47;
+        }
+        
+        .card_box .span1::after {
+            -webkit-box-shadow: 140px -140px #cc3f47;
+            background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+        }
+        
+        .card_box .span2::after {
+            -webkit-box-shadow: 140px -140px #74ff46;
+            background-image: linear-gradient(45deg, #74ff46 0%, #c0ff8d 51%, #70ff40 100%);
+        }
+        
+        .card_box .span3::after {
+            -webkit-box-shadow: 140px -140px #cc3f47;
+            background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+        }
+        
+        .card_box .span1::before {
+            content: 'Basic';
+            background-image: linear-gradient(45deg, #ff6547 0%, #ffb144 51%, #ff7053 100%);
+        }
+        
+        .card_box .span2::before {
+            content: 'Medium';
+            background-image: linear-gradient(45deg, #74ff46 0%, #c0ff8d 51%, #70ff40 100%);
+        }
+        
+        .card_box .span3::before {
+            content: 'Premium';
+            background-image: linear-gradient(45deg, #ff6547 0%, #ffb144 51%, #ff7053 100%);
+        }
+        
+        @media screen and (max-width: 700px) {
+            .seo-hemsida-priser {
+                justify-content: center;
+            }
+            .container-card-box {
+                justify-content: center;
+                width: 80% !important;
+            }
+        }
+        
+        @media screen and (max-width: 800px) {
+            .seo-hemsida-priser {
+                justify-content: center;
+            }
+            .container-card-box {
+                justify-content: center;
+                width: 80% !important;
+            }
+        }
+        
+        @media screen and (max-width: 1200px) {
+            .container-card-box {
+                justify-content: center;
+                width: 45%;
+            }
+        }

@@ -1,0 +1,47 @@
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.team-slider {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.team-image-container {
+    margin: 0 20px;
+    background: linear-gradient(to bottom, #030202, white);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-image-container:hover {
+    transform: scale(1.05);
+}
+
+.person .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+
+/* Style for the team member's position */
+
+.person .position {
+    font-size: 14px;
+    /* color: #fdfeb4; */
+    /* Choose a suitable text color */
+}

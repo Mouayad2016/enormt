@@ -1,0 +1,161 @@
+.chat-bubble {
+    background-image: url('/assets/img/assistant-robot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: moveUpDown 2s ease-in-out infinite;
+    border-radius: 16px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transition: box-shadow 0.3s ease;
+    right: 20px;
+    bottom: 30px;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    width: 160px;
+    height: 160px;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.chat-container {
+    position: fixed;
+    display: flex;
+    /* Add this */
+    align-items: center;
+    justify-content: center;
+    right: 30px;
+    bottom: 70px;
+    width: 400px;
+    height: 500px;
+    z-index: 1000;
+    background-color: #CCC;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+.chat-iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: -20px;
+    /* Positioning relative to the chat-container */
+    right: -20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1002;
+    transition: 0.3s background-color;
+}
+
+.chat-bubble:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    /* Slightly more pronounced shadow on hover */
+}
+
+.chat-container {
+    /* ... existing styles ... */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-button:hover {
+    background-color: #d49f9f;
+}
+
+
+/* Tablet */
+
+
+/* Styles for screen widths up to 480px */
+
+@media only screen and (max-width: 480px) {
+    .chat-bubble {
+        height: 120px;
+        width: 120px;
+        bottom: 3%;
+        right: 0px;
+    }
+    .chat-container {
+        right: 5%;
+        bottom: 3%;
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media (min-width: 480px) {
+    .chat-bubble {
+        height: 140px;
+        width: 140px;
+        bottom: 3%;
+        right: 0px;
+    }
+    .chat-container {
+        right: 35px;
+        bottom: 3%;
+        width: 70%;
+        height: 450px;
+    }
+}
+
+
+/* Desktop */
+
+@media (min-width: 768px) {
+    .chat-bubble {
+        height: 140px;
+        width: 140px;
+        right: 20px;
+        bottom: 3%;
+    }
+    .chat-container {
+        right: 40px;
+        bottom: 3%;
+        width: 450px;
+        height: 480px;
+    }
+}
+
+
+/* Large Desktop */
+
+@media (min-width: 992px) {
+    .chat-bubble {
+        height: 140px;
+        width: 140px;
+        right: 20px;
+        bottom: 3%;
+    }
+    .chat-container {
+        right: 40px;
+        bottom: 3%;
+        width: 500px;
+        height: 500px;
+    }
+}
