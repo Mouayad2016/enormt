@@ -14,7 +14,7 @@ const TechTab = () => {
               <h2 className="text-dark">Skräddarsydda IT-lösningar
 
 </h2>
-              <p>
+              <p className="res-fs-5">
               Dyk ner i det omfattande utbud av IT-tjänster vi erbjuder och upptäck hur vår breda expertis kan tillgodose just dina unika behov     </p>
             </div>
           </div>
@@ -70,8 +70,8 @@ const TechTab = () => {
                     <h2 className="text-dark fs-4">
                       {e.hem_sida.tabs.rubrik}
                     </h2>
-                    <p className="fs-6 text-dark">{e.hem_sida.tabs.des}</p>
-                    <ul className="list-unstyled fs-6 text-dark">
+                    <p className="res-fs-5 text-dark">{e.hem_sida.tabs.des}</p>
+                    <ul className="list-unstyled res-fs-5 text-dark">
                       {e.hem_sida.tabs.list.map((item, listIndex) => (
                         <li key={listIndex}>
                           <i className="fas fa-check text-primary"></i>

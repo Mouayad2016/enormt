@@ -11,16 +11,16 @@ const HemsidorFastaPriser = () => {
 	Våra fasta priser 
     </h2>
 
-	<p className="fs-5 text-center">Nedan hittar du våra fasta priser för följande tjänster <span className="text-accent fw-bold"> Hemsidor </span>,<span className="text-accent fw-bold"> UI/UX </span>,<span className="text-accent fw-bold"> IT-suppor</span>. För tjänster där priset inte anges, vänligen kontakta oss. Anledningen till att vi inte har fasta priser för vissa tjänster är att de inte passar in i en fördefinierad modell. 
+	<p className="res-fs-5 text-center">Nedan hittar du våra fasta priser för följande tjänster <span className="text-accent fw-bold"> Hemsidor </span>,<span className="text-accent fw-bold"> UI/UX </span>,<span className="text-accent fw-bold"> IT-suppor</span>. För tjänster där priset inte anges, vänligen kontakta oss. Anledningen till att vi inte har fasta priser för vissa tjänster är att de inte passar in i en fördefinierad modell. 
 	som till exempel<span className="text-omaina-green fw-bold"> Webbappar </span>, <span className="text-omaina-green fw-bold"> Mobilappar </span> och <span className="text-omaina-green fw-bold"> IT-system</span>.</p>
 
 <div data-aos="fade-right" data-aos-duration="30000">
 	<div className="counter-content section-title mb-30 lh-1" >
-    <h2 className="mt-md-5  text-dark fs-3 text-center-mobile" >
+    <h2 className="mt-md-5 mt-5 text-dark fs-3 text-center-mobile" >
 	Skalbara Webblösningar
     </h2>
 	</div>
-	<p className="fs-5 text-center-mobile">Vi är experter på hemsidor och jobbar med allt från <span className="text-omaina-green fw-bold"> JavaScript </span> 
+	<p className="res-fs-5 text-center-mobile">Vi är experter på hemsidor och jobbar med allt från <span className="text-omaina-green fw-bold"> JavaScript </span> 
 	till <span className="text-omaina-green fw-bold"> WordPress </span> och <span className="text-omaina-green fw-bold"> PHP</span>. Vi anpassar tekniken efter just ditt behov. 
 	våra lösningar kommer med  <span className="fw-bold text-info"> 12 mån garanti</span> och <span className="text-info fw-bold">6 månader IT-suppor</span>.
 

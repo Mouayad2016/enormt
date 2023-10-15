@@ -33,7 +33,7 @@ const ContactBox = () => {
                 <span className="fad fa-comment-alt-lines fa-3x text-primary"></span>
                 <div className="contact-promo-info mb-4">
                   <h5 className="text-body"> Mötesbokaren </h5>
-                  <p>
+                  <p className="res-fs-5">
                     Boka ett förutsättningslöst möte med oss direkt i kalendern.
                     Vi hjälper dig att se över din idé och påbörja din resa mot
                     en ny IT-lösning.
@@ -47,7 +47,7 @@ const ContactBox = () => {
                 <span className="fad fa-phone fa-3x text-primary"></span>
                 <div className="contact-promo-info mb-4">
                   <h5 className="text-body"> Tala med oss </h5>
-                  <p>
+                  <p className="res-fs-5">
                     Har du frågor, funderingar eller bara vill säga hej? Vårt
                     team finns här för att prata och hjälpa dig med allt du
                     behöver.
@@ -62,7 +62,7 @@ const ContactBox = () => {
                 <span className="fad fa-envelope fa-3x text-primary"></span>
                 <div className="contact-promo-info mb-4">
                   <h5 className="text-body"> Skicka en förfrågan</h5>
-                  <p>
+                  <p className="res-fs-5">
                     Intresserad av våra tjänster och vill ha mer information?
                     Skicka en förfrågan, så återkommer vi med ett utförligt svar
                     på dina frågor.
@@ -79,7 +79,7 @@ const ContactBox = () => {
                   <span className="fad fa-envelope fa-3x text-primary"></span>
                   <div className="contact-promo-info mb-4">
                     <h5 className="text-body"> Påbörja din beställning</h5>
-                    <p>
+                    <p className="res-fs-5">
                       Börja din resa mot en effektivare och mer
                       konkurrenskraftig verksamhet här. Beskriv din idé
                       kortfattat så återkopplar vi inom kort.

@@ -12,8 +12,8 @@ function DesignCard() {
     <h2 className="mb-4 text-light fs-2 text-center-mobile" >
     Användarcentrerade <span className="text-pink">UX/UI</span>-Designs
     </h2>
-    <p className="fs-5 text-light text-center-mobile">Vårt dedikerade UX/UI-team har djup kunskap inom branschledande verktyg och metoder såsom <span className="text-pink fw-bold">Figma</span>, <span className="text-pink fw-bold">Sketch</span>, <span className="text-pink fw-bold">Adobe XD</span> och <span className="text-pink fw-bold">prototyping</span>.</p>
-<p className="fs-6 text-omaina-green text-center-mobile">Om du är i behov av en särskild designmetodik eller tjänst som inte nämns här, eller önskar en mer anpassad lösning, tveka inte att kontakta oss för en personlig konsultation.</p>
+    <p className="res-fs-5  text-light text-center-mobile">Vårt dedikerade UX/UI-team har djup kunskap inom branschledande verktyg och metoder såsom <span className="text-pink fw-bold">Figma</span>, <span className="text-pink fw-bold">Sketch</span>, <span className="text-pink fw-bold">Adobe XD</span> och <span className="text-pink fw-bold">prototyping</span>.</p>
+<p className="res-fs-5 text-center-mobile text-omaina-green ">Om du är i behov av en särskild designmetodik eller tjänst som inte nämns här, eller önskar en mer anpassad lösning, tveka inte att kontakta oss för en personlig konsultation.</p>
 				</div>	
 
 <div className="row-items">

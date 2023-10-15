@@ -20,13 +20,13 @@ const AboutPageHero = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="section-heading-wrap d-flex justify-content-between z-5 position-relative">
-                <div className="about-content-left">
-                  <div className="about-info mb-5">
-                    <h1 className="fw-bold display-5 text-dark pt-50 ">
+              <div className=" section-heading-wrap d-flex justify-content-between z-5 position-relative">
+                <div className="about-content-left mt-5">
+                  <div className="about-info mb-5 text-center-mobile">
+                    <h1 className="fw-bold display-5 text-dark pt-5 text-center-mobile">
                       MER ÄN EN IT-LEVERANTÖR
                     </h1>
-                    <p className="lead pt-20 text-dark">
+                    <p className="lead pt-20 res-fs-5 text-center-mobile text-dark ">
                       Vi är en specialiserad IT-beställare med erfarenhet av
                       att leverera högkvalitativa IT-system till kunder i
                       Norden. Vi har ett ständigt växande utbud av IT-lösningar,

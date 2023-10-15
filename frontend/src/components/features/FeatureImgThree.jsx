@@ -16,11 +16,12 @@ const FeatureImgThree = ({ paddingTop }) => {
                 subtitle="Policy"
                 title="Konkurrens & Transparens"
                 description="Stark övertygelse att öppen konkurrens skapar de bästa förutsättningarna för lyckad utveckling."
+                // centerAlign
               />
 
             <div className="col-lg-5 col-md-12">
              
-              <div>
+              <div className="align-items-center">
                 <ul className="list-unstyled">
                   <li className="d-flex align-items-start mb-4">
                     <div className="icon-box bg-primary rounded me-4">
@@ -36,8 +37,8 @@ const FeatureImgThree = ({ paddingTop }) => {
                     </div>
                   </li>
                   <li className="d-flex align-items-start mb-4">
-                    <div className="icon-box bg-primary rounded me-4">
-                      <i className="fas fa-bezier-curve text-white"></i>
+                    <div className="icon-box bg-success rounded me-4">
+                      <i className="fas fa-hands-helping text-white"></i>
                     </div>
                     <div className="icon-content">
                       <h3 className="h5 text-dark">Gemensam målsättning</h3>
@@ -56,8 +57,8 @@ const FeatureImgThree = ({ paddingTop }) => {
               <div>
               <ul className="list-unstyled">
               <li className="d-flex align-items-start mb-4">
-                    <div className="icon-box bg-primary rounded me-4">
-                      <i className="fas fa-bezier-curve text-white"></i>
+                    <div className="icon-box bg-secondary rounded me-4">
+                      <i className="fas fa-bullseye text-white"></i>
                     </div>
                     <div className="icon-content">
                       <h3 className="h5 text-dark">Goda arbetsförhållanden </h3>
@@ -70,7 +71,7 @@ const FeatureImgThree = ({ paddingTop }) => {
                   </li>
                   <li className="d-flex align-items-start mb-4">
                     <div className="icon-box bg-danger rounded me-4">
-                      <i className="fas fa-fingerprint text-white"></i>
+                      <i className="fas fa-people-carry text-white"></i>
                     </div>
                     <div className="icon-content">
                       <h3 className="h5 text-dark">Öppenhet och transparens</h3>

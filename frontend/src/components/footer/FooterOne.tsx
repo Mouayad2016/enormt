@@ -28,7 +28,7 @@ const FooterOne: React.FC<FooterOneProps> = ({ footerLight, style, footerGradien
                   </div>
                   <div className="footer-single-col">
                     <ul className="list-unstyled footer-nav-list mb-lg-0">
-                      <li className="text-white fw-bold">Gustav III:s Boulevard 32-34, 4tr
+                      <li className="text-white fw-bold ">Gustav III:s Boulevard 32-34, 4tr
 169 73 Solna, Sweden </li>
                       <li>
                         <a
@@ -54,7 +54,7 @@ const FooterOne: React.FC<FooterOneProps> = ({ footerLight, style, footerGradien
           <div className="row justify-content-between align-items-center">
             <div className="col-md-7 col-lg-7">
               <div className="copyright-text">
-                <p className="mb-lg-0 mb-md-0 text-white">
+                <p className="mb-lg-0 mb-md-0 text-white text-center-mobile">
                   &copy; Enormt alla rättigheter förbehållna.
                 </p>
               </div>

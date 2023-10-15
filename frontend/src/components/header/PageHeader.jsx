@@ -26,7 +26,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
                     </div>
                   </div>
                   <div className='company-overview'>
-                    <h1 className='display-5 fw-bold '>{title}</h1>
+                    <h1 className='display-5 fw-bold text-center-mobile'>{title}</h1>
                     <p className='lead mb-0'>{desc}</p>
                   </div>
                 </div>
@@ -53,8 +53,8 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
               }`}
             >
               <div className='col-lg-8 col-md-12'>
-                <h1 className='display-5 fw-bold text-dark pt-50'>{title}</h1>
-                <p className='text-dark fs-5 pt-20'>{desc}</p>
+                <h1 className='display-5 fw-bold text-dark pt-50 text-center-mobile'>{title}</h1>
+                <p className='text-dark res-fs-5 text-center-mobile pt-20 '>{desc}</p>
               </div>
             </div>
             {blogtags ? (

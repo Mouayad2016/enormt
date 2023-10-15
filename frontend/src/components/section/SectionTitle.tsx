@@ -16,15 +16,15 @@ const SectionTitle : React.FC<ServiceProps> = ({ subtitle, dark, title, centerAl
       {subtitle ? (
         <div
           className={`${
-            centerAlign ? 'section-heading text-center' : 'section-heading'
+            centerAlign ? 'section-heading text-center' : 'section-heading text-center-mobile'
           }`}
           // data-aos='fade-up'
         >
           <h4 className={`h5 ${dark ? 'text-warning' : 'text-primary'}`}>
             {subtitle}
           </h4>
-          <h2 className='text-dark pt-20'>{title}</h2>
-          <p className='text-body pt-20'>{description}</p>
+          <h2 className='text-dark pt-20 text-center-mobile'>{title}</h2>
+          <p className='text-dark pt-20 res-fs-5 text-center-mobile'>{description}</p>
         </div>
       ) : (
         <div
@@ -33,8 +33,8 @@ const SectionTitle : React.FC<ServiceProps> = ({ subtitle, dark, title, centerAl
           }`}
       
         >
-          <h2>{title}</h2>
-          <p>{description}</p>
+          <h2 className='text-center-mobile'>{title}</h2>
+          <p className='text-center-mobile'>{description}</p>
         </div>
       )}
     </>
