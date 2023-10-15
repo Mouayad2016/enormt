@@ -23,7 +23,7 @@ const AboutPageHero = () => {
               <div className="section-heading-wrap d-flex justify-content-between z-5 position-relative">
                 <div className="about-content-left">
                   <div className="about-info mb-5">
-                    <h1 className="fw-bold display-5 text-dark pt-50">
+                    <h1 className="fw-bold display-5 text-dark pt-50 ">
                       MER ÄN EN IT-LEVERANTÖR
                     </h1>
                     <p className="lead pt-20 text-dark">

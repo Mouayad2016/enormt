@@ -16,11 +16,11 @@ const HemsidorFastaPriser = () => {
 
 <div data-aos="fade-right" data-aos-duration="30000">
 	<div className="counter-content section-title mb-30 lh-1" >
-    <h2 className="mt-md-5  text-dark fs-3 " >
+    <h2 className="mt-md-5  text-dark fs-3 text-center-mobile" >
 	Skalbara Webblösningar
     </h2>
 	</div>
-	<p className="fs-5">Vi är experter på hemsidor och jobbar med allt från <span className="text-omaina-green fw-bold"> JavaScript </span> 
+	<p className="fs-5 text-center-mobile">Vi är experter på hemsidor och jobbar med allt från <span className="text-omaina-green fw-bold"> JavaScript </span> 
 	till <span className="text-omaina-green fw-bold"> WordPress </span> och <span className="text-omaina-green fw-bold"> PHP</span>. Vi anpassar tekniken efter just ditt behov. 
 	våra lösningar kommer med  <span className="fw-bold text-info"> 12 mån garanti</span> och <span className="text-info fw-bold">6 månader IT-suppor</span>.
 

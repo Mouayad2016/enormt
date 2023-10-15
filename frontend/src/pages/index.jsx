@@ -21,13 +21,13 @@ const Home = () => {
       <Layout>
         <PageMeta title="Enormt - Hem"  description="Funderar du på att investera i en hemsida, mobilapputveckling, ett IT-system eller behöver IT-konsultation? Vi är Nordens bästa utvecklare. Kontakta oss idag!." 
         keywords="Webbutveckling, IT system, webbdesign, bygga en hemsida, skapa en hemsida, utveckla en app, automatisering, IT konsulter, molntjänster, ai" />
-        <Navbar navDark={false}/>
+        <Navbar />
         <HeroNine />
         <CryptoCustomerCounter />
         <HomeSection></HomeSection>
         <HemsidorFastaPriser></HemsidorFastaPriser>
         <UXUIDesign></UXUIDesign>
-        <SupportCard></SupportCard>
+        {/* <SupportCard></SupportCard> */}
         <TechTab />
         <FooterOne footerGradient/>
       </Layout>

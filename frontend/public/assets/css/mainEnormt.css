@@ -11,6 +11,38 @@
     align-items: flex-start;
 }
 
+
+/* Default font size */
+
+.res-fs-5 {
+    font-size: 1.25rem !important;
+}
+
+@media (max-width: 767px) {
+    /* This max-width covers typical mobile device widths */
+    .text-center-mobile {
+        text-align: center;
+    }
+}
+
+
+/* Font size adjustments for tablet screens (e.g., 768px to 1199px) */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .res-fs-5 {
+        font-size: 1.15rem !important;
+    }
+}
+
+
+/* Font size adjustments for mobile screens (e.g., less than 768px) */
+
+@media (max-width: 767px) {
+    .res-fs-5 {
+        font-size: 1rem !important;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .row-items-plan {
         max-width: 300px;

@@ -31,7 +31,7 @@ const Contact = () => {
   
     <Layout>
       <PageMeta keywords=""  title="Kontakta oss"  description="Funderar du på att investera i en hemsida, mobilapputveckling, ett IT-system eller behöver IT-konsultation? Vi är Nordens bästa utvecklare. Kontakta oss idag!." ></PageMeta>
-      <Navbar navDark={false} />
+      <Navbar />
 
       <PageHeader
       blogtags={null}

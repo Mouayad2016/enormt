@@ -48,10 +48,10 @@
     "src/pages/contact.jsx",
     "src/components/hem/service.tsx",
     "src/pages/404.tsx",
-    "src/pages/index.tsx",
+    "src/pages/index.jsx",
     "src/pages/_document.tsx",
     "src/pages/_app.tsx"
-  ],
+, "src/components/header/OffCanvasMenu.jsx"  ],
   "exclude": [
     "node_modules"
   ]

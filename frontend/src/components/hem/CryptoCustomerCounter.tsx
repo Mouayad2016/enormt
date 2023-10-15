@@ -8,9 +8,9 @@ const CryptoCustomerCounter = () => {
       <div className="container">
          <div className="counter-content section-title mb-30">
          <h2 className="mb-md-5 text-dark justify-content-cente text-center" >  Växande utbud av IT-lösningar </h2>
-              <h2 className="mb-4 text-dark fs-2" > Alla våra lösningar kommer med <span className="text-info">12 mån garanti</span> och <span className="text-info">6 månader IT-suppor</span> 
+              <h2 className="mb-4 text-dark res-fs-5 text-center-mobile" > Alla våra lösningar kommer med <span className="text-info">12 mån garanti</span> och <span className="text-info">6 månader IT-suppor</span> 
                 </h2>
-                <p className="fs-4">We specialize in crafting top-tier digital solutions tailored to your unique needs. Utilizing the latest technologies and innovative strategies, we design products and services that not only meet today’s demands but also set you up for success in the future.</p>
+                <p className="res-fs-5 text-center-mobile">We specialize in crafting top-tier digital solutions tailored to your unique needs. Utilizing the latest technologies and innovative strategies, we design products and services that not only meet today’s demands but also set you up for success in the future.</p>
                 </div>
         <div className="justify-content-center"> 
         <div className="grid-container justify-content-center ">

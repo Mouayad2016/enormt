@@ -44,7 +44,7 @@ const TechTab = () => {
           </div>
         </div>
         <div className="row">
-          <div className="tab-content" id="pills-tabContent">
+          <div className="tab-content text-center-mobile" id="pills-tabContent">
             {data.map((e) => (
               <div
                 className={e.hem_sida.tabs.className}

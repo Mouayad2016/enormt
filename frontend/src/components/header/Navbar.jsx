@@ -142,13 +142,6 @@ const Navbar= ({ navDark }) => {
                   Kontakta oss                 
                   </Link>
                 </li>
-                {/* <li>
-               
-                  <Link href="/blogs" 
-                  className="nav-link"
-                  >Nyheter
-                  </Link>
-                </li> */}
                    
                 <li>
                
@@ -164,16 +157,6 @@ const Navbar= ({ navDark }) => {
                >Bloggar
                </Link>
              </li>
-
-
-                {/* <li>
-
-                <Link href="/advo-app" 
-                  className="nav-link"
-                  >
-                    Advo appen
-                  </Link>
-             </li>                */}
               </ul>
             </div>
             <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
