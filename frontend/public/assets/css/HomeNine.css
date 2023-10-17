@@ -12,6 +12,10 @@
     background-color: #fbebfc;
 }
 
+.bg-main-yellow {
+    background: linear-gradient(166deg, #feffbc4b 85%, #fdff834b 90%, #eeabff42 100%);
+}
+
 .bg-main-black {
     background-color: #000000;
 }

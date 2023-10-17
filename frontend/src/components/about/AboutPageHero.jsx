@@ -27,15 +27,9 @@ const AboutPageHero = () => {
                       MER ÄN EN IT-LEVERANTÖR
                     </h1>
                     <p className="lead pt-20 res-fs-5 text-center-mobile text-dark ">
-                      Vi är en specialiserad IT-beställare med erfarenhet av
-                      att leverera högkvalitativa IT-system till kunder i
-                      Norden. Vi har ett ständigt växande utbud av IT-lösningar,
-                      som utvecklas av våra utländska kvalitetssäkrade
-                      leverantörer. Våra kunder njuter av högsta kvalitet till
-                      internationellt konkurrenskraftiga priser, med en trygg
-                      och säker beställningsprocess och dedikerad kundsupport.
-                      Vårt team består av erfarna IT-experter som strävar efter
-                      att skapa lösningar som passar våra kunders unika behov.
+                    Vi är experter inom IT-sektorn, specialiserade på att erbjuda skräddarsydda och högkvalitativa IT-lösningar till våra klienter i Norden. 
+                    Inom vårt engagerade team kombinerar vi teknisk skicklighet med en djup förståelse för våra klienters affärsbehov. Detta möjliggör oss att inte bara svara på, utan även förutse, de unika kraven i varje projekt. 
+                    Vi omvandlar dessa insikter till skräddarsydda lösningar som integrerar smidigt med befintliga system och främjar affärsutveckling och innovation.
                     </p>
                
                     <a

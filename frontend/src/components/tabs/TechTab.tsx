@@ -6,7 +6,7 @@ const TechTab = () => {
   const [selectedTab, setSelectedTab] = useState(data.length ? data[0].hem_sida.namn : null);
 
   return (
-    <section className="gradient-backgroud-switched ptb-120" >
+    <section className="gradient-backgroud-switched pt-60 pb-120" >
       <div className="container" data-aos="fade-up" data-aos-duration="30000">
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-6">

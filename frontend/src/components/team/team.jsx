@@ -26,9 +26,10 @@ const Team = () => {
                     className="img-fluid position-relative"
                   />
                   <ul className="list-unstyled team-social-list d-flex flex-column mb-0">
-                  {member.linkedin? <li className="list-inline-item">
+                  {member.linkedin? 
+                  <li className="list-inline-item">
                       <a
-                        href={member.link}
+                        href={member.linkedin}
                         target="_blank"
                       >
                         <i className="fab fa-linkedin-in"></i>

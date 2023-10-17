@@ -5,7 +5,7 @@ function DesignCard() {
 
   return (
    
-<section className="bg-main-black hero-nine-bg ptb-120" >
+<section className="bg-main-black hero-nine-bg ptb-60" >
 <div className="container overflow-x-hidden"data-aos="fade-left" data-aos-duration="30000" >	
 	
 	<div className="counter-content section-title mb-30" >

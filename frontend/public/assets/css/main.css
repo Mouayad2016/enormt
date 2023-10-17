@@ -8530,6 +8530,10 @@
                 color: #00ff00 !important;
             }
             
+            .text-yello {
+                color: #FFFF00 !important;
+            }
+            
             .text-primary {
                 color: rgba(0, 162, 255) !important;
                 /* color: #175cff !important; */
@@ -8557,6 +8561,10 @@
             
             .text-pink {
                 color: #c88afd;
+            }
+            
+            .text-pink-dark {
+                color: #df01f7;
             }
             
             .text-danger {

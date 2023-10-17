@@ -17,7 +17,6 @@ const ContactsForm = () => {
   const [loading, setLoading] = useState(false);
 
   async function handleSubmit(event) {
-    console.log("here")
     event.preventDefault(); // Prevents the default form submission behavior
     const namn = document.getElementById("namn").value;
     const org_namn = document.getElementById("organisation_namn").value;
@@ -38,7 +37,7 @@ const ContactsForm = () => {
     };
     try {
       setLoading(true);
-      const response = await postData("/demo-request", formData);
+      const response = await postData(`${process.env.NEXT_PUBLIC_API_URL}/demo-request`, formData);
       if (response.status === 200) {
         setFormData({
           namn: "",

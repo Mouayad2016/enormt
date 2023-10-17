@@ -4,14 +4,14 @@ import Link from "next/link";
 function SupportCard() {
 
   return (
-    <section className="bg-main-pink hero-nine-bg ptb-120" >
+    <section className="bg-main-pink hero-nine-bg ptb-60" >
       <div data-aos="fade-right" data-aos-duration="30000">
         <div className="container" >	
 	<div className="counter-content section-title mb-30 lh-1">
-    <h2 className="mt-md-5  text-dark fs-3 " >
+    <h2 className="text-pink-dark fs-3 " >
     Professionell IT-Support	
     </h2>		</div>	
-	<p className="fs-5">Vi står vid din sida med expertis inom IT-support, redo att <span className="text-omaina-green fw-bold"> hantera </span> dina utmaningar och säkerställa en smidig teknisk drift. 
+	<p className="fs-5 text-dark">Vi står vid din sida med expertis inom IT-support, redo att <span className="text-omaina-green fw-bold"> hantera </span> dina utmaningar och säkerställa en smidig teknisk drift. 
  
 				</p>
 				<p className="fs-6 text-dark">Behöver du specialanpassad support? Vårt team finns här för att ge en lösning som passar just dina behov.</p>

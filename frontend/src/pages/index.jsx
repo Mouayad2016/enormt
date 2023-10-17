@@ -27,7 +27,7 @@ const Home = () => {
         <HomeSection></HomeSection>
         <HemsidorFastaPriser></HemsidorFastaPriser>
         <UXUIDesign></UXUIDesign>
-        {/* <SupportCard></SupportCard> */}
+        <SupportCard></SupportCard>
         <TechTab />
         <FooterOne footerGradient/>
       </Layout>

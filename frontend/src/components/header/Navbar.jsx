@@ -103,7 +103,6 @@ const Navbar= ({ navDark }) => {
                 <img
                   src={`/assets/img/enormt/logo/enormt-logo-color.png`}
                   alt="logo"
-
                   className="img-fluid logo-color logo"
                 />
               </Link>

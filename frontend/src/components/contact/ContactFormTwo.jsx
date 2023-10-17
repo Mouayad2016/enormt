@@ -37,6 +37,7 @@ const ContactFormTwo = () => {
   };
 
   async function handleSubmit(event) {
+
     event.preventDefault(); // Prevents the default form submission behavior
     // Get the values of the form inputs
     const firstName = document.getElementById("firstName").value;
@@ -56,7 +57,8 @@ const ContactFormTwo = () => {
     };
     try {
       setLoading(true);
-      const response = await postData("/kontakt", formData);
+      const response = await postData(`${process.env.NEXT_PUBLIC_API_URL}/kontakt`, formData);
+
       if (response.status === 200) {
         setFormData({
           firstName: "",

@@ -5,14 +5,9 @@ import Link from "next/link";
 const HemsidorFastaPriser = () => {
 
   return (
-    <section className="background-img-home-fasta-priser hero-nine-bg ptb-120" id="prices" data-aos="fade-up" data-aos-duration="30000">
+    <section className="background-img-home-fasta-priser hero-nine-bg pb-60" id="prices" data-aos="fade-up" data-aos-duration="30000">
     <div className="container">	
-	<h2 className="mb-md-5 text-dark justify-content-center text-center">
-	Våra fasta priser 
-    </h2>
 
-	<p className="res-fs-5 text-center">Nedan hittar du våra fasta priser för följande tjänster <span className="text-accent fw-bold"> Hemsidor </span>,<span className="text-accent fw-bold"> UI/UX </span>,<span className="text-accent fw-bold"> IT-suppor</span>. För tjänster där priset inte anges, vänligen kontakta oss. Anledningen till att vi inte har fasta priser för vissa tjänster är att de inte passar in i en fördefinierad modell. 
-	som till exempel<span className="text-omaina-green fw-bold"> Webbappar </span>, <span className="text-omaina-green fw-bold"> Mobilappar </span> och <span className="text-omaina-green fw-bold"> IT-system</span>.</p>
 
 <div data-aos="fade-right" data-aos-duration="30000">
 	<div className="counter-content section-title mb-30 lh-1" >
