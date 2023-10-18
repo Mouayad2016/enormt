@@ -70,87 +70,87 @@ const Service: React.FC<ServiceProps> = ({ className,title,desc ,link, responsiv
         </p>  </div>
                 {responsive ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Responsiv</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Responsiv</span>
         </> : ""} 
         {fastPrice ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Fasta priser</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Fasta priser</span>
         </> : ""}
         {seo ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Sökmotoroptimering</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Sökmotoroptimering</span>
         </> : ""}
         {garanti ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> 12 Mån garanti</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> 12 Mån garanti</span>
         </> : ""}
         {support ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> 6 Mån IT-support</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> 6 Mån IT-support</span>
         </> : ""}
         {anpassningabr ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Anpassningsbar</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Anpassningsbar</span>
         </> : ""}
         {unikDesign ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Unik design</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Unik design</span>
         </> : ""}
         {allDevices ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Både IOS och Android</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Både IOS och Android</span>
         </> : ""}
         {ladingpage ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Landing page</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Landing page</span>
         </> : ""}
       
         {organisk_trafik ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Ökad organisk trafik</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Ökad organisk trafik</span>
         </> : ""}
         {nyckelord ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Rätt nyckelord för din bransch</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Rätt nyckelord för din bransch</span>
         </> : ""}
         {SEO_rapporter ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Regelbundna SEO-rapporter</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Regelbundna SEO-rapporter</span>
         </> : ""}
         {Konkurrentanalys ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Konkurrentanalys</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Konkurrentanalys</span>
         </> : ""}
         {Optimerat_innehåll ? <>
           <br />
-            <span className="text-light"> <span className="service-green me-sm-3">🗸 </span> Optimerat innehåll för engagemang</span>
+            <span className="text-light"> <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Optimerat innehåll för engagemang</span>
         </> : ""}
         {seo_service ? <>
           <br />
             <span className="text-light"> 
-            <span className="service-green me-sm-3">🗸 </span> Toppa listan på sökmotorer< br />        
-            <span className="service-green me-sm-3">🗸 </span> Uppföljning och uppdateringar
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Toppa listan på sökmotorer< br />        
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Uppföljning och uppdateringar
             </span>
         </> : ""}
         {grafikDesign ? <>
           <br />
             <span className="text-white"> 
-            <span className="service-green me-sm-3">🗸 </span> UX & UI  <br />
-            <span className="service-green me-sm-3">🗸 </span> Responsiv design  <br />
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> UX & UI  <br />
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Responsiv design  <br />
             </span>
         </> : ""}
           {SEM_marknadsföring ? <>
           <br />
             <span className="text-light"> 
-            <span className="service-green me-sm-3">🗸 </span> Riktade annonser mot rätt folk<br />
-            <span className="service-green me-sm-3">🗸 </span> Syns på toppen i sökresultat<br />
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Riktade annonser mot rätt folk<br />
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Syns på toppen i sökresultat<br />
 </span>
         </> : ""}
         {IT_konsultation ? <>
           <br />
             <span className="text-light"> 
-            <span className="service-green me-sm-3">🗸 </span> Välj bland 50 konsulter<br />
-            <span className="service-green me-sm-3">🗸 </span> Nytta garanti <br />
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Välj bland 50 konsulter<br />
+            <span className="service-green me-sm-3"><i className="fas fa-check"></i> </span> Nytta garanti <br />
 
 </span>
         </> : ""}
