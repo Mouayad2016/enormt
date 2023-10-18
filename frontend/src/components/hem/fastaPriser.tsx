@@ -5,7 +5,7 @@ import Link from "next/link";
 const HemsidorFastaPriser = () => {
 
   return (
-    <section className="background-img-home-fasta-priser hero-nine-bg pb-60" id="prices" data-aos="fade-up" data-aos-duration="30000">
+    <section className="background-img-home-fasta-priser hero-nine-bg pb-60" data-aos="fade-up" data-aos-duration="30000">
     <div className="container">	
 
 
