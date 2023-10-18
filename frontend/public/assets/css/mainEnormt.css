@@ -1,3 +1,7 @@
+section {
+    overflow-x: hidden !important;
+}
+
 .row-items-plan {
     width: 100%;
     max-width: 400px;

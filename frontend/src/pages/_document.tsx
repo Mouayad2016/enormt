@@ -17,8 +17,8 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/img/enormt/logo/apple-touch-icon.png"/>
 
           {/* ... additional link or meta tags */}
-
-          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no" /> 
+          {/* user-scalable=no */}
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> 
           <meta name="theme-color" content="#000000" />
           <meta name="description" content="Funderar du på att investera i en hemsida, mobilapputveckling, ett IT-system eller behöver IT-konsultation? Vi är Nordens bästa utvecklare. Kontakta oss idag!." />
 

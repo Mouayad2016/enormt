@@ -165,7 +165,10 @@
     background: black;
     border-radius: 50%;
     border: none;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     place-content: center;
     -webkit-box-shadow: rgba(5, 71, 17, 0.5) 0px 7px 5px -5px;
     box-shadow: rgba(5, 71, 17, 0.5) 0px 7px 5px -5px;
@@ -288,6 +291,9 @@
     right: 30px;
     display: grid;
     place-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     -webkit-transition-delay: 1.6s;
     transition-delay: 1.6s;
 }
