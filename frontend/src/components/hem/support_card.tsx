@@ -4,28 +4,28 @@ import Link from "next/link";
 function SupportCard() {
 
   return (
-    <section className="bg-main-pink hero-nine-bg ptb-60" >
+    <section className="bg-main-pink hero-nine-bg ptb-60 justify-content-center" >
       <div data-aos="fade-right" data-aos-duration="30000">
         <div className="container" >	
-	<div className="counter-content section-title mb-30 lh-1">
-    <h2 className="text-pink-dark fs-3 " >
+	<div className="counter-content section-title mb-30 text-center-mobile">
+    <h2 className="text-pink-dark fs-3 text-center-mobile" >
     Professionell IT-Support	
     </h2>		</div>	
-	<p className="fs-5 text-dark">Vi står vid din sida med expertis inom IT-support, redo att <span className="text-omaina-green fw-bold"> hantera </span> dina utmaningar och säkerställa en smidig teknisk drift. 
+	<p className="fs-5 text-dark text-center-mobile">Vi står vid din sida med expertis inom IT-support, redo att <span className="text-omaina-green fw-bold"> hantera </span> dina utmaningar och säkerställa en smidig teknisk drift. 
  
 				</p>
-				<p className="fs-6 text-dark">Behöver du specialanpassad support? Vårt team finns här för att ge en lösning som passar just dina behov.</p>
+				<p className="fs-6 text-dark text-center-mobile">Behöver du specialanpassad support? Vårt team finns här för att ge en lösning som passar just dina behov.</p>
 		
         </div>	
 
-        <div className="support_card_container justify-content-center row-items">
+        <div className="support_card_container d-flex justify-content-center row-items ">
         <div className="row-items-plan">
         <div className="pack-container">
           <div className="header">
               <p className="title">
               Grundläggande IT-supportpaket
     </p>
-    <div className="price-container">
+    <div className="price-container ">
     8 999
       <span>SEK</span>
     </div>

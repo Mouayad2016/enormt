@@ -1,5 +1,6 @@
 .pack-container {
-    width: 100%;
+    /* margin: 25px; */
+    /* width: 90%; */
     position: relative;
     display: flex;
     flex-direction: column;
