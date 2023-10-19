@@ -1,30 +1,28 @@
 // import "./style.css";
-import postData from "../../requets/httpRequest";
-import CircularProgress from "@mui/material/CircularProgress";
-import { Box} from "@mui/material";
-import React, { useState } from "react";
-import CircleLoader from "../loader/circleLoader";
-import Link from "next/link";
-
-
+import postData from '../../requets/httpRequest';
+import CircularProgress from '@mui/material/CircularProgress';
+import { Box } from '@mui/material';
+import React, { useState } from 'react';
+import CircleLoader from '../loader/circleLoader';
+import Link from 'next/link';
 
 const ContactFormTwo = () => {
   const [submitStatus, setSubmitStatus] = useState(null);
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    phone: "",
-    email: "",
-    företagsnamn: "",
-    message: "",
+    firstName: '',
+    lastName: '',
+    phone: '',
+    email: '',
+    företagsnamn: '',
+    message: '',
   });
 
   const handleFormChange = () => {
     // const privacyCheckbox = document.getElementById("privacyCheckbox");
     // const submitButton = document.querySelector('button[type="submit"]');
     const requiredFields = document.querySelectorAll(
-      "input[required], textarea[required]"
+      'input[required], textarea[required]',
     );
     let allFieldsFilled = true;
 
@@ -33,19 +31,17 @@ const ContactFormTwo = () => {
         allFieldsFilled = false;
       }
     });
-
   };
 
   async function handleSubmit(event) {
-
     event.preventDefault(); // Prevents the default form submission behavior
     // Get the values of the form inputs
-    const firstName = document.getElementById("firstName").value;
-    const lastName = document.getElementById("lastName").value;
-    const phone = document.getElementById("phone").value;
-    const email = document.getElementById("email").value;
-    const företagsnamn = document.getElementById("Företagsnamn").value;
-    const message = document.getElementById("yourMessage").value;
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
+    const phone = document.getElementById('phone').value;
+    const email = document.getElementById('email').value;
+    const företagsnamn = document.getElementById('Företagsnamn').value;
+    const message = document.getElementById('yourMessage').value;
     // Create an object with the form data
     const formData = {
       förNamn: firstName,
@@ -57,16 +53,19 @@ const ContactFormTwo = () => {
     };
     try {
       setLoading(true);
-      const response = await postData(`${process.env.NEXT_PUBLIC_API_URL}/kontakt`, formData);
+      const response = await postData(
+        `${process.env.NEXT_PUBLIC_API_URL}/kontakt`,
+        formData,
+      );
 
       if (response.status === 200) {
         setFormData({
-          firstName: "",
-          lastName: "",
-          phone: "",
-          email: "",
-          företagsnamn: "",
-          message: "",
+          firstName: '',
+          lastName: '',
+          phone: '',
+          email: '',
+          företagsnamn: '',
+          message: '',
         });
         // const submitButton = document.querySelector('button[type="submit"]');
         setLoading(false);
@@ -87,15 +86,14 @@ const ContactFormTwo = () => {
       <section
         id="contact-us-form"
         className="contact-us-form pt-0 pb-100"
-        data-aos="fade-right" data-aos-duration="30000"
-      
+        data-aos="fade-right"
+        data-aos-duration="30000"
       >
         <buble></buble>
         <div className="container">
           <div className="row justify-content-lg-between align-items-center">
             <div className="col-lg-6 col-md-8">
               <div className="section-heading ">
-
                 <h2 className="text-dark">Här kan du kontakta oss</h2>
                 <p className="text-dark res-fs-5">
                   Har du frågor eller funderingar som bäst formuleras i text?
@@ -110,7 +108,7 @@ const ContactFormTwo = () => {
                 onChange={handleFormChange}
               >
                 <div className="row">
-                  <div className="col-sm-6"> 
+                  <div className="col-sm-6">
                     <label htmlFor="firstName" className="mb-1">
                       Förnamn
                     </label>
@@ -226,7 +224,7 @@ const ContactFormTwo = () => {
                         id="yourMessage"
                         required
                         placeholder="Hur kan vi hjälpa dig?"
-                        style={{ height: "120px" }}
+                        style={{ height: '120px' }}
                         value={formData.message}
                         onChange={(e) =>
                           setFormData({
@@ -283,14 +281,14 @@ const ContactFormTwo = () => {
                   </>
                 ) : null}
                 {loading === true ? (
-                  <Box sx={{ height: "50px" }}>
+                  <Box sx={{ height: '50px' }}>
                     <CircularProgress
                       className="btn btn-omaina-color  mt-4"
                       size={15}
                     />
                   </Box>
-                ) : ( 
-                  <Box sx={{ height: "50px" }}>
+                ) : (
+                  <Box sx={{ height: '50px' }}>
                     <button
                       type="submit"
                       className="btn btn-soft-primary mt-4"
@@ -301,15 +299,12 @@ const ContactFormTwo = () => {
                   </Box>
                 )}
               </form>
-
             </div>
-            
+
             <div className="col-lg-4 col-md-7 d-flex contact-loader-bg display-none-on-ipad">
               <CircleLoader></CircleLoader>
-              
             </div>
           </div>
-
         </div>
       </section>
     </>
