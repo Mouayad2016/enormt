@@ -1,69 +1,66 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-
-
 
 const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
   const showClass = isOpen ? 'show' : '';
-
 
   const [scroll, setScroll] = useState(0);
   const [headerTop, setHeaderTop] = useState(0);
   const router = useRouter();
 
   useEffect(() => {
-    const stickyheader = document.querySelector(".main-header");
+    const stickyheader = document.querySelector('.main-header');
     setHeaderTop(stickyheader.offsetTop);
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   function scrollToSection(event, sectionId) {
     event.preventDefault();
-    
+
     const targetSection = document.getElementById(sectionId);
-  
-    if (router.pathname === "/") {
+
+    if (router.pathname === '/') {
       if (targetSection) {
         targetSection.scrollIntoView({
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     } else {
       // Navigate to the homepage and then to the section
-      router.push("/").then(() => {
+      router.push('/').then(() => {
         const target = document.getElementById(sectionId);
         if (target) {
           target.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
           });
         }
       });
     }
   }
-  
+
   function scrollToPrices(event, sectionId) {
     event.preventDefault();
-    
+
     const targetSection = document.getElementById(sectionId);
-  
-    if (router.pathname === "/") {
+
+    if (router.pathname === '/') {
       if (targetSection) {
         targetSection.scrollIntoView({
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     } else {
       // Navigate to the homepage and then to the section
-      router.push("/").then(() => {
+      router.push('/').then(() => {
         const target = document.getElementById(sectionId);
         if (target) {
           target.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
           });
         }
       });
@@ -75,7 +72,7 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 
   return (
     <>
-    <div className={`offcanvas offcanvas-end ${showClass}`} tabIndex={-1}>
+      <div className={`offcanvas offcanvas-end ${showClass}`} tabIndex={-1}>
         <div className="offcanvas-header d-flex align-items-center mt-4">
           <Link
             href="/"
@@ -98,45 +95,57 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
         </div>
         <div className="offcanvas-body">
           <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-          <li>
-                  <Link href="/" className="nav-link">
-                  Hem
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/about"  className="nav-link">
-                  Om oss
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#services" className="nav-link" onClick={(e) => scrollToSection(e, 'services')}>
-                  Tjänster
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact" 
-                  className="nav-link"
-                  >
-                  Kontakta oss                 
-                  </Link>
-                </li>
-                <li>
-               
-               <Link href="#prices" className="nav-link" onClick={(e) => scrollToSection(e, 'prices')}>
-               Priser
-                 </Link>
+            <li>
+              <Link href="/" className="nav-link">
+                Hem
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="nav-link">
+                Om oss
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#services"
+                className="nav-link"
+                onClick={(e) => scrollToSection(e, 'services')}
+              >
+                Tjänster
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="nav-link">
+                Kontakta oss
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#prices"
+                className="nav-link"
+                onClick={(e) => scrollToSection(e, 'prices')}
+              >
+                Priser
+              </Link>
             </li>
 
             <li>
-              
-              <Link href="/blogs" 
-              className="nav-link"
-              >Bloggar
+              <Link href="/blogs" className="nav-link">
+                Bloggar
+              </Link>
+            </li>
+            <li>
+              <Link href="/demo" className="nav-link">
+                Kom igång
+              </Link>
+            </li>
+            <li>
+              <Link href="/advo" className="nav-link">
+                Advo
               </Link>
             </li>
           </ul>
-          <div className="action-btns mt-4 ps-3">
-          </div>
+          <div className="action-btns mt-4 ps-3"></div>
         </div>
       </div>
     </>

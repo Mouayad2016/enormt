@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from "react";
-import OffCanvasMenu from "./OffCanvasMenu";
-import Link from "next/link";
+import React, { useEffect, useState } from 'react';
+import OffCanvasMenu from './OffCanvasMenu';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import NavBarButton from "../button/navBarButton";
+import NavBarButton from '../button/navBarButton';
 
-
-const Navbar= ({ navDark }) => {
+const Navbar = ({ navDark }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [scroll, setScroll] = useState(0);
@@ -17,56 +16,56 @@ const Navbar= ({ navDark }) => {
     setIsOpen(!isOpen);
   };
   useEffect(() => {
-    const stickyheader = document.querySelector(".main-header");
+    const stickyheader = document.querySelector('.main-header');
     setHeaderTop(stickyheader.offsetTop);
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   function scrollToSection(event, sectionId) {
     event.preventDefault();
-    
+
     const targetSection = document.getElementById(sectionId);
-  
-    if (router.pathname === "/") {
+
+    if (router.pathname === '/') {
       if (targetSection) {
         targetSection.scrollIntoView({
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     } else {
       // Navigate to the homepage and then to the section
-      router.push("/").then(() => {
+      router.push('/').then(() => {
         const target = document.getElementById(sectionId);
         if (target) {
           target.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
           });
         }
       });
     }
   }
-  
+
   function scrollToPrices(event, sectionId) {
     event.preventDefault();
-    
+
     const targetSection = document.getElementById(sectionId);
-  
-    if (router.pathname === "/") {
+
+    if (router.pathname === '/') {
       if (targetSection) {
         targetSection.scrollIntoView({
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     } else {
       // Navigate to the homepage and then to the section
-      router.push("/").then(() => {
+      router.push('/').then(() => {
         const target = document.getElementById(sectionId);
         if (target) {
           target.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
           });
         }
       });
@@ -79,13 +78,13 @@ const Navbar= ({ navDark }) => {
     <>
       <header
         className={`main-header ${
-          navDark ? "position-absolute " : ""
+          navDark ? 'position-absolute ' : ''
         } w-100 position-absolute `}
       >
         <nav
           className={`navbar navbar-expand-xl z-10 ${
-            navDark ? "navbar-dark" : "navbar-light"
-          } sticky-header ${scroll > headerTop ? "affix" : ""}`}
+            navDark ? 'navbar-dark' : 'navbar-light'
+          } sticky-header ${scroll > headerTop ? 'affix' : ''}`}
         >
           <div className="container d-flex align-items-center justify-content-lg-between position-relative">
             <div className="logo">
@@ -108,60 +107,65 @@ const Navbar= ({ navDark }) => {
               </Link>
             </div>
             <button
-  className="navbar-toggler position-absolute right-0 border-0"
-  type="button"
-
-  aria-label="Toggle navigation"
-  style={{ cursor: 'pointer' }}
-  onClick={toggleOffCanvas}
->
-  <span className="navbar-toggler-icon" style={{ color: '#fff' }} />
-</button>
-          <div className="collapse navbar-collapse justify-content-center">
+              className="navbar-toggler position-absolute right-0 border-0"
+              type="button"
+              aria-label="Toggle navigation"
+              style={{ cursor: 'pointer' }}
+              onClick={toggleOffCanvas}
+            >
+              <span className="navbar-toggler-icon" style={{ color: '#fff' }} />
+            </button>
+            <div className="collapse navbar-collapse justify-content-center">
               <ul className="nav col-12 col-md-auto justify-content-center main-menu">
                 <li>
                   <Link href="/" className="nav-link">
-                  Hem
+                    Hem
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about"  className="nav-link">
-                  Om oss
+                  <Link href="/about" className="nav-link">
+                    Om oss
                   </Link>
                 </li>
                 <li>
-                  <Link href="#services" className="nav-link" onClick={(e) => scrollToSection(e, 'services')}>
-                  Tjänster
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact" 
-                  className="nav-link"
+                  <Link
+                    href="#services"
+                    className="nav-link"
+                    onClick={(e) => scrollToSection(e, 'services')}
                   >
-                  Kontakta oss                 
+                    Tjänster
                   </Link>
                 </li>
-                   
                 <li>
-               
-                <Link href="#prices" className="nav-link" onClick={(e) => scrollToSection(e, 'prices')}>
-                Priser
+                  <Link href="/contact" className="nav-link">
+                    Kontakta oss
                   </Link>
-             </li>
+                </li>
 
-             <li>
-               
-               <Link href="/blogs" 
-               className="nav-link"
-               >Bloggar
-               </Link>
-             </li>
+                <li>
+                  <Link
+                    href="#prices"
+                    className="nav-link"
+                    onClick={(e) => scrollToSection(e, 'prices')}
+                  >
+                    Priser
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/blogs" className="nav-link">
+                    Bloggar
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/advo" className="nav-link">
+                    Advo
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-
               <Link href="/demo" className="display-none-max-with-1200">
-                
                 <NavBarButton></NavBarButton>
               </Link>
             </div>

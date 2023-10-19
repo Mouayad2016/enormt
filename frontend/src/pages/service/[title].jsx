@@ -1,25 +1,25 @@
-import React, { useEffect, useState } from "react";
-import PageHeader from "../../components/header/PageHeader";
-import PageMeta from "../../components/meta/PageMeta";
-import FooterOne from "../../components/footer/FooterOne";
-import Navbar from "../../components/header/Navbar";
-import Layout from "../../components/layout/Layout";
+import React, { useEffect, useState } from 'react';
+import PageHeader from '../../components/header/PageHeader';
+import PageMeta from '../../components/meta/PageMeta';
+import FooterOne from '../../components/footer/FooterOne';
+import Navbar from '../../components/header/Navbar';
+import Layout from '../../components/layout/Layout';
 import { useRouter } from 'next/router';
-import db from "../../data/db/data";
-import Section from "../../components/section/section";
+import db from '../../data/db/data';
+import Section from '../../components/section/section';
 
 const SingleService = () => {
   const [item, setitem] = useState({});
-    const router = useRouter();
-    const { title  } = router.query;
-   console.log(title )
+  const router = useRouter();
+  const { title } = router.query;
+  console.log(title);
   useEffect(() => {
     const selectedItem = db.find((item) => item.tjänst_sida.rubrik === title);
     setitem(selectedItem);
-  }, [title ]);
+  }, [title]);
 
-  let meta_title = "";
-  let dec = "";
+  let meta_title = '';
+  let dec = '';
   let sections = [];
   if (item && item.tjänst_sida) {
     meta_title = item.tjänst_sida.rubrik;
@@ -30,14 +30,18 @@ const SingleService = () => {
   return (
     <>
       <Layout>
-        <div className="App">
-        </div>
-        <PageMeta title={`${meta_title}`} description="" keywords=""/> 
-        <Navbar  navDark= {false} />
-        <PageHeader title={`${title}`} desc={dec} integration={null} blogtags={null} />
+        <div className="App"></div>
+        <PageMeta title={`${meta_title}`} description="" keywords="" />
+        <Navbar navDark={false} />
+        <PageHeader
+          title={`${title}`}
+          desc={dec}
+          integration={null}
+          blogtags={null}
+        />
         <Section paddingTop={true} sections={sections} />
         <FooterOne footerGradient />
-      </Layout>{" "}
+      </Layout>{' '}
     </>
   );
 };

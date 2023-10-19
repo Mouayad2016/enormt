@@ -1,25 +1,27 @@
-import React from "react";
-import SectionTitle from "./SectionTitle";
-import { list } from "postcss";
+import React from 'react';
+import SectionTitle from './SectionTitle';
+import { list } from 'postcss';
 
 type ServiceProps = {
   paddingTop?: boolean;
   sections?: any;
-
 };
 
-
-
-const Section : React.FC<ServiceProps> = ({ paddingTop, sections }) => {
+const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
   return (
     <section
       className={`feature-section   ${
-        paddingTop ? "ptb-120" : "pt-60 pb-120"
+        paddingTop ? 'ptb-120' : 'pt-60 pb-120'
       } `}
     >
-      {sections.map((section:any, index:any) =>
+      {sections.map((section: any, index: any) =>
         index % 2 !== 0 ? (
-          <section key={section.index} className="section_one" data-aos="fade-right" data-aos-duration="30000">
+          <section
+            key={section.index}
+            className="section_one"
+            data-aos="fade-right"
+            data-aos-duration="30000"
+          >
             <div className="container container_one">
               <div className="row align-items-lg-center justify-content-between">
                 <div className="col-lg-5 order-lg-1 mb-7 mb-lg-0">
@@ -31,7 +33,7 @@ const Section : React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                     />
                   </div>
                   <ul className="list-unstyled d-flex flex-wrap list-two-col mt-5">
-                    {section.nytta.map((e:any) => (
+                    {section.nytta.map((e: any) => (
                       <li key={e.index}>
                         <span>
                           <i
@@ -53,23 +55,26 @@ const Section : React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                   />
                 </div>
               </div>
-            </div>{" "}
+            </div>{' '}
           </section>
         ) : (
-          <section key={section.index} className="section_tow" data-aos="fade-left" data-aos-duration="30000">
+          <section
+            key={section.index}
+            className="section_tow"
+            data-aos="fade-left"
+            data-aos-duration="30000"
+          >
             <div className="container">
               <div className="row align-items-lg-center justify-content-between">
                 <div className="col-lg-5 order-lg-2 mb-7 mb-lg-0">
-                  <div className="mb-4" >
+                  <div className="mb-4">
                     <SectionTitle
                       title={section.title}
                       description={section.kortDes}
                     />
                   </div>
-                  <ul
-                    className="list-unstyled d-flex flex-wrap list-two-col mt-5"
-                  >
-                    {section.nytta.map((e:any) => (
+                  <ul className="list-unstyled d-flex flex-wrap list-two-col mt-5">
+                    {section.nytta.map((e: any) => (
                       <li key={e.index}>
                         <span className="d-block mb-4">
                           <i className={e.icon}></i>
@@ -90,7 +95,7 @@ const Section : React.FC<ServiceProps> = ({ paddingTop, sections }) => {
               </div>
             </div>
           </section>
-        )
+        ),
       )}
     </section>
   );
