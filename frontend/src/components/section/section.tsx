@@ -32,7 +32,7 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                       description={section.kortDes}
                     />
                   </div>
-                  <ul className="list-unstyled d-flex flex-wrap list-two-col mt-5">
+                  <ul className="list-unstyled d-flex flex-wrap list-two-col mt-5 text-center-mobile">
                     {section.nytta.map((e: any) => (
                       <li key={e.index}>
                         <span>
@@ -73,7 +73,7 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                       description={section.kortDes}
                     />
                   </div>
-                  <ul className="list-unstyled d-flex flex-wrap list-two-col mt-5">
+                  <ul className="list-unstyled d-flex flex-wrap list-two-col mt-5 text-center-mobile">
                     {section.nytta.map((e: any) => (
                       <li key={e.index}>
                         <span className="d-block mb-4">

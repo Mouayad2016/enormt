@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import React, { useState, useEffect } from "react";
-import { PopupModal } from "react-calendly";
+import React, { useState, useEffect } from 'react';
+import { PopupModal } from 'react-calendly';
+import { useRef } from 'react';
 
 type CustomButtonProps = {
   className?: string;
@@ -9,38 +10,45 @@ type CustomButtonProps = {
   prefill?: object;
 };
 
-const CustomButtonExample: React.FC<CustomButtonProps> = ({ className, pageSettings, utm, prefill }) => {
+const CustomButtonExample: React.FC<CustomButtonProps> = ({
+  className,
+  pageSettings,
+  utm,
+  prefill,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [rootElem, setRootElem] = useState<HTMLElement | null>(null);
+  const rootElemRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
-    // This will only run on the client-side after the component is mounted.
-    setRootElem(document.getElementById("root"));
+    if (typeof window !== 'undefined') {
+      rootElemRef.current = document.getElementById('__next');
+    }
   }, []);
 
   return (
     <>
-{/* <Link href="/" passHref> */}
-  <a onClick={(e) => {
-    e.preventDefault();
-    setIsOpen(true);
-  }} className={className}>
-    Boka ett möte
-  </a>
-{/* </Link> */}
-      {rootElem && (
+      <a
+        onClick={(e) => {
+          e.preventDefault();
+          setIsOpen(true);
+        }}
+        className={className}
+      >
+        Boka ett möte
+      </a>
+      {
         <PopupModal
-          url="https://calendly.com/mouayadmouayad98/30min"
+          url={process.env.NEXT_PUBLIC_CALENDLY_LINK!}
           pageSettings={pageSettings}
           utm={utm}
           prefill={prefill}
           onModalClose={() => setIsOpen(false)}
           open={isOpen}
-          rootElement={rootElem} // using the state variable here
+          rootElement={rootElemRef.current!} // using the state variable here
         />
-      )}
+      }
     </>
   );
-}
+};
 
 export default CustomButtonExample;

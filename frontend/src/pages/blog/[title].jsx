@@ -21,7 +21,6 @@ const SingleBlog = () => {
   let varTitle = '';
   let dec = '';
   let key = '';
-  // console.log(item.page.desc)
   if (item) {
     varTitle = item.page?.title || '';
     dec = item.page?.desc || '';
@@ -31,7 +30,6 @@ const SingleBlog = () => {
   return (
     <Layout>
       <PageMeta title={varTitle} description={dec} keywords={key} />
-
       <Navbar />
       <PageHeader title={title} />
       <BlogDetails item />
