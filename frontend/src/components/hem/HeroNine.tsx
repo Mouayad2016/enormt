@@ -28,7 +28,7 @@ const HeroNine = () => {
                 <CustomButtonExample className={'btn me-3 btn-soft-primary'} />
 
                 <Link
-                  href="/contact-us"
+                  href="/contact"
                   data-scroll-to=".contact-promo"
                   className={'btn me-3 btn-soft-primary'}
                 >
