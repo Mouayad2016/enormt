@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Confirmation - Enormt</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            /* default to black text */
+            color: #000000;
+            color: #ffffff;
+            /* default to black text */
+            margin: 0;
+            padding: 0;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #000000;
+                /* dark background */
+                color: #ffffff;
+                /* light text */
+            }
+            .logo {
+                content: url('https://www.enormt.se/assets/img/omaina/logo/enormt-logo-white.png');
+                /* URL for the dark mode logo */
+            }
+            /* You may want to change other colors (e.g., backgrounds, borders) here as well */
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-size: 16px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+        }
+        
+        .logo {
+            display: block;
+            margin: 20px auto;
+            max-width: 150px;
+        }
+        
+        .btn-calendar {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2d81ff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            border: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        .btn-calendar:hover {
+            background-color: #2d81ff;
+            /* Darker blue color for hover */
+        }
+        
+        .btn-calendar:focus {
+            outline: none;
+            /* remove focus outline */
+        }
+        /* Responsive Styles */
+        
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            .btn {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 15px;
+                width: 100% !important;
+                /* Force container to take full width */
+            }
+            .footer,
+            .footer p,
+            .footer a {
+                font-size: 14px;
+                /* Increase font size for readability */
+                line-height: 1.5;
+                /* Improve line spacing */
+            }
+            h1,
+            p {
+                font-size: 18px;
+                /* Increase font size for readability */
+            }
+            .btn,
+            .btn-calendar {
+                width: 100%;
+                /* Make buttons full-width */
+                box-sizing: border-box;
+                /* Ensure padding and border are included in width */
+            }
+            .logo {
+                max-width: 150px;
+                /* Adjust logo size */
+                height: auto;
+                /* Maintain aspect ratio */
+            }
+            table,
+            td {
+                /* Full-width tables */
+                width: 100% !important;
+                display: block !important;
+            }
+            /* Adjust padding and margin for mobile view */
+            .footer,
+            h1,
+            p {
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center">
+                <table cellpadding="0" cellspacing="0" width="600" style="max-width: 600px">
+                    <tr>
+                        <td style="padding: 20px">
+                            <!-- <img src="http://omania.se/assets/img/logo.png" alt="Omaina Logo" style="max-width: 300px; display: block" width="300" /> -->
+                            <h1 style="font-size: 24px; font-weight: 600; margin-top: 40px; margin-bottom: 20px;">
+                                Emailbekräftelse
+                            </h1>
+                            <p style="font-size: 16px; margin-bottom: 20px">Hej,</p>
+                            <p style="font-size: 16px; margin-bottom: 20px">
+                                Tack för din registrering! Vi har mottagit din förfrågan och kommer att bearbeta den så snart som möjligt.
+                            </p>
+                            <p style="font-size: 16px; margin-bottom: 20px">
+                                Vänliga hälsningar,<br />Enormt
+                            </p>
+                            <a href="https://www.enormt.se/" class="button">
+                                Besök vår hemsida
+                            </a>
+                            <table class="contact-info" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div class="footer">
+        <img src="https://www.enormt.se/assets/img/omaina/logo/enormt-logo-color.png" alt="Enormt Logo" width="150">
+        <p>Gustav III:s Boulevard 32-34, 4tr 169 73 Solna, Sweden
+        </p>
+        <p><a href="tel:0733524957">
+            073 352 49 57
+          </a> | <a href="mailto:info@enormt.se">
+             info@enormt.se
+          </a></p>
+    </div>
+</body>
+
+</html>

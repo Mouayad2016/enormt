@@ -1,0 +1,76 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"/>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"/>
+    <mj-attributes>
+      <mj-all font-family="Roboto, sans-serif" padding="0" line-height="1.5" color="#555" />
+      <mj-button background-color="#2E6CAD" color="#fff" padding="15px 30px" font-size="18px" border-radius="50px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      strong {
+        color: #555;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ebebeb">
+    <mj-section padding="20px" background-color="#fff">
+      <mj-column>
+        <mj-text align="center" font-size="28px" color="#333" font-weight="bold" font-family="Raleway">
+          Bekräftelse på webbinariergistrering
+        </mj-text>
+        <mj-text font-size="16px" padding-top="60px">
+          Tack för att du registrerade dig på vårt webbseminarium.
+        </mj-text>
+        <mj-text font-size="20px" color="#333" font-weight="bold" padding-top="15px">
+          Webbinariet detaljer
+        </mj-text>
+        <mj-divider border-width="2px" border-color="#2E6CAD" padding="15px 0"/>
+        <mj-section background-color="#b0cde5">
+          <mj-column padding="16px">
+            <mj-text color="black" font-weight="bold"><strong>Ämne: </strong><%= webinarTitle %></mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+            <mj-text color="black" font-weight="bold"><strong>Mötes-ID: </strong><%= meetingID %></mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+            <mj-text color="black" font-weight="bold"><strong>Plats: </strong><%= webinarLocation %></mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+            <mj-text color="black" font-weight="bold"><strong>Datum: </strong><%= webinarDate %></mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+            <mj-text color="black" font-weight="bold"><strong>Tid: </strong><%= webinarTime %></mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+            <mj-text color="black" font-weight="bold"><strong>Längd: </strong> 30 minuter</mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+            <mj-text color="black" font-weight="bold"><strong>Länk: </strong><a href="<%= joinLink %>">Länk</a></mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-text align="center" padding-top="15px">
+          För att ansluta till webbinariet, klicka på knappen nedan
+        </mj-text>
+        <mj-button href="<%= joinLink %>" font-family="Raleway">
+          Anslut till webbinariet
+        </mj-button>
+        <mj-text font-size="20px" color="#333" font-weight="bold" padding-top="25px">
+          Förbered dig inför mötet
+        </mj-text>
+        <mj-divider border-width="2px" border-color="#2E6CAD" padding="15px 0"/>
+        <mj-section  background-color="#d4edd3">
+          <mj-column padding="16px">
+            <mj-text color="black" font-weight="bold">Ladda ner Zoom appen i den enheten du planerar att ansluta dig ifrån. <a href="https://www.zoom.us/download">Ladda ner här</a></mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+            <mj-text color="black" font-weight="bold">Markera datum i din kalender <strong>så du inte missar !</strong></mj-text>
+            <mj-divider border-width="0.5px" border-color="#FFFFFF" padding="15px 0"/>
+
+            <mj-text color="black" font-weight="bold">Anslut och njut</mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-text align="center" padding-top="25px">
+          Har du frågor eller behöver ytterligare hjälp, tveka inte att kontakta oss!
+        </mj-text>
+        <mj-image src="https://www.omania.se/assets/img/omaina/Artboard_1.svg" width="150px" align="center" padding-top="20px" alt="Omania Logo"/>
+        <mj-text align="center" color="#777" font-size="12px" padding-top="15px">
+          <p>Skomakargatan 5, 781 70 Borlänge, Sverige</p>
+          <p>Telefon: <a href="tel:+46733524957">0733524957</a> | & | E-post: <a href="mailto:info@omania.se">info@omania.se</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

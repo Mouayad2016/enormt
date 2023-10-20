@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontaktformulär - Enormt</title>
+</head>
+
+<body style="
+      font-family: 'Open Sans', sans-serif;
+      color:rgb(5, 5, 5);
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-color: #ffff;
+    ">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center">
+                <table cellpadding="0" cellspacing="0" width="600" style="max-width: 600px">
+                    <tr>
+                        <td style="padding: 20px">
+
+                            <img src="https://www.enormt.se/assets/img/omaina/logo/enormt-logo-color.png" alt="Enormt Logo" style="max-width: 300px; display: block" width="300" />
+                            <h1 style="
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                  ">
+                                <%= title %>
+                            </h1>
+                            <p style="font-size: 16px; margin-bottom: 20px"></p>
+                            <p style="font-size: 16px; margin-bottom: 20px">
+                                Meddelande: <strong><%= message %></strong> ,
+                                <br />
+                            </p>
+                            <p style="font-size: 16px; margin-bottom: 20px">
+                                Namn: <strong><%= namn %> </strong> ,
+                                <br />
+                            </p>
+                            <p style="font-size: 16px; margin-bottom: 20px">
+                                Telephone:
+                                <a href="tel:<%= telephone %>">
+                                    <%= telephone %>
+                                </a>
+                                ,<br />
+                            </p>
+                            <p style="font-size: 16px; margin-bottom: 20px">
+                                Mail:
+                                <a href="mailto:<%= mail %>">
+                                    <%= mail %>
+                                </a> ,
+                                <br />
+                            </p>
+                            <p style="font-size: 16px; margin-bottom: 20px">
+                                FöretagNamn: <strong><%= företagNamn %> </strong> ,
+                                <br />
+                            </p>
+                            <table cellspacing="0 " cellpadding="0 " border="0 ">
+                                <tr>
+                                    <td style="border-radius: 5px; text-align: center">
+                                        <a href="https://www.enormt.se/ " style="
+                          display: inline-block;
+                          color: #6398fc;
+                          font-size: 16px;
+                          font-weight: 600;
+                          text-decoration: none;
+                          transition: background-color 0.3s ease;
+                        ">Besök vår hemsida</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
