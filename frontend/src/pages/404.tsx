@@ -1,6 +1,5 @@
-import Link from "next/link";
-import React from "react";
-
+import Link from 'next/link';
+import React from 'react';
 
 const NotFoundScreen = () => {
   return (
@@ -34,42 +33,42 @@ const NotFoundScreen = () => {
                 <ul className="position-absolute animate-element parallax-element circle-shape-list">
                   <li className="layer" data-depth="0.03">
                     <img
-                      src={`/assets/img/shape/circle(8).svg`}
+                      src={`/assets/img/enormt/shape/circle(8).svg`}
                       alt="Ingen sida hittades"
                       className="circle-shape-item type-0 hero-1"
                     />
                   </li>
                   <li className="layer" data-depth="0.02">
                     <img
-                      src={`/assets/img/shape/circle(7).svg`}
+                      src={`/assets/img/enormt/shape/circle(7).svg`}
                       alt="shape"
                       className="circle-shape-item type-1 hero-1"
                     />
                   </li>
                   <li className="layer" data-depth="0.04">
                     <img
-                      src={`/assets/img/shape/circle(6).svg`}
+                      src={`/assets/img/enormt/shape/circle(6).svg`}
                       alt="shape"
                       className="circle-shape-item type-2 hero-1"
                     />
                   </li>
                   <li className="layer" data-depth="0.04">
                     <img
-                      src={`/assets/img/shape/circle(5).svg`}
+                      src={`/assets/img/enormt/shape/circle(5).svg`}
                       alt="shape"
                       className="circle-shape-item type-3 hero-1"
                     />
                   </li>
                   <li className="layer" data-depth="0.03">
                     <img
-                      src={`/assets/img/shape/circle(6).svg`}
+                      src={`/assets/img/enormt/shape/circle(6).svg`}
                       alt="shape"
                       className="circle-shape-item type-4 hero-1"
                     />
                   </li>
                   <li className="layer" data-depth="0.03">
                     <img
-                      src={`/assets/img/shape/circle(4).svg`}
+                      src={`/assets/img/enormt/shape/circle(4).svg`}
                       alt="shape"
                       className="circle-shape-item type-5 hero-1"
                     />
