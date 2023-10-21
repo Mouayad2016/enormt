@@ -9,7 +9,7 @@ const HeroNine = () => {
           <div className="col-lg-6 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
               <h1 className="fw-bold display-5 text-dark pt-5 text-center-mobile">
-                Vi Ta Ditt Företag Till Nästa Nivå
+                Vi Tar Ditt Företag Till Nästa Nivå
               </h1>
               <p className="text-dark res-fs-5 text-center-mobile">
                 Vi stöttar våra klienter genom den digitala transformationen och
