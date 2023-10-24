@@ -24,9 +24,9 @@ const CryptoCustomerCounter = () => {
           <p className="res-fs-5 text-center">
             Vi specialiserar oss på att skapa digitala lösningar av högsta
             klass, skräddarsydda för dina unika behov. Genom att använda den
-            senaste teknologin och innovativa strategier designar vi produkter
-            och tjänster som inte bara uppfyller dagens krav utan också
-            positionerar dig för framgång i framtiden.
+            senaste teknologin och innovativa strategier, designar vi produkter
+            och tjänster som inte bara uppfyller dagens krav, utan även
+            förbereder dig för framtida framgångar.
           </p>
         </div>
         <div className="justify-content-center">
@@ -65,11 +65,11 @@ const CryptoCustomerCounter = () => {
               fastPrice={true}
               grafikDesign={true}
             />
-            <ServiceProps
+            {/* <ServiceProps
               title="IT-konsultation"
               desc="Rådgivning för att maximera din IT-potential."
               IT_konsultation={true}
-            />
+            /> */}
           </div>
         </div>
       </div>

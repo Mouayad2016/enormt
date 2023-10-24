@@ -22,7 +22,7 @@ const HeroNine = () => {
                   <i className="fas fa-check"></i> 6 månaders IT-support
                 </span>{' '}
                 är vår ambition att leverera innovativa och säkra lösningar för
-                en mer hållbar framtid{' '}
+                en mer hållbar framtid.
               </p>
               <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex text-center-mobile">
                 <CustomButtonExample className={'btn me-3 btn-soft-primary'} />
