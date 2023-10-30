@@ -27,11 +27,12 @@ const Home = () => {
         <Navbar />
         <HeroNine />
         <CryptoCustomerCounter />
+        <TechTab />
+
         <HomeSection></HomeSection>
         <HemsidorFastaPriser></HemsidorFastaPriser>
         <UXUIDesign></UXUIDesign>
         {/* <SupportCard></SupportCard> */}
-        <TechTab />
         <FooterOne footerGradient />
       </Layout>
     </>

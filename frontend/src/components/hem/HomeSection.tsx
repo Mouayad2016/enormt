@@ -19,9 +19,16 @@ function HomeSection() {
         priset inte anges, vänligen kontakta oss. Anledningen till att vi inte
         har fasta priser för vissa tjänster är att de inte passar in i en
         fördefinierad modell. som till exempel
-        <span className="text-omaina-green fw-bold"> Webbappar </span>,{' '}
-        <span className="text-omaina-green fw-bold"> Mobilappar </span> och{' '}
-        <span className="text-omaina-green fw-bold"> IT-system</span>.
+        <span className="text-omaina-green fw-bold">
+          {' '}
+          Webbutveckling{' '}
+        </span>,{' '}
+        <span className="text-omaina-green fw-bold">
+          {' '}
+          Mobilapputveckling{' '}
+        </span>{' '}
+        {/* och{' '} */}
+        {/* <span className="text-omaina-green fw-bold"> Mjukvaruutveckling</span>. */}
       </p>
     </div>
   );

@@ -72,14 +72,23 @@ const BlogDetails = () => {
                   </ul>
                 </div>
                 {/* <RegisterForm hideOnMobile={false} /> */}
-
-                <img
+                <iframe
+                  width="1051"
+                  height="591"
+                  src="https://www.youtube.com/embed/dxLMrXwtTzI"
+                  title="Din första mobil eller webbapp"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                {/* <img
                   src={`/assets/img/enormt/webinare/${item.page?.coverBild2}`}
                   className="img-fluid mt-5 rounded-custom"
                   alt="apply"
-                />
+                /> */}
               </div>
             </div>
+
             <div className="col-lg-4">{/* <ProfileCard /> */}</div>
           </div>
         </div>

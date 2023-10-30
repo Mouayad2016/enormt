@@ -12,14 +12,12 @@ const CryptoCustomerCounter = () => {
       <div className="container">
         <div className="counter-content section-title mb-30">
           <h2 className="mb-md-5 text-dark justify-content-cente text-center">
-            {' '}
-            Växande utbud av IT-lösningar{' '}
+            Växande utbud av IT-lösningar
           </h2>
           <h2 className="mb-4 text-dark res-fs-5 text-center">
-            {' '}
-            Alla våra lösningar kommer med{' '}
-            <span className="text-info">12 mån garanti</span> och{' '}
-            <span className="text-info">6 månader IT-suppor</span>
+            Alla våra lösningar kommer med
+            <span className="text-info"> 12 mån garanti</span> och
+            <span className="text-info"> 6 månader IT-suppor</span>
           </h2>
           <p className="res-fs-5 text-center">
             Vi specialiserar oss på att skapa digitala lösningar av högsta
@@ -39,26 +37,26 @@ const CryptoCustomerCounter = () => {
               fastPrice={true}
             />
             <ServiceProps
-              title="Webbappar"
+              title="Webbutveckling"
               desc="Anpassade webbapplikationer för alla plattformar."
               responsive={true}
               seo={true}
               unikDesign={true}
             />
             <ServiceProps
-              title="Mobilappar"
+              title="Mobilapp-|utveckling"
               desc="Utveckling av mobilappar för både Android och iOS."
               responsive={true}
               unikDesign={true}
               allDevices={true}
             />
-            <ServiceProps
-              title="IT-system"
+            {/* <ServiceProps
+              title="Mjukvaru-|utveckling"
               desc="Helhetslösningar för att effektivisera er verksamhet."
               seo={true}
               anpassningabr={true}
               unikDesign={true}
-            />
+            /> */}
             <ServiceProps
               title="Grafisk design"
               desc="Skapa unika och tilltalande designlösningar."
