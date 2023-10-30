@@ -13,7 +13,7 @@ const db = [{
     page: {
         meta: 'Så lyckas du med din första mobil-/webbapp',
         title: 'Så lyckas du med din första mobil-/webbapp',
-        desc: 'Är det dags att skapa ditt företags första mobil-/webbapp? Att ha rätt förståelse för utvecklingsprocessen är avgörande för att uppnå det resultat du önskar. Vi har samlat företagsledare från två internationella mjukvaruföretag som kommer dela med sig av sina erfarenheter inom mjukvaruutveckling ifrån olika synvinklar.  I webbinariet kommer vi dyka ner i följande ämnen:',
+        desc: 'Är det dags att skapa ditt företags första mobil-/webbapp? Att ha rätt förståelse för utvecklingsprocessen är avgörande för att uppnå det resultat du önskar. Vi har samlat företagsledare från tre internationella mjukvaruföretag som kommer dela med sig av sina erfarenheter inom mjukvaruutveckling ifrån olika synvinklar.  I webbinariet kommer vi dyka ner i följande ämnen:',
         listTile1: 'Innehåll',
         topicKeyFocuse: [
             'Förbereder inför ditt första möte med utvecklare',
@@ -28,7 +28,7 @@ const db = [{
         whyThisTopicList: [
             'Pixinn: Mjukvaruföretagföretag i Kaunas, Litauen som specialiserat sig på innovativa och flexibla lösningar till företag och startup. VD Marius Krajauskas kommer med sin mångåriga erfarenhet berätta om nödvändiga förberedelser inför, samt tillvägagångssätt under utvecklingsarbetet.',
             'Techcronus: Med över 10 års erfarenhet i branschen har företaget skaffat sig en bred kompetens med kapacitet för både stora och små projekt. De kommer under webbinariet tala om möjligheterna för integrering med de senaste AI-verktygen.',
-            'ConfiStecH: Ett ledande IT- och mjukvaruföretag baserat i Kaunas, Litauen, som erbjuder skräddarsydda lösningar inom webb, mobil och systemutveckling. Deras Business Development Manager, Dovydas, kommer att tala om hur man skapar ett MVP.',
+            'ConfiStecH: Ett ledande IT- och mjukvaruföretag baserat i Kaunas, Litauen, som erbjuder skräddarsydda lösningar inom webb, mobil och systemutveckling. Deras Business Development Manager Dovydas, kommer att tala om hur man skapar ett MVP.',
         ],
         listTitle3: 'Varför Enormt',
         listTitle3text: 'Vill du lyfta din IT-strategi till toppnivå? Med insikter från branschledande mjukvaruföretag och djupgående kunskap om digital transformation, står vi vid din sida genom varje fa av din IT - resa. Oavsett om du planerar att lansera din första mobilapp, utveckla en webbplattform, eller integrera det senaste inom AI - teknologi är vi här för att hjälpa dig göra din vision till verklighet. Låt oss bli din partner! Du kan nå oss på:',
