@@ -20,9 +20,9 @@ const Home = () => {
     <>
       <Layout>
         <PageMeta
-          title="Enormt - Hem"
-          description="Funderar du på att investera i en hemsida, mobilapputveckling, ett IT-system eller behöver IT-konsultation? Vi är Nordens bästa utvecklare. Kontakta oss idag!."
-          keywords="Webbutveckling, IT system, webbdesign, bygga en hemsida, skapa en hemsida, utveckla en app, automatisering, IT konsulter, molntjänster, ai"
+          title="Enormt - Anpassad IT-Systemutveckling"
+          description="Funderar du på att investera i en hemsida, mobilapp, ett IT-system? Vi är Nordens bästa utvecklare. Kontakta oss idag!."
+          keywords="Webbutveckling, IT system, Mobilapputveckling, AI"
         />
         <Navbar />
         <HeroNine />
