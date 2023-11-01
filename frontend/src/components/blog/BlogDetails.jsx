@@ -75,8 +75,9 @@ const BlogDetails = () => {
                 <iframe
                   width="1051"
                   height="591"
+                  loading="lazy"
                   src="https://www.youtube.com/embed/dxLMrXwtTzI"
-                  title="Din första mobil eller webbapp"
+                  title="Så lyckas du med din första mobil- & webbapp"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
