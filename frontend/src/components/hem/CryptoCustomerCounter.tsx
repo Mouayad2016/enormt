@@ -54,8 +54,8 @@ const CryptoCustomerCounter = () => {
               title="IT-System"
               desc="Helhetslösningar för att effektivisera er verksamhet."
               garanti={true}
-              auto={true}
               support={true}
+              auto={true}
             />
             <ServiceProps
               title="Grafisk design"
