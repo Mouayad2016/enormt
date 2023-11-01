@@ -15,7 +15,7 @@ type ServiceProps = {
   seo?: boolean;
   responsive?: boolean;
   allDevices?: boolean;
-  custom?: boolean;
+  auto?: boolean;
   ladingpage?: boolean;
   unikDesign?: boolean;
   anpassningabr?: boolean;
@@ -30,6 +30,7 @@ type ServiceProps = {
   grafikDesign?: boolean;
   SEM_marknadsföring?: boolean;
   IT_konsultation?: boolean;
+  security?: boolean;
 };
 const Service: React.FC<ServiceProps> = ({
   className,
@@ -54,6 +55,8 @@ const Service: React.FC<ServiceProps> = ({
   grafikDesign,
   SEM_marknadsföring,
   IT_konsultation,
+  security,
+  auto,
 }) => {
   const router = useRouter();
   const handleNavigation = () => {
@@ -117,6 +120,7 @@ const Service: React.FC<ServiceProps> = ({
           ) : (
             ''
           )}
+
           {seo ? (
             <>
               <br />
@@ -138,6 +142,19 @@ const Service: React.FC<ServiceProps> = ({
                   <i className="fas fa-check"></i>
                 </span>
                 12 Mån garanti
+              </span>
+            </>
+          ) : (
+            ''
+          )}
+          {auto ? (
+            <>
+              <br />
+              <span className="text-light">
+                <span className="service-green me-sm-3">
+                  <i className="fas fa-check"></i>
+                </span>
+                Automatisering
               </span>
             </>
           ) : (

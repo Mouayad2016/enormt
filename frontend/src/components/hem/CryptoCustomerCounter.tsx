@@ -29,13 +29,13 @@ const CryptoCustomerCounter = () => {
         </div>
         <div className="justify-content-center">
           <div className="grid-container justify-content-center ">
-            <ServiceProps
+            {/* <ServiceProps
               title="Hemsidor"
               desc={'Företags hemsidor som representerar era tjänster.'}
               responsive={true}
               seo={true}
               fastPrice={true}
-            />
+            /> */}
             <ServiceProps
               title="Webbutveckling"
               desc="Anpassade webbapplikationer för alla plattformar."
@@ -50,13 +50,13 @@ const CryptoCustomerCounter = () => {
               unikDesign={true}
               allDevices={true}
             />
-            {/* <ServiceProps
-              title="Mjukvaru-|utveckling"
+            <ServiceProps
+              title="IT-System"
               desc="Helhetslösningar för att effektivisera er verksamhet."
-              seo={true}
-              anpassningabr={true}
-              unikDesign={true}
-            /> */}
+              garanti={true}
+              auto={true}
+              support={true}
+            />
             <ServiceProps
               title="Grafisk design"
               desc="Skapa unika och tilltalande designlösningar."

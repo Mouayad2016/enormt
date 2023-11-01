@@ -30,7 +30,7 @@ const Home = () => {
         <TechTab />
 
         <HomeSection></HomeSection>
-        <HemsidorFastaPriser></HemsidorFastaPriser>
+        {/* <HemsidorFastaPriser></HemsidorFastaPriser> */}
         <UXUIDesign></UXUIDesign>
         {/* <SupportCard></SupportCard> */}
         <FooterOne footerGradient />
