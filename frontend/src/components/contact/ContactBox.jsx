@@ -15,8 +15,8 @@ const ContactBox = () => {
             <div className="col-lg-6 col-md-10">
               <SectionTitle
                 subtitle="Kontakta oss"
-                title="Börja din IT-resa med Enormt"
-                description="Din partner för IT-lösningar av hög kvalitet till internationellt konkurrenskraftiga priser. Kontakta oss idag och låt oss tillsammans skapa ditt nästa IT-system"
+                title="Börja din resa med Enormt"
+                description="Din partner för IT-lösningar. Kontakta oss idag och låt oss tillsammans skapa ditt nästa IT-system"
                 centerAlign
               />
             </div>
@@ -30,11 +30,10 @@ const ContactBox = () => {
               <div className="contact-us-promo p-5 bg-white rounded-custom custom-shadow text-center d-flex flex-column h-100">
                 <span className="fad fa-comment-alt-lines fa-3x text-primary"></span>
                 <div className="contact-promo-info mb-4">
-                  <h5 className="text-body"> Mötesbokaren </h5>
+                  <h5 className="text-body">Boka möte direkt</h5>
                   <p className="res-fs-5">
-                    Boka ett förutsättningslöst möte med oss direkt i kalendern.
-                    Vi hjälper dig att se över din idé och påbörja din resa mot
-                    en ny IT-lösning.
+                    Boka en tid med en av våra experter. Vi är redo att utforska
+                    din idé och sätta igång med din nästa IT-innovation.
                   </p>
                 </div>
                 <BookMeetingButton />
@@ -44,11 +43,11 @@ const ContactBox = () => {
               <div className="contact-us-promo p-5 bg-white rounded-custom custom-shadow text-center d-flex flex-column h-100">
                 <span className="fad fa-phone fa-3x text-primary"></span>
                 <div className="contact-promo-info mb-4">
-                  <h5 className="text-body"> Tala med oss </h5>
+                  <h5 className="text-body">Prata med vårt team</h5>
                   <p className="res-fs-5">
-                    Har du frågor, funderingar eller bara vill säga hej? Vårt
-                    team finns här för att prata och hjälpa dig med allt du
-                    behöver.
+                    Oavsett om du har specifika frågor eller bara vill diskutera
+                    en idé, är vi här för att lyssna. Kontakta oss för personlig
+                    service och rådgivning.
                   </p>
                 </div>
 
@@ -59,11 +58,10 @@ const ContactBox = () => {
               <div className="contact-us-promo p-5 bg-white rounded-custom custom-shadow text-center d-flex flex-column h-100">
                 <span className="fad fa-envelope fa-3x text-primary"></span>
                 <div className="contact-promo-info mb-4">
-                  <h5 className="text-body"> Skicka en förfrågan</h5>
+                  <h5 className="text-body">Fråga oss</h5>
                   <p className="res-fs-5">
-                    Intresserad av våra tjänster och vill ha mer information?
-                    Skicka en förfrågan, så återkommer vi med ett utförligt svar
-                    på dina frågor.
+                    Vill du veta mer om hur vi kan hjälpa dig? Skicka dina
+                    frågor till oss, så svarar vi med det du behöver veta.
                   </p>
                 </div>
                 <a href="#contact-us-form" className="btn btn-link mt-auto">
@@ -75,11 +73,11 @@ const ContactBox = () => {
               <div className="contact-us-promo p-5 bg-white rounded-custom custom-shadow text-center d-flex flex-column h-100">
                 <span className="fad fa-envelope fa-3x text-primary"></span>
                 <div className="contact-promo-info mb-4">
-                  <h5 className="text-body"> Påbörja din beställning</h5>
+                  <h5 className="text-body">Starta ditt projekt</h5>
                   <p className="res-fs-5">
-                    Börja din resa mot en effektivare och mer konkurrenskraftig
-                    verksamhet här. Beskriv din idé kortfattat så återkopplar vi
-                    inom kort.
+                    Ta första steget mot en mer effektiv och konkurrenskraftig
+                    verksamhet. Dela din idé med oss, så inleder vi processen
+                    omgående.
                   </p>
                 </div>
                 <Link href="/demo" className="btn btn-link mt-auto">

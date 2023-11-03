@@ -7,7 +7,6 @@ class MyDocument extends Document {
       <Html lang="sv">
         <Head>
           <meta charSet="utf-8" />
-          {/* favicon */}
           <link rel="icon" href="/assets/img/enormt/logo/favicon.ico" />
           <link
             rel="icon"
@@ -26,23 +25,19 @@ class MyDocument extends Document {
             href="/assets/img/enormt/logo/site.webmanifest"
           />
           <meta name="msapplication-TileColor" content="#aedcf2" />
-          <meta name="theme-color" content="#aedcf2" />
+          <meta name="theme-color" content="#FFFFFF" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
             href="%PUBLIC_URL%/assets/img/enormt/logo/apple-touch-icon.png"
           />
 
-          {/* ... additional link or meta tags */}
-          {/* user-scalable=no */}
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
           />
           <meta name="theme-color" content="#000000" />
-          {/* <meta name="description" content="Funderar du på att investera i en hemsida, mobilapputveckling, ett IT-system eller behöver IT-konsultation? Vi är Nordens bästa utvecklare. Kontakta oss idag!." /> */}
 
-          {/* New OG and Twitter meta tags */}
           <meta property="og:image" content="/assets/img/enormt/meta/so.png" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
@@ -63,18 +58,12 @@ class MyDocument extends Document {
           />
           <meta name="twitter:image" content="/assets/img/enormt/meta/so.png" />
 
-          <title>Enormt - Din IT Leverentör</title>
-
-          {/* Google Fonts */}
+          <title>Enormt - Ledande IT-leverantör i Solna, Sverige</title>
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
             rel="stylesheet"
           />
-
-          {/* Font Awesome */}
           <link rel="stylesheet" href="/assets/fonts/fontawesome-all.min.css" />
-          {/* ... additional CSS files or other resources */}
-
           {/* Google Tag Manager */}
           {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCL9E8MFP9"></script> */}
           <script

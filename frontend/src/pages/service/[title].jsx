@@ -19,10 +19,14 @@ const SingleService = () => {
   }, [title]);
 
   let meta_title = '';
+  let meta_dec = '';
+  let meta_keywords = '';
   let dec = '';
   let sections = [];
   if (item && item.tjänst_sida) {
-    meta_title = item.tjänst_sida.rubrik;
+    meta_title = item.tjänst_sida.meta_title;
+    meta_dec = item.tjänst_sida.meta_dec;
+    meta_keywords = item.tjänst_sida.meta_keywords;
     dec = item.tjänst_sida.underRubrik;
     sections = item.tjänst_sida.sections;
   }
@@ -30,8 +34,11 @@ const SingleService = () => {
   return (
     <>
       <Layout>
-        <div className="App"></div>
-        <PageMeta title={`${meta_title}`} description="" keywords="" />
+        <PageMeta
+          title={meta_title}
+          description={meta_dec}
+          keywords={meta_keywords}
+        />
         <Navbar navDark={false} />
         <PageHeader
           title={`${title}`}

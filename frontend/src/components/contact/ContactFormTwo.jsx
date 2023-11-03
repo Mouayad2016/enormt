@@ -94,9 +94,8 @@ const ContactFormTwo = () => {
           <div className="row justify-content-lg-between align-items-center">
             <div className="col-lg-6 col-md-8">
               <div className="section-heading ">
-                <h2 className="text-dark">Här kan du kontakta oss</h2>
+                <h2 className="text-dark">Kontakta oss</h2>
                 <p className="text-dark res-fs-5">
-                  Har du frågor eller funderingar som bäst formuleras i text?
                   Kontakta oss här så återkopplar vi så snart som möjligt.
                 </p>
               </div>

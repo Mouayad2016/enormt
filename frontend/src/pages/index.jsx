@@ -20,19 +20,16 @@ const Home = () => {
     <>
       <Layout>
         <PageMeta
-          title="Enormt - Anpassad IT-Systemutveckling"
-          description="Funderar du på att investera i en hemsida, mobilapp, ett IT-system? Vi är Nordens bästa utvecklare. Kontakta oss idag!."
-          keywords="Webbutveckling, IT system, Mobilapputveckling, AI"
+          title="Enormt - Anpassad IT-Systemutveckling | Ledande IT-leverantör i Solna, Sverige"
+          description="Vi är din partner för skräddarsydda IT-lösningar. Från webbutveckling till mobilappar och grafisk design, hjälper vi dig att ta ditt företag till nästa nivå. Kontakta oss idag!"
+          keywords="IT-lösningar, webbutveckling, mobilappar, grafisk design, IT-system, IT-leverantör, Solna, Sverige"
         />
         <Navbar />
         <HeroNine />
         <CryptoCustomerCounter />
         <TechTab />
-
         <HomeSection></HomeSection>
-        {/* <HemsidorFastaPriser></HemsidorFastaPriser> */}
         <UXUIDesign></UXUIDesign>
-        {/* <SupportCard></SupportCard> */}
         <FooterOne footerGradient />
       </Layout>
     </>

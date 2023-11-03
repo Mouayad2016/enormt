@@ -1,16 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Candle from "./candle";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Candle from './candle';
 
 const AboutPageHero = () => {
   const handleSmothScrol = (event) => {
     event.preventDefault();
-    const targetId = event.target.getAttribute("href");
+    const targetId = event.target.getAttribute('href');
     const targetElemet = document.querySelector(targetId);
     if (targetElemet) {
       window.scrollTo({
         top: targetElemet.offsetTop,
-        behavior: "smooth",
+        behavior: 'smooth',
       });
     }
   };
@@ -27,27 +27,27 @@ const AboutPageHero = () => {
                       MER ÄN EN IT-LEVERANTÖR
                     </h1>
                     <p className="lead pt-20 res-fs-5 text-center-mobile text-dark ">
-                    Vi är experter inom IT-sektorn, specialiserade på att erbjuda skräddarsydda och högkvalitativa IT-lösningar till våra klienter i Norden. 
-                    Inom vårt engagerade team kombinerar vi teknisk skicklighet med en djup förståelse för våra klienters affärsbehov. Detta möjliggör oss att inte bara svara på, utan även förutse, de unika kraven i varje projekt. 
-                    Vi omvandlar dessa insikter till skräddarsydda lösningar som integrerar smidigt med befintliga system och främjar affärsutveckling och innovation.
+                      Vi är experter inom IT-sektorn, specialiserade på att
+                      erbjuda skräddarsydda och högkvalitativa IT-lösningar till
+                      våra klienter. Genom att kombinera teknisk expertis med en
+                      djup förståelse av era behov, har vi möjlighet att inte
+                      bara hantera, utan också att förutse de specifika krav som
+                      dyker upp i varje projekt.
                     </p>
-               
+
                     <a
-                      href="#our-team"
-                      onClick={handleSmothScrol}
+                      href="/contact"
+                      // onClick={handleSmothScrol}
                       className="btn btn-soft-primary mt-4"
                     >
-                      Lär känna oss
+                      Kontakta oss
                     </a>
                   </div>
-          
-
                 </div>
 
-                            <div className="col-6 display-none-on-ipad">
-                            <Candle className=""></Candle>
-</div>
-           
+                <div className="col-6 display-none-on-ipad">
+                  <Candle className=""></Candle>
+                </div>
               </div>
             </div>
           </div>

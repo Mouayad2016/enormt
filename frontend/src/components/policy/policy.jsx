@@ -1,5 +1,5 @@
-import React from "react";
-import SectionTitle from "../section/SectionTitle";
+import React from 'react';
+import SectionTitle from '../section/SectionTitle';
 
 const PolicyBody = ({ dark, bgWhite }) => {
   const swiperOption = {
@@ -9,8 +9,8 @@ const PolicyBody = ({ dark, bgWhite }) => {
     slidesPerGroup: 2,
     loop: true,
     navigation: {
-      nextEl: ".swiper-nav-control .swiper-button-next",
-      prevEl: ".swiper-nav-control .swiper-button-prev",
+      nextEl: '.swiper-nav-control .swiper-button-next',
+      prevEl: '.swiper-nav-control .swiper-button-prev',
     },
     breakpoints: {
       320: {
@@ -37,10 +37,10 @@ const PolicyBody = ({ dark, bgWhite }) => {
     <>
       <section
         className={`testimonial-section ${
-          dark ? "bg-dark" : "bg-light"
-        } ptb-120 ${bgWhite ? "bg-white" : ""}`}
-        data-aos="fade-up" data-aos-duration="30000"
-
+          dark ? 'bg-dark' : 'bg-light'
+        } ptb-120 ${bgWhite ? 'bg-white' : ''}`}
+        data-aos="fade-up"
+        data-aos-duration="30000"
       >
         <div className="container">
           <div className="row justify-content-center align-content-center">
@@ -69,109 +69,105 @@ const PolicyBody = ({ dark, bgWhite }) => {
                 <div className="row justify-content-center align-content-center">
                   <div className="col-lg-6 order-lg-1 mb-7 mb-lg-0">
                     <div className="mb-4">
-                      <h4 className="text-dark">Tillgänglighet av tjänsten</h4>
+                      <h4 className="text-dark">Service Tillgänglighet</h4>
                       <p>
-                        Vi strävar efter att göra vår tjänst tillgänglig dygnet
-                        runt och garanterar en upptid på minst 99%. Om det
-                        uppstår driftstörningar kommer vi att arbeta aktivt för
-                        att åtgärda problemet inom en rimlig tidsram.
+                        Vårt mål är att tillhandahålla vår tjänst 24/7 med en
+                        garanterad drifttid på minst 99%. Skulle det uppstå
+                        några driftstörningar, förbinder vi oss att snabbt
+                        åtgärda dessa inom en acceptabel tidsperiod.
                       </p>
-                      <h4 className="text-dark">Användning av tjänsten</h4>
+                      <h4 className="text-dark">Användarvillkor</h4>
                       <p>
-                        Du får inte använda vår tjänst på ett sätt som bryter
-                        mot några tillämpliga lagar eller regler eller som kan
-                        hota säkerheten för vårt IT-system eller våra appar. Du
-                        får inte heller använda vår tjänst för att skada våra
+                        Du får inte nyttja vår tjänst på ett sätt som strider
+                        mot lagar och förordningar eller som kan äventyra
+                        säkerheten i vårt IT-system eller våra applikationer.
+                        Användningen får inte heller leda till skada för andra
                         användare eller tredje part.
                       </p>
-                      <h4 className="text-dark">Äganderätt</h4>
+                      <h4 className="text-dark">Äganderättsfrågor</h4>
                       <p>
-                        Allt innehåll och material på vår tjänst, inklusive men
-                        inte begränsat till text, bilder, grafik, logotyper,
-                        varumärken och programvara, är skyddat enligt
-                        upphovsrätts- och varumärkeslagar och tillhör oss eller
-                        våra licensgivare. Du får inte använda något av detta
-                        material utan vårt samtycke.
+                        Allt material och innehåll på vår tjänst, såsom texter,
+                        bilder, grafik, logotyper, varumärken och mjukvara, är
+                        skyddat enligt upphovsrättsliga och varumärkesrättsliga
+                        lagar och ägs antingen av oss eller våra licensgivare.
+                        Du måste ha vårt tillstånd för att använda något av
+                        dessa material.
                       </p>
-                      <h4 className="text-dark">Ansvarsbegränsning</h4>
+                      <h4 className="text-dark">Begränsning av Ansvar</h4>
                       <p>
-                        Vi tar inget ansvar för skador som uppstår på grund av
-                        användningen av vår tjänst eller från innehållet på vår
-                        tjänst. Vi tar inte heller ansvar för eventuella
-                        förluster eller skador på grund av virus eller andra
-                        skadliga komponenter.
-                      </p>
-                      <h4 className="text-dark">Ändringar i villkoren</h4>
-                      <p>
-                        Vi kan ändra dessa användarvillkor när som helst utan
-                        förvarning. Det är ditt ansvar att regelbundet
-                        kontrollera dessa villkor för eventuella ändringar.
+                        Vi frånsäger oss allt ansvar för direkta eller indirekta
+                        skador som kan uppstå från användningen av vår tjänst
+                        eller dess innehåll. Detta inkluderar även eventuella
+                        förluster eller skador orsakade av virus eller andra
+                        skadliga kodstycken.
                       </p>
                       <h4 className="text-dark">
-                        Insamling av personuppgifter
+                        Ändringar av Användarvillkor
                       </h4>
                       <p>
-                        Vi samlar in personuppgifter som du tillhandahåller till
-                        oss när du registrerar dig för våra tjänster eller
-                        genomför transaktioner med oss. Personuppgifterna kan
-                        inkludera ditt namn, din e-postadress, din postadress,
-                        ditt organisationsnummer och namn samt din
-                        betalningsinformation. Vi behandlar dina personuppgifter
-                        med högsta sekretess och följer tillämpliga
-                        dataskyddslagar.
+                        Vi förbehåller oss rätten att när som helst ändra dessa
+                        användarvillkor utan förhandsmeddelande. Det ligger i
+                        ditt ansvar att regelbundet granska dessa villkor för
+                        att hålla dig uppdaterad om eventuella förändringar.
                       </p>
                       <h4 className="text-dark">
-                        Användning av personuppgifter
+                        Insamling av Personuppgifter
                       </h4>
                       <p>
-                        Vi använder personuppgifterna för att tillhandahålla
-                        våra tjänster, för att fakturera dig för våra tjänster
-                        och för att kommunicera med dig om din användning av
-                        tjänsterna. Vi kan också använda personuppgifterna för
-                        att förbättra våra tjänster och för att uppfylla
-                        tillämpliga lagkrav, såsom bokföringskrav och
-                        skattekrav. Vi behandlar dina personuppgifter med högsta
-                        sekretess och följer tillämpliga dataskyddslagar.
-                      </p>
-                      <h4 className="text-dark">Delning av personuppgifter</h4>
-                      <p>
-                        Vi delar inte personuppgifter med tredje part utan ditt
-                        samtycke, förutom i fall där det krävs enligt lag eller
-                        för att tillhandahålla våra tjänster.
-                      </p>
-                      <h4 className="text-dark">Skydd av personuppgifter</h4>
-                      <p>
-                        Vi tar lämpliga tekniska och organisatoriska åtgärder
-                        för att skydda dina personuppgifter mot obehörig
-                        åtkomst, oavsiktlig eller olaglig förstörelse, förlust,
-                        ändring, obehörig avslöjande eller tillgång eller någon
-                        annan form av olaglig bearbetning.
+                        Vi insamlar personliga uppgifter som du tillhandahåller
+                        när du registrerar dig för våra tjänster eller när du
+                        genomför transaktioner med oss. Dessa kan inkludera ditt
+                        namn, e-postadress, adress, organisationsnummer och
+                        betalningsinformation. Vi hanterar dina uppgifter med
+                        strikt sekretess och följer gällande dataskyddslagar.
                       </p>
                       <h4 className="text-dark">
-                        Rättigheter till dina personuppgifter
+                        Användning av Personuppgifter
                       </h4>
                       <p>
-                        Du har rätt att få tillgång till, rätta, begränsa eller
-                        radera dina personuppgifter. Du har också rätt att
-                        invända mot bearbetningen av dina personuppgifter och
-                        att få dina personuppgifter överförda till en annan
-                        organisation för att göra det måste du komma i kontakt
-                        med oss.
+                        Vi använder dina personuppgifter för att tillhandahålla
+                        och fakturera för våra tjänster samt för att kommunicera
+                        med dig. Uppgifterna används även för att förbättra våra
+                        tjänster och för att uppfylla lagkrav som bokföring och
+                        skatteregler. Dina uppgifter behandlas med hög
+                        sekretess.
+                      </p>
+                      <h4 className="text-dark">Delning av Personuppgifter</h4>
+                      <p>
+                        Dina personuppgifter delas inte med tredje part utan
+                        ditt uttryckliga samtycke, såvida det inte är nödvändigt
+                        enligt lag eller för utförandet av våra tjänster.
+                      </p>
+                      <h4 className="text-dark">Skydd av Personuppgifter</h4>
+                      <p>
+                        Vi vidtar säkerhetsåtgärder för att skydda dina
+                        personuppgifter från obehörig tillgång, oavsiktlig eller
+                        olaglig förstörelse, förlust, ändring eller otillåtet
+                        avslöjande.
+                      </p>
+                      <h4 className="text-dark">Dina Rättigheter</h4>
+                      <p>
+                        Du har rätt att begära tillgång till, korrigera,
+                        begränsa eller radera dina personuppgifter. Du har också
+                        rätt att motsätta dig behandlingen av dina
+                        personuppgifter och att begära överföring av dessa till
+                        en annan part. Kontakta oss för att utöva dessa
+                        rättigheter.
                       </p>
                       <h4 className="text-dark">
-                        Ändringar i integritetspolicyn
+                        Ändringar i Integritetspolicyn
                       </h4>
                       <p>
-                        Vi kan ändra denna integritetspolicy när som helst. Vi
-                        kommer att informera dig om eventuella väsentliga
-                        ändringar i vår integritetspolicy. Du ansvarar för att
-                        läsa och förstå vår integritetspolicy och eventuella
-                        uppdateringar.
+                        Vi kan när som helst göra ändringar i denna
+                        integritetspolicy. Vid väsentliga ändringar kommer vi
+                        att informera dig. Det är viktigt att du läser och
+                        förstår vår policy samt håller dig uppdaterad om
+                        eventuella ändringar.
                       </p>
                     </div>
                   </div>
                 </div>
-              </div>{" "}
+              </div>{' '}
             </section>
           </div>
         </div>
