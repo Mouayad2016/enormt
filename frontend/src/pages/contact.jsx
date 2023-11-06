@@ -11,18 +11,13 @@ import { useRouter } from 'next/router';
 const Contact = () => {
   const router = useRouter();
   useEffect(() => {
-    // Function to scroll to the target element by its id
     const scrollToTarget = () => {
       const targetId = 'contact-promo'; // Replace with the id of your target element
-
       const targetElement = document.getElementById(targetId);
-
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth' });
       }
     };
-
-    // Scroll to the target element when the component mounts
     scrollToTarget();
   }, []);
 
@@ -34,7 +29,6 @@ const Contact = () => {
         description="Behöver du IT-vägledning? Kontakta Enormt idag för att starta din IT-resa. Vi erbjuder möten, rådgivning och skräddarsydda IT-lösningar i Solna, Sverige."
       ></PageMeta>
       <Navbar />
-
       <PageHeader
         blogtags={null}
         integration={null}

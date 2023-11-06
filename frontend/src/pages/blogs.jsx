@@ -1,6 +1,5 @@
 import React from 'react';
 import BlogGrid from '../components/blog/BlogGrid';
-import PageHeader from '../components/header/PageHeader';
 import PageMeta from '../components/meta/PageMeta';
 import FooterOne from '../components/footer/FooterOne';
 import Navbar from '../components/header/Navbar';

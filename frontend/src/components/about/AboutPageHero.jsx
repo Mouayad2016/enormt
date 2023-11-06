@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Candle from './candle';
-
 const AboutPageHero = () => {
   const handleSmothScrol = (event) => {
     event.preventDefault();
