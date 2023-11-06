@@ -2,17 +2,17 @@ import React from 'react';
 import Candle from './candle';
 import Link from 'next/link';
 const AboutPageHero = () => {
-  const handleSmothScrol = (event) => {
-    event.preventDefault();
-    const targetId = event.target.getAttribute('href');
-    const targetElemet = document.querySelector(targetId);
-    if (targetElemet) {
-      window.scrollTo({
-        top: targetElemet.offsetTop,
-        behavior: 'smooth',
-      });
-    }
-  };
+  // const handleSmothScrol = (event) => {
+  //   event.preventDefault();
+  //   const targetId = event.target.getAttribute('href');
+  //   const targetElemet = document.querySelector(targetId);
+  //   if (targetElemet) {
+  //     window.scrollTo({
+  //       top: targetElemet.offsetTop,
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // };
   return (
     <>
       <section className="gradient-backgroud pt-120 position-relative overflow-hidden">
