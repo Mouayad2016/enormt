@@ -1,9 +1,6 @@
 const withSvgr = require('next-svgr');
 
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   // Enables React strict mode for development
   reactStrictMode: true,
 

@@ -6,6 +6,8 @@ class MyDocument extends Document {
     return (
       <Html lang="sv">
         <Head>
+          {/* <title>Enormt - Ledande IT-leverantör i Solna, Sverige</title> */}
+
           <meta charSet="utf-8" />
           <link rel="icon" href="/assets/img/enormt/logo/favicon.ico" />
           <link
@@ -32,10 +34,10 @@ class MyDocument extends Document {
             href="%PUBLIC_URL%/assets/img/enormt/logo/apple-touch-icon.png"
           />
 
-          <meta
+          {/* <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-          />
+          /> */}
           <meta name="theme-color" content="#000000" />
 
           <meta property="og:image" content="/assets/img/enormt/meta/so.png" />
@@ -58,7 +60,6 @@ class MyDocument extends Document {
           />
           <meta name="twitter:image" content="/assets/img/enormt/meta/so.png" />
 
-          <title>Enormt - Ledande IT-leverantör i Solna, Sverige</title>
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
             rel="stylesheet"

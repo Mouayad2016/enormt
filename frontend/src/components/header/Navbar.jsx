@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import NavBarButton from '../button/navBarButton';
+import Image from 'next/image';
 
 const Navbar = ({ navDark }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,29 +49,6 @@ const Navbar = ({ navDark }) => {
     }
   }
 
-  function scrollToPrices(event, sectionId) {
-    event.preventDefault();
-
-    const targetSection = document.getElementById(sectionId);
-
-    if (router.pathname === '/') {
-      if (targetSection) {
-        targetSection.scrollIntoView({
-          behavior: 'smooth',
-        });
-      }
-    } else {
-      // Navigate to the homepage and then to the section
-      router.push('/').then(() => {
-        const target = document.getElementById(sectionId);
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-          });
-        }
-      });
-    }
-  }
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
@@ -92,16 +70,18 @@ const Navbar = ({ navDark }) => {
                 href="/"
                 className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none"
               >
-                <img
+                <Image
                   src={`assets/img/enormt/Artboard_1_dark.svg`}
                   alt="logo"
-                  // height={80}
-                  // width={200}
+                  height={80}
+                  width={200}
                   className="img-fluid logo-white "
                 />
-                <img
+                <Image
                   src={`/assets/img/enormt/logo/enormt-logo-color.png`}
                   alt="logo"
+                  height={80}
+                  width={200}
                   className="img-fluid logo-color logo"
                 />
               </Link>

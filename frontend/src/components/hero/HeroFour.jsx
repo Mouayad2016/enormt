@@ -2,6 +2,7 @@ import React from 'react';
 import HeroTitle from './HeroTitle';
 import DownloadButton from '../advo/components/downloadButton';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HeroFour = () => {
   return (
@@ -28,10 +29,11 @@ const HeroFour = () => {
                     href="https://docs.google.com/forms/d/e/1FAIpQLSd5sYLvnl9gpTNulC1vrhSTgptJSusWxkhT6n1ckG0ZaXaIiQ/viewform"
                     className="btn btn-outline-light"
                   >
-                    <img
+                    <Image
                       src="assets\img\enormt\assets\img\advo-appen\ios-apple.svg"
                       alt="awards"
                       width={30}
+                      height={30}
                       className="me-3"
                     />
                     Registerer dig för IOS
@@ -61,10 +63,11 @@ const HeroFour = () => {
                   data-aos="fade-right"
                   data-aos-delay="150"
                 >
-                  <img
+                  <Image
                     src="assets\img\enormt\assets\img\advo-appen\advologo.png"
                     alt="awards"
                     width={180}
+                    height={180}
                     className="me-4"
                   />
                 </div>
@@ -76,10 +79,12 @@ const HeroFour = () => {
                 data-aos="fade-left"
                 data-aos-delay="200"
               >
-                <img
+                <Image
                   src="assets/img/enormt/assets/img/advo-appen/advo-frames.png"
                   alt="hero"
                   className="img-fluid position-relative z-5"
+                  width={30}
+                  height={30}
                 />
               </div>
             </div>

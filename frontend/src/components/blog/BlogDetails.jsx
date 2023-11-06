@@ -3,6 +3,7 @@ import ProfileCard from './ProfileCard';
 import { useRouter } from 'next/router';
 import db from '../../data/db/blogsData';
 import RegisterForm from './smallregForm';
+import Image from 'next/image';
 const BlogDetails = () => {
   const [item, setitem] = useState({});
   const router = useRouter();
@@ -47,10 +48,12 @@ const BlogDetails = () => {
                   </blockquote>
                 </div>
                 {/* <RegisterForm hideOnMobile={false} /> */}
-                <img
+                <Image
                   src={`/assets/img/enormt/webinare/${item.page?.coverBild}`}
                   className="img-fluid mt-4 rounded-custom"
-                  alt="apply"
+                  alt="Picture of a Minimal Viable Product concept illustration"
+                  width={500}
+                  height={500}
                 />
                 <div className="job-details-info mt-5">
                   <h3 className="h5">{item.page?.listTitle2}</h3>
@@ -82,11 +85,6 @@ const BlogDetails = () => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
                 ></iframe>
-                {/* <img
-                  src={`/assets/img/enormt/webinare/${item.page?.coverBild2}`}
-                  className="img-fluid mt-5 rounded-custom"
-                  alt="apply"
-                /> */}
               </div>
             </div>
 

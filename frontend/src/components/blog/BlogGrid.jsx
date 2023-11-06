@@ -1,6 +1,7 @@
 import React from 'react';
 import db from '../../data/db/blogsData';
 import Link from 'next/link';
+import Image from 'next/image';
 const BlogGrid = () => {
   return (
     <>
@@ -13,14 +14,13 @@ const BlogGrid = () => {
                 <>
                   <div className="col-lg-6 col-lg-12" key={index}>
                     <div className="single-article feature-article rounded-custom my-3">
-                      <Link
-                        href={`/nyheter/${e.title}`}
-                        className="article-img"
-                      >
-                        <img
+                      <Link href={`/blog/${e.title}`} className="article-img">
+                        <Image
                           src={`/assets/img/enormt/webinare/${e.coverImg}`}
-                          alt="article"
+                          alt="Cover image for Enormt Blog webinar - 'From Idea to Reality: Succeeding with Your First Mobile & Web App'"
                           className="img-fluid"
+                          width={400}
+                          height={400}
                         />
                       </Link>
                       <div className="article-content p-4">
@@ -49,10 +49,11 @@ const BlogGrid = () => {
                         <div className="d-flex align-items-center pt-4">
                           <div className="avatar">
                             <Link href={e.authorLinkedInLink}>
-                              <img
+                              <Image
                                 src={`/assets/img/enormt/about/team/${e.img}`}
-                                alt="avatar"
-                                width="40"
+                                alt="Mouayad Mouayad authur picture"
+                                width={50}
+                                height={50}
                                 className="rounded-circle me-3"
                               />{' '}
                             </Link>

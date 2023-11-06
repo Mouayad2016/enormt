@@ -9,10 +9,9 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 const Contact = () => {
-  const router = useRouter();
   useEffect(() => {
     const scrollToTarget = () => {
-      const targetId = 'contact-promo'; // Replace with the id of your target element
+      const targetId = 'contact-promo';
       const targetElement = document.getElementById(targetId);
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth' });

@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
-import { list } from 'postcss';
+import Image from 'next/image';
 
 type ServiceProps = {
   paddingTop?: boolean;
@@ -48,7 +48,9 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                   </ul>
                 </div>
                 <div className="col-lg-6 order-lg-2">
-                  <img
+                  <Image
+                    width={30}
+                    height={30}
                     src={`/assets/img/enormt/services/${section.imge}`}
                     alt={section.imge}
                     className="img-fluid"
@@ -86,9 +88,11 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                   </ul>
                 </div>
                 <div className="col-lg-6 order-lg-1">
-                  <img
+                  <Image
                     src={`/assets/img/enormt/services/${section.imge}`}
                     alt=""
+                    width={30}
+                    height={30}
                     className="img-fluid"
                   />
                 </div>

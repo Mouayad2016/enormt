@@ -75,9 +75,11 @@ const Service: React.FC<ServiceProps> = ({
           <span className="circle circle3"></span>
           <span className="circle circle4"></span>
           <span className="circle circle5">
-            <img
+            <Image
               src="/assets/img/enormt/logo/logo-round-wight.png"
               alt="Description"
+              height={80}
+              width={200}
             />
           </span>
         </div>

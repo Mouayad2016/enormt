@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
   const showClass = isOpen ? 'show' : '';
@@ -78,10 +79,11 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
             href="/"
             className={`d-flex align-items-center mb-md-0 text-decoration-none `}
           >
-            <img
+            <Image
               src={`/assets/img/enormt/logo/enormt-logo-color.png`}
               alt="logo"
               width={150}
+              height={80}
               className="ps-2"
             />
           </Link>

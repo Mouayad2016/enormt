@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -32,45 +33,57 @@ const NotFoundScreen = () => {
               <div className="hero-img position-relative circle-shape-images">
                 <ul className="position-absolute animate-element parallax-element circle-shape-list">
                   <li className="layer" data-depth="0.03">
-                    <img
+                    <Image
                       src={`/assets/img/enormt/shape/circle(8).svg`}
                       alt="Ingen sida hittades"
                       className="circle-shape-item type-0 hero-1"
+                      height={80}
+                      width={200}
                     />
                   </li>
                   <li className="layer" data-depth="0.02">
-                    <img
+                    <Image
                       src={`/assets/img/enormt/shape/circle(7).svg`}
                       alt="shape"
                       className="circle-shape-item type-1 hero-1"
+                      height={80}
+                      width={200}
                     />
                   </li>
                   <li className="layer" data-depth="0.04">
-                    <img
+                    <Image
                       src={`/assets/img/enormt/shape/circle(6).svg`}
                       alt="shape"
                       className="circle-shape-item type-2 hero-1"
+                      height={80}
+                      width={200}
                     />
                   </li>
                   <li className="layer" data-depth="0.04">
-                    <img
+                    <Image
                       src={`/assets/img/enormt/shape/circle(5).svg`}
                       alt="shape"
                       className="circle-shape-item type-3 hero-1"
+                      height={80}
+                      width={200}
                     />
                   </li>
                   <li className="layer" data-depth="0.03">
-                    <img
+                    <Image
                       src={`/assets/img/enormt/shape/circle(6).svg`}
                       alt="shape"
                       className="circle-shape-item type-4 hero-1"
+                      height={80}
+                      width={200}
                     />
                   </li>
                   <li className="layer" data-depth="0.03">
-                    <img
+                    <Image
                       src={`/assets/img/enormt/shape/circle(4).svg`}
                       alt="shape"
                       className="circle-shape-item type-5 hero-1"
+                      height={80}
+                      width={200}
                     />
                   </li>
                 </ul>

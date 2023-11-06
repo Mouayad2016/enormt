@@ -1,5 +1,6 @@
 import React from 'react';
 import Candle from './candle';
+import Link from 'next/link';
 const AboutPageHero = () => {
   const handleSmothScrol = (event) => {
     event.preventDefault();
@@ -33,13 +34,13 @@ const AboutPageHero = () => {
                       dyker upp i varje projekt.
                     </p>
 
-                    <a
+                    <Link
                       href="/contact"
                       // onClick={handleSmothScrol}
                       className="btn btn-soft-primary mt-4"
                     >
                       Kontakta oss
-                    </a>
+                    </Link>
                   </div>
                 </div>
 

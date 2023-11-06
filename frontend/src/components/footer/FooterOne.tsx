@@ -1,5 +1,6 @@
-import React from "react";
-import SocialCard from "./socialCard";
+import React from 'react';
+import SocialCard from './socialCard';
+import Image from 'next/image';
 
 type FooterOneProps = {
   footerLight?: any;
@@ -7,7 +8,11 @@ type FooterOneProps = {
   footerGradient?: any;
 };
 
-const FooterOne: React.FC<FooterOneProps> = ({ footerLight, style, footerGradient }) => {
+const FooterOne: React.FC<FooterOneProps> = ({
+  footerLight,
+  style,
+  footerGradient,
+}) => {
   return (
     <footer className="footer-section">
       <div className="footer-backgroud ptb-120 text-white" style={style}>
@@ -16,7 +21,9 @@ const FooterOne: React.FC<FooterOneProps> = ({ footerLight, style, footerGradien
             <div className="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
               <div className="footer-single-col">
                 <div className="footer-single-col mb-4">
-                  <img
+                  <Image
+                    height={80}
+                    width={200}
                     src={`/assets/img/enormt/logo/enormt-logo-white.png`}
                     alt="logo"
                     className="img-fluid logo-white"
@@ -28,8 +35,9 @@ const FooterOne: React.FC<FooterOneProps> = ({ footerLight, style, footerGradien
                   </div>
                   <div className="footer-single-col">
                     <ul className="list-unstyled footer-nav-list mb-lg-0">
-                      <li className="text-white fw-bold ">Gustav III:s Boulevard 32-34, 4tr
-169 73 Solna, Sweden </li>
+                      <li className="text-white fw-bold ">
+                        Gustav III:s Boulevard 32-34, 4tr 169 73 Solna, Sweden{' '}
+                      </li>
                       <li>
                         <a
                           href="mailto:info@omania.se"
@@ -39,7 +47,12 @@ const FooterOne: React.FC<FooterOneProps> = ({ footerLight, style, footerGradien
                         </a>
                       </li>
                       <li>
-                        <a className="text-white fw-bold" href="tel:+46733524957">+467 335 249 57</a>
+                        <a
+                          className="text-white fw-bold"
+                          href="tel:+46733524957"
+                        >
+                          +467 335 249 57
+                        </a>
                       </li>
                     </ul>
                   </div>
