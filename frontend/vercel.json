@@ -1,9 +1,9 @@
 {
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "https://enormt.se/(.*)",
       "destination": "https://www.enormt.se/$1",
-      "statusCode": 301
+      "permanent": true
     }
   ]
 }
