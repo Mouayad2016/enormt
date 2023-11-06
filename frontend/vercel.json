@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "https://www.enormt.se/$1",
+      "source": "http://enormt.se/:path*",
+      "destination": "https://www.enormt.se/:path*",
       "permanent": true
     }
   ]
