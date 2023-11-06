@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "http://enormt.se/:path*",
-      "destination": "https://www.enormt.se/:path*",
-      "permanent": true
-    }
-  ]
-}
