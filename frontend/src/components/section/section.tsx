@@ -49,8 +49,8 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                 </div>
                 <div className="col-lg-6 order-lg-2">
                   <Image
-                    width={30}
-                    height={30}
+                    width={300}
+                    height={300}
                     src={`/assets/img/enormt/services/${section.imge}`}
                     alt={section.imge}
                     className="img-fluid"
@@ -91,8 +91,8 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
                   <Image
                     src={`/assets/img/enormt/services/${section.imge}`}
                     alt=""
-                    width={30}
-                    height={30}
+                    width={300}
+                    height={300}
                     className="img-fluid"
                   />
                 </div>

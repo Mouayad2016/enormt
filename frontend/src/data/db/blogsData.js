@@ -2,8 +2,7 @@ const db = [
   {
     id: 1,
     type: 'Webinar',
-    title:
-      'Från idé till verklighet: Så lyckas du med din första mobil- & webbapp | Enormt Blogg',
+    title: 'Din första mobil eller webbapp | Enormt bolg',
     desc: 'Läs vårt senaste blogginlägg om strategier för framgångsrik utveckling av din första mobil- och webbapp. Få tips och råd från våra experter inom mjukvaruutveckling.',
     keywords:
       'Mobilapp, Webbapp, Minimal Viable Product, ChatGPT-integrering, Kravspecifikation, Utvecklingsstrategier, Idé till verklighet, Enormt Blogg',
