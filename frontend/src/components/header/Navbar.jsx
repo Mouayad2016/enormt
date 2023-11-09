@@ -137,11 +137,11 @@ const Navbar = ({ navDark }) => {
                     Bloggar
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/advo" className="nav-link">
                     Advo
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
