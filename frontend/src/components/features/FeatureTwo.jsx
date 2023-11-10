@@ -1,9 +1,9 @@
-import React from "react";
-import SectionTitle from "../section/SectionTitle";
-import db from "../../data/db/data";
-import { useEffect, useRef } from "react";
+import React from 'react';
+import SectionTitle from '../section/SectionTitle';
+import db from '../../data/db/data';
+import { useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
-import Link from "next/link";
+import Link from 'next/link';
 
 const FeatureTwo = ({ cardDark }) => {
   const targetRef = useRef(null);
@@ -11,21 +11,21 @@ const FeatureTwo = ({ cardDark }) => {
 
   function handleScrollToTarget() {
     if (targetRef.current) {
-      targetRef.current.scrollIntoView({ behavior: "smooth" });
+      targetRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
   useEffect(() => {
-    if (router.pathname === "/services") {
+    if (router.pathname === '/services') {
       handleScrollToTarget();
     }
   }, [router.pathname]);
   return (
     <>
-      <section 
+      <section
         ref={targetRef}
         className={`feature-section ptb-100 ${
-          cardDark ? "bg-dark" : "bg-light"
+          cardDark ? 'bg-dark' : 'bg-light'
         }`}
       >
         <div className="container">
@@ -55,8 +55,8 @@ const FeatureTwo = ({ cardDark }) => {
                 <div
                   className={`shadow-sm highlight-card rounded-custom p-5 ${
                     cardDark
-                      ? "bg-custom-light promo-border-hover border border-2 border-light text-white"
-                      : "bg-white"
+                      ? 'bg-custom-light promo-border-hover border border-2 border-light text-white'
+                      : 'bg-white'
                   }`}
                   data-aos="fade-up"
                   data-aos-delay="50"
@@ -70,7 +70,7 @@ const FeatureTwo = ({ cardDark }) => {
                     mb-32
                   "
                   >
-                    <i className="far fa-handshake-alt icon-sm text-primary"></i>{" "}
+                    <i className="far fa-handshake-alt icon-sm text-primary"></i>{' '}
                   </div>
                   <div className="feature-content">
                     <h3 className="h5">Generellt</h3>
@@ -89,7 +89,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         Analys av behov och krav
@@ -97,7 +97,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         Utveckling på flera språk
@@ -105,7 +105,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         Skräddarsydda lösningar
@@ -113,7 +113,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         Responsiv design
@@ -121,7 +121,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         Integration av tredjeparts-API:er
@@ -129,7 +129,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         SEO-optimering
@@ -137,7 +137,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         Prestandaoptimering
@@ -145,22 +145,22 @@ const FeatureTwo = ({ cardDark }) => {
                       <li className="py-1">
                         <i
                           className={`fad fa-check-circle me-2 ${
-                            cardDark ? "text-warning" : "text-primary"
+                            cardDark ? 'text-warning' : 'text-primary'
                           }`}
                         ></i>
                         Molntjänster och databashantering
                       </li>
                     </ul>
                   </div>
-                 
                 </div>
-               
-                {db.map((e,index) => (
-                  <div key= {index}
+
+                {db.map((e, index) => (
+                  <div
+                    key={index}
                     className={`feature-card shadow-sm rounded-custom p-5 ${
                       cardDark
-                        ? "bg-custom-light promo-border-hover border border-2 border-light text-white"
-                        : "bg-white"
+                        ? 'bg-custom-light promo-border-hover border border-2 border-light text-white'
+                        : 'bg-white'
                     }`}
                     data-aos="fade-up"
                     data-aos-delay="50"
@@ -170,7 +170,7 @@ const FeatureTwo = ({ cardDark }) => {
                     >
                       <i
                         className={e.tjänst_sida.liClsssName}
-                        style={{ color: "red" }}
+                        style={{ color: 'red' }}
                         // style="color: blue;"
                       ></i>
                     </div>
@@ -179,7 +179,7 @@ const FeatureTwo = ({ cardDark }) => {
                       <p className="mb-0">{e.tjänst_sida.des}</p>
                     </div>
                     <Link
-                     href= {`/IT-tjänst/${e.tjänst_sida.rubrik}`}
+                      href={`/service/${e.tjänst_sida.rubrik}`}
                       className="link-with-icon text-decoration-none mt-3"
                     >
                       Läs mer
