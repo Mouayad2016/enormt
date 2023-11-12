@@ -23,9 +23,9 @@ const Contact = () => {
   return (
     <Layout>
       <PageMeta
+        title="Kontakta Enormt - Din partner för IT-lösningar | Kontakta oss idag"
+        description="Behöver du IT-vägledning? Kontakta oss idag för att starta din IT-resa. Boka ett möte för personlig rådgivning."
         keywords="IT-vägledning, IT-resa, IT-lösningar, möten, rådgivning, Enormt, Solna, Sverige"
-        title="Kontakta Enormt - Din partner för IT-lösningar i Solna, Sverige| Kontakta oss idag"
-        description="Behöver du IT-vägledning? Kontakta Enormt idag för att starta din IT-resa. Vi erbjuder möten, rådgivning och skräddarsydda IT-lösningar i Solna, Sverige."
       ></PageMeta>
       <Navbar />
       <PageHeader

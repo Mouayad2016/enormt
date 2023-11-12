@@ -10,8 +10,8 @@ const Blogs = () => {
   return (
     <Layout>
       <PageMeta
-        title="Senaste nyheterna och blogginläggen från Enormt | IT-tips och insikter"
-        description="Utforska våra senaste nyheter och blogginlägg om IT-lösningar. Få insikter och tips från våra experter. Håll dig uppdaterad med Enormt."
+        title="Senaste nyheter och bloggar från Enormt | IT-tips och insikter"
+        description="Utforska våra senaste nyheter och blogginlägg. Få insikter och tips från våra experter. Håll dig uppdaterad med Enormt."
         keywords="Nyheter, bloggar, IT-tips, insikter, Enormt"
       />
       <Navbar />

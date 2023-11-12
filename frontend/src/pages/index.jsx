@@ -20,8 +20,8 @@ const Home = () => {
     <>
       <Layout>
         <PageMeta
-          title="Enormt - Anpassad IT-Systemutveckling | Ledande IT-leverantör i Solna, Sverige"
-          description="Vi är din partner för skräddarsydda IT-lösningar. Från webbutveckling till mobilappar och grafisk design, hjälper vi dig att ta ditt företag till nästa nivå. Kontakta oss idag!"
+          title="Enormt - Anpassad IT-Systemutveckling | Ledande IT-leverantör"
+          description="Vi är din partner för IT-lösningar. Från webbutveckling till mobilappar och grafisk design, hjälper vi dig att ta ditt företag till nästa nivå. Kontakta oss idag!"
           keywords="IT-lösningar, webbutveckling, mobilappar, grafisk design, IT-system, IT-leverantör, Solna, Sverige"
         />
         <Navbar />

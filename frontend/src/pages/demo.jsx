@@ -10,8 +10,8 @@ const RequestDemo = () => {
   return (
     <Layout>
       <PageMeta
-        title="Beställ din IT-lösning från Enormt | Kom igång med din framtid"
-        description="Vill du komma igång med din nya IT-lösning? Fyll i formuläret nedan och begär en offert från oss. Vi är redo att hjälpa dig skapa din framtid med de bästa IT-lösningarna."
+        title="Beställ din IT-lösning från Enormt | Kom igång och få ett offert"
+        description="Vill du komma igång med din nya IT-lösning? Fyll i formuläret nedan och begär en offert från oss. Vi är redo att hjälpa dig skapa din framtid."
         keywords="IT-lösningar, begäran om offert, kontakta oss, Enormt, digital transformation"
       />
 

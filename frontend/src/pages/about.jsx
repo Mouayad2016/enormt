@@ -11,8 +11,8 @@ const About = () => {
   return (
     <Layout>
       <PageMeta
-        title="Enormt - IT-lösningar på högsta nivå | IT-leverantör | Solna, Sverige"
-        description="Enormt är din pålitliga IT-leverantör Sverige. Vi erbjuder skräddarsydda IT-lösningar av högsta kvalitet. Kontakta oss idag!"
+        title="Enormt - IT-lösningar på högsta nivå | IT-leverantör | Stockholm"
+        description="Enormt är din pålitliga IT-leverantör i Sverige. Vi erbjuder skräddarsydda IT-lösningar av högsta kvalitet. Kontakta oss idag!"
         keywords="IT-lösningar, IT-leverantör, skräddarsydda IT-tjänster, Solna, Sverige, grön teknologi, kvalitet, transparens"
       />
       <Navbar />
