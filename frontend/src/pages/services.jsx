@@ -10,12 +10,15 @@ const Services = () => {
   return (
     <Layout>
       <div className="App"></div>
-      <PageMeta title="Tjänster" />
+      <PageMeta
+        title="Enormt IT-lösningar | Omfattande IT-tjänster och support - Solna"
+        description="Upptäck vårt utbud av IT-lösningar. Från skräddarsydda webbplatser till IT-system och mobilappar. Kontakta oss idag för att förbättra din affärs IT-behov."
+        keywords="IT-lösningar, webbutveckling, mobilappar, IT-support, prestandaoptimering, SEO, databashantering, IT-partners, skräddarsydda IT-lösningar, användarvänlig design, molntjänster"
+      ></PageMeta>
       <Navbar />
       <PageHeader
         title="Växande utbud av IT-lösningar"
-        desc="Vi har ett ständigt växande utbud av tjänster och arbetar enbart med noga utvalda och kvalitetssäkrade leverantörer. Klicka runt och läs mer om vilka tjänster som för tillfället finns att tillgå. Om du inte hittar vad du söker så tveka inte att höra av dig till oss. Vi arbetar ständigt med att utöka vårt utbud av tjänster och vill gärna höra om vilka tjänster våra kunder eftersöker. 
-        "
+        desc="Vi har ett ständigt växande utbud av tjänster och arbetar enbart med noga utvalda och kvalitetssäkrade leverantörer. Klicka runt och läs mer om vilka tjänster som för tillfället finns att tillgå. Om du inte hittar vad du söker så tveka inte att höra av dig till oss. Vi arbetar ständigt med att utöka vårt utbud av tjänster och vill gärna höra om vilka tjänster våra kunder eftersöker."
       />
       <FeatureTwo />
       <FooterOne footerGradient />
