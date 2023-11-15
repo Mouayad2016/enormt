@@ -1,4 +1,3 @@
-import Lottie from 'react-lottie';
 import React, { useState, useEffect } from 'react';
 
 function ChatBubbleComponent() {
