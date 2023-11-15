@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import NavBarButton from '../button/navBarButton';
 import Image from 'next/image';
 
-const Navbar = ({ navDark }) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [scroll, setScroll] = useState(0);
@@ -55,14 +55,13 @@ const Navbar = ({ navDark }) => {
   return (
     <>
       <header
-        className={`main-header ${
-          navDark ? 'position-absolute ' : ''
+        className={`main-header
         } w-100 position-absolute `}
       >
         <nav
-          className={`navbar navbar-expand-xl z-10 ${
-            navDark ? 'navbar-dark' : 'navbar-light'
-          } sticky-header ${scroll > headerTop ? 'affix' : ''}`}
+          className={`navbar navbar-expand-xl z-10 ${'navbar-light'} sticky-header ${
+            scroll > headerTop ? 'affix' : ''
+          }`}
         >
           <div className="container d-flex align-items-center justify-content-lg-between position-relative">
             <div className="logo">
@@ -135,6 +134,11 @@ const Navbar = ({ navDark }) => {
                 <li>
                   <Link href="/blogs" className="nav-link">
                     Bloggar
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/assistent" className="nav-link">
+                    AI assistent
                   </Link>
                 </li>
                 {/* <li>

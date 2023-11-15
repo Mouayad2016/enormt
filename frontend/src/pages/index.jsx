@@ -12,12 +12,14 @@ import SeoCard from '../components/hem/design_card';
 import UXUIDesign from '../components/hem/designCard';
 import SupportCard from '../components/hem/support_card';
 import Team from '../components/hem/team';
-
-// import "../styles/HomeNine.css"
+import ChatBubbleComponent from '../components/assistent/ChatBubbleComponenet';
 
 const Home = () => {
   return (
     <>
+      <div className="App">
+        <ChatBubbleComponent />
+      </div>
       <Layout>
         <PageMeta
           title="Enormt - Anpassad IT-Systemutveckling | Ledande IT-leverantör"

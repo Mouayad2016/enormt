@@ -5,11 +5,14 @@ import FeatureTwo from '../components/features/FeatureTwo';
 import FooterOne from '../components/footer/FooterOne';
 import Navbar from '../components/header/Navbar';
 import Layout from '../components/layout/Layout';
+import ChatBubbleComponent from '../components/assistent/ChatBubbleComponenet';
 
 const Services = () => {
   return (
     <Layout>
-      <div className="App"></div>
+      <div className="App">
+        <ChatBubbleComponent />
+      </div>{' '}
       <PageMeta
         title="Enormt IT-lösningar | Omfattande IT-tjänster och support - Stockholm"
         description="Upptäck vårt utbud av IT-lösningar. Från skräddarsydda webbplatser till IT-system och mobilappar. Kontakta oss idag för att förbättra din affärs IT-behov."

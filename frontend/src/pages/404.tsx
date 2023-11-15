@@ -1,10 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import ChatBubbleComponent from '../components/assistent/ChatBubbleComponenet';
 
 const NotFoundScreen = () => {
   return (
     <>
+      <div className="App">
+        <ChatBubbleComponent />
+      </div>
       <section
         className="error-section ptb-120 bg-light-dark min-vh-100 w-100 d-flex flex-column justify-content-center"
         style={{

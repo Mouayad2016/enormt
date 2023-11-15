@@ -2,17 +2,6 @@ import React from 'react';
 import Candle from './candle';
 import Link from 'next/link';
 const AboutPageHero = () => {
-  // const handleSmothScrol = (event) => {
-  //   event.preventDefault();
-  //   const targetId = event.target.getAttribute('href');
-  //   const targetElemet = document.querySelector(targetId);
-  //   if (targetElemet) {
-  //     window.scrollTo({
-  //       top: targetElemet.offsetTop,
-  //       behavior: 'smooth',
-  //     });
-  //   }
-  // };
   return (
     <>
       <section className="gradient-backgroud pt-120 position-relative overflow-hidden">
@@ -44,9 +33,7 @@ const AboutPageHero = () => {
                   </div>
                 </div>
 
-                <div className="col-6 display-none-on-ipad">
-                  <Candle className=""></Candle>
-                </div>
+                <div className="col-6 display-none-on-ipad"></div>
               </div>
             </div>
           </div>

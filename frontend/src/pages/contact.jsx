@@ -7,6 +7,7 @@ import Navbar from '../components/header/Navbar';
 import Layout from '../components/layout/Layout';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+import ChatBubbleComponent from '../components/assistent/ChatBubbleComponenet';
 
 const Contact = () => {
   useEffect(() => {
@@ -21,23 +22,28 @@ const Contact = () => {
   }, []);
 
   return (
-    <Layout>
-      <PageMeta
-        title="Kontakta Enormt - Din partner för IT-lösningar | Kontakta oss idag"
-        description="Behöver du IT-vägledning? Kontakta oss idag för att starta din IT-resa. Boka ett möte för personlig rådgivning."
-        keywords="IT-vägledning, IT-resa, IT-lösningar, möten, rådgivning, Enormt, Solna, Sverige"
-      ></PageMeta>
-      <Navbar />
-      <PageHeader
-        blogtags={null}
-        integration={null}
-        title="Kontakta oss"
-        desc="Vi erbjuder vägledning inom IT. Vill du veta mer om hur vi kan assistera dig på din IT-resa? Kontakta oss via e-post, telefon eller vårt kontaktformulär. Du kan även boka ett direktmöte med oss genom vår mötesbokare."
-      />
-      <ContactBox />
-      <ContactFormTwo />
-      <FooterOne footerGradient />
-    </Layout>
+    <>
+      <div className="App">
+        <ChatBubbleComponent />
+      </div>
+      <Layout>
+        <PageMeta
+          title="Kontakta Enormt - Din partner för IT-lösningar | Kontakta oss idag"
+          description="Behöver du IT-vägledning? Kontakta oss idag för att starta din IT-resa. Boka ett möte för personlig rådgivning."
+          keywords="IT-vägledning, IT-resa, IT-lösningar, möten, rådgivning, Enormt, Solna, Sverige"
+        ></PageMeta>
+        <Navbar />
+        <PageHeader
+          blogtags={null}
+          integration={null}
+          title="Kontakta oss"
+          desc="Vi erbjuder vägledning inom IT. Vill du veta mer om hur vi kan assistera dig på din IT-resa? Kontakta oss via e-post, telefon eller vårt kontaktformulär. Du kan även boka ett direktmöte med oss genom vår mötesbokare."
+        />
+        <ContactBox />
+        <ContactFormTwo />
+        <FooterOne footerGradient />
+      </Layout>
+    </>
   );
 };
 
