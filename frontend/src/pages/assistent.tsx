@@ -28,7 +28,7 @@ const RequestDemo = () => {
           desc="Utforska vår avancerade, skräddarsydda AI-chatbot, drivet av ChatGPT 4 och 3.5-teknologi, designad exklusivt för att hantera och leverera information unik för just ert företag. Vår AI-assistent specialiserar sig på att förstå och navigera i era specifika företagsdata, produkter och tjänster, och erbjuder en personanpassad kundserviceupplevelse. Utrustad för att effektivt bemöta kundförfrågningar med precision och insikt, garanterar vår lösning att era kunder får korrekt och relevant information specifikt om ert företag, utan inblandning av externa datakällor."
         />
 
-        <FeatureAssistent />
+        <FeatureAssistent paddingTop={false} />
         <FooterOne footerGradient />
       </Layout>
     </>

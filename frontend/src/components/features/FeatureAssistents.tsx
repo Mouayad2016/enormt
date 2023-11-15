@@ -3,7 +3,7 @@ import SectionTitle from '../section/SectionTitle';
 
 import data from '../../data/db/assistent.json';
 import Link from 'next/link';
-const FeatureAssistent = (paddingTop: string) => {
+const FeatureAssistent = ({ paddingTop }) => {
   return (
     <>
       <section
