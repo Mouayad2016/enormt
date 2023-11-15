@@ -18,8 +18,6 @@
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
    </url>
-   
-      </url>
       <url>
       <loc>https://www.enormt.se/blogs</loc>
       <lastmod>2023-11-01</lastmod>
@@ -32,13 +30,37 @@
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
-      <url>
-      <loc>https://www.enormt.se/assistent</loc>
+   <url>
+      <loc>https://www.enormt.se/assistent/2DgdibGxueheez8WkEz-I</loc>
       <lastmod>2023-11-15</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
    </url>
+     <url>
+      <loc>https://www.enormt.se/assistent/hI2-AxsGRe1GWEJSjG3cr</loc>
+      <lastmod>2023-11-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+     <url>
+      <loc>https://www.enormt.se/assistent/utZc2i81cT4SWVuPUUzvm</loc>
+      <lastmod>2023-11-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+     <url>
+      <loc>https://www.enormt.se/assistent/HW3R_fuvaaGkYHBIAhNBa</loc>
+      <lastmod>2023-11-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
       <url>
+      <loc>https://www.enormt.se/assistent</loc>
+      <lastmod>2023-11-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
       <loc>https://www.enormt.se/services</loc>
       <lastmod>2023-11-10</lastmod>
       <changefreq>monthly</changefreq>
