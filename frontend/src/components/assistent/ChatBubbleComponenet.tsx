@@ -64,7 +64,7 @@ function ChatBubbleComponent() {
           )}
           <iframe
             className="bubble-chat-iframe"
-            src="https://www.chatbase.co/chatbot-iframe/-u5Om91pq1znJA-Ys2ASY"
+            src="https://www.chatbase.co/chatbot-iframe/Tjeb9gncWK0DhUXyvbzD0"
             // frameborder="0"
             onLoad={() => setIframeLoaded(true)}
           ></iframe>
