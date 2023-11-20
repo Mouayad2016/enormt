@@ -80,6 +80,7 @@
 
 .chat_assistent_item {
   border-radius: 12px;
+  width: 200px;
   padding: 12px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -111,6 +112,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .chat_assistent_item {
+    width: 100%;
+  }
   .chat-bubble {
     height: 120px;
     width: 120px;
