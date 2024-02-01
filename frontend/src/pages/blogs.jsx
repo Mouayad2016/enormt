@@ -11,9 +11,9 @@ const Blogs = () => {
   return (
     <>
       {' '}
-      <div className="App">
+      {/* <div className="App">
         <ChatBubbleComponent />
-      </div>{' '}
+      </div>{' '} */}
       <Layout>
         <PageMeta
           title="Senaste nyheter och bloggar från Enormt | IT-tips och insikter"

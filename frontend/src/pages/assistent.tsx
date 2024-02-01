@@ -13,9 +13,9 @@ import PageHeader from '../components/header/PageHeader';
 const RequestDemo = () => {
   return (
     <>
-      <div className="App">
+      {/* <div className="App">
         <ChatBubbleComponent />
-      </div>
+      </div> */}
       <Layout>
         <PageMeta
           title="Anpassad AI-Assistent | AI-Chatbot | Förbättra Kundservice med AI"

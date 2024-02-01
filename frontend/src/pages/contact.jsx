@@ -23,9 +23,9 @@ const Contact = () => {
 
   return (
     <>
-      <div className="App">
+      {/* <div className="App">
         <ChatBubbleComponent />
-      </div>
+      </div> */}
       <Layout>
         <PageMeta
           title="Kontakta Enormt - Din partner för IT-lösningar | Kontakta oss idag"

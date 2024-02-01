@@ -141,11 +141,11 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
                 Kom igång
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/assistent" className="nav-link">
                 AI assistent
               </Link>
-            </li>
+            </li> */}
 
             {/* <li>
               <Link href="/advo" className="nav-link">

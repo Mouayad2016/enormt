@@ -11,9 +11,9 @@ const RequestDemo = () => {
   return (
     <>
       {' '}
-      <div className="App">
+      {/* <div className="App">
         <ChatBubbleComponent />
-      </div>{' '}
+      </div>{' '} */}
       <Layout>
         <PageMeta
           title="Beställ din IT-lösning från Enormt | Kom igång och få ett offert"

@@ -11,9 +11,9 @@ import ChatBubbleComponent from '../components/assistent/ChatBubbleComponenet';
 const About = () => {
   return (
     <>
-      <div className="App">
+      {/* <div className="App">
         <ChatBubbleComponent />
-      </div>{' '}
+      </div>{' '} */}
       <Layout>
         <PageMeta
           title="Enormt - IT-lösningar på högsta nivå | IT-leverantör | Stockholm"

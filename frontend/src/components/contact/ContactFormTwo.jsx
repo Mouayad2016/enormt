@@ -96,7 +96,11 @@ const ContactFormTwo = () => {
               <div className="section-heading ">
                 <h2 className="text-dark">Kontakta oss</h2>
                 <p className="text-dark res-fs-5">
-                  Kontakta oss här så återkopplar vi så snart som möjligt.
+                  Kontakta oss här så återkopplar vi så snart som möjligt. Du kan kontakta oss direkt via följande  <br></br>
+                  <a href="mailto:info@enormt.se">
+                    info@enormt.se
+                  </a> eller 
+                  <a href="tel:+46733524957"> 073 352 49 57</a>
                 </p>
               </div>
 
@@ -271,8 +275,8 @@ const ContactFormTwo = () => {
                         kontakta vårt supportteam för hjälp.<br></br>
                       </p>
                       <p>
-                        <a className="me-2" href="mailto:info@omania.se">
-                          info@omania.se
+                        <a className="me-2" href="mailto:info@enormt.se">
+                          info@enormt.se
                         </a>
                         <a href="tel:+46733524957">073 352 49 57</a>
                       </p>

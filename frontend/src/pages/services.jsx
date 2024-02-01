@@ -10,9 +10,9 @@ import ChatBubbleComponent from '../components/assistent/ChatBubbleComponenet';
 const Services = () => {
   return (
     <Layout>
-      <div className="App">
+      {/* <div className="App">
         <ChatBubbleComponent />
-      </div>{' '}
+      </div>{' '} */}
       <PageMeta
         title="Enormt IT-lösningar | Omfattande IT-tjänster och support - Stockholm"
         description="Upptäck vårt utbud av IT-lösningar. Från skräddarsydda webbplatser till IT-system och mobilappar. Kontakta oss idag för att förbättra din affärs IT-behov."
