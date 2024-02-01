@@ -1,19 +1,9 @@
 {
   "redirects": [
     {
-      "source": "http://enormt.se/(.*)",
-      "destination": "https://www.enormt.se/$1",
-      "permanent": true
-    },
-    {
-      "source": "http://www.enormt.se/(.*)",
-      "destination": "https://www.enormt.se/$1",
-      "permanent": true
-    },
-    {
-      "source": "https://enormt.se/(.*)",
+      "source": "/(.*)",
       "destination": "https://www.enormt.se/$1",
       "permanent": true
     }
   ]
-}
+} 
