@@ -110,7 +110,7 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 						</li>
 						<li>
 							<Link
-								href='#services'
+								href='/services'
 								className='nav-link'
 								onClick={(e) => scrollToSection(e, "services")}
 							>
