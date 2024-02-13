@@ -11,6 +11,9 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/material": "^5.14.12",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
@@ -23,7 +26,6 @@
     "eslint-config-next": "13.5.2",
     "next": "^13.2.1",
     "next-svgr": "^0.0.2",
-    "postcss": "^8.4.31",
     "react": "18.2.0",
     "react-calendly": "^4.2.0",
     "react-dom": "18.2.0",
@@ -35,7 +37,9 @@
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@types/aos": "^3.0.5",
-    "@types/react-slick": "^0.23.10"
+    "@types/react-slick": "^0.23.10",
+    "postcss": "^8.4.35"
   }
 }
