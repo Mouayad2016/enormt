@@ -12,9 +12,6 @@ import UXUIDesign from "../components/hem/designCard";
 const Home = () => {
 	return (
 		<>
-			{/* <div className="App">
-        <ChatBubbleComponent />
-      </div> */}
 			<Layout>
 				<PageMeta
 					title='Enormt - Anpassad IT-Systemutveckling | Ledande IT-leverantör'
@@ -24,7 +21,6 @@ const Home = () => {
 				<Navbar />
 				<HeroNine />
 				<CryptoCustomerCounter />
-				<TechTab />
 				<HomeSection></HomeSection>
 				<UXUIDesign></UXUIDesign>
 				<FooterOne footerGradient />

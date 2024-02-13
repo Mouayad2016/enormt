@@ -28,31 +28,35 @@ const FeatureTwo = ({ cardDark }) => {
 						<div className='col-12'>
 							<div className='feature-grid'>
 								{db.map((e, index) => (
-									<div
-										key={index}
-										className={`feature-card shadow-sm rounded-custom p-5 ${
-											cardDark
-												? "bg-custom-light promo-border-hover border border-2 border-light text-white"
-												: "bg-white"
-										}`}
+									<Link
+										href={`/service/${e.tjänst_sida.rubrik}`}
+										className='text-decoration-none mt-3'
 									>
-										<div className={`mb-32 `}>
-											<i className={e.tjänst_sida.liClsssName}>
-												<FontAwesomeIcon icon={e.tjänst_sida.iconName} />
-											</i>
-										</div>
-										<div className='feature-content'>
-											<h3 className='h5'> {e.tjänst_sida.rubrik} </h3>
-											<p className='mb-0'>{e.tjänst_sida.des}</p>
-										</div>
-										<Link
-											href={`/service/${e.tjänst_sida.rubrik}`}
-											className='link-with-icon text-decoration-none mt-3'
+										<div
+											key={index}
+											className={`feature-card shadow-sm rounded-custom p-5 ${
+												cardDark
+													? "bg-custom-light promo-border-hover border border-2 border-light text-white"
+													: "bg-white "
+											}`}
 										>
-											Läs mer
-											<FontAwesomeIcon icon='fa-arrow-right' />
-										</Link>
-									</div>
+											<div className={`mb-32 `}>
+												<FontAwesomeIcon
+													icon={e.tjänst_sida.iconName}
+													size='2x'
+													className={`${e.tjänst_sida.liClsssName}`}
+												/>
+											</div>
+											<div className='feature-content'>
+												<h3 className='h5'> {e.tjänst_sida.rubrik} </h3>
+												<p className='mb-0'>{e.tjänst_sida.des}</p>
+											</div>
+											<div className='mt-3'>
+												<span className='me-3 '> Läs mer</span>
+												<FontAwesomeIcon icon='fa-arrow-right' />
+											</div>
+										</div>
+									</Link>
 								))}
 							</div>
 						</div>

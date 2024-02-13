@@ -1,4 +1,3 @@
-
 import React from "react";
 import PageHeader from "../components/header/PageHeader";
 import PageMeta from "../components/meta/PageMeta";
@@ -8,15 +7,14 @@ import Navbar from "../components/header/Navbar";
 import Layout from "../components/layout/Layout";
 
 const Policy = () => {
-  return (
-    <Layout>
-      <PageMeta title="Enormt - Policy" />
-      <Navbar />
-      {/* <PageHeadesr /> */}
-      <PolicyBody bgWhite />
-      <FooterOne footerGradient />
-    </Layout>
-  );
+	return (
+		<Layout>
+			<PageMeta title='Enormt - Policy' />
+			<Navbar />
+			<PolicyBody bgWhite />
+			<FooterOne footerGradient />
+		</Layout>
+	);
 };
 
 export default Policy;

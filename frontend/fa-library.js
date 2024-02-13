@@ -8,6 +8,14 @@ const {
 	faCode,
 	faCheckCircle,
 	faHandshakeAlt,
+	faBezierCurve,
+	faHandsHelping,
+	faLeaf,
+	faPeopleCarry,
+	faPhone,
+	faEnvelope,
+	faCommentAlt,
+	faCheck,
 } = require("@fortawesome/free-solid-svg-icons");
 
 library.add(
@@ -17,5 +25,13 @@ library.add(
 	faMobileScreenButton,
 	faCode,
 	faHandshakeAlt,
-	faCheckCircle
+	faCheckCircle,
+	faBezierCurve,
+	faHandsHelping,
+	faLeaf,
+	faPeopleCarry,
+	faPhone,
+	faEnvelope,
+	faCommentAlt,
+	faCheck
 );
