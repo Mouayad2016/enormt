@@ -12,11 +12,11 @@ const CryptoCustomerCounter = () => {
 					<h2 className='mb-md-5 text-dark justify-content-cente text-center'>
 						Växande utbud av IT-lösningar
 					</h2>
-					<h2 className='mb-4 text-dark res-fs-5 text-center'>
+					{/* <h2 className='mb-4 text-dark res-fs-5 text-center'>
 						Alla våra lösningar kommer med
 						<span className='text-info'> 12 mån garanti</span> och
 						<span className='text-info'> 6 månader IT-suppor</span>
-					</h2>
+					</h2> */}
 					<p className='res-fs-5 text-center'>
 						Vi specialiserar oss på att skapa digitala lösningar av högsta
 						klass, skräddarsydda för dina unika behov. Genom att använda den

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type ServiceProps = {
 	className?: string;
@@ -103,7 +104,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Responsiv
 							</span>
@@ -116,7 +117,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Fasta priser
 							</span>
@@ -130,7 +131,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Sökmotoroptimering
 							</span>
@@ -143,7 +144,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								12 Mån garanti
 							</span>
@@ -156,7 +157,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Automatisering
 							</span>
@@ -169,7 +170,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								6 Mån IT-support
 							</span>
@@ -182,7 +183,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Anpassningsbar
 							</span>
@@ -195,7 +196,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Unik design
 							</span>
@@ -208,7 +209,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Både IOS och Android
 							</span>
@@ -221,7 +222,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Landing page
 							</span>
@@ -235,7 +236,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Ökad organisk trafik
 							</span>
@@ -248,7 +249,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Rätt nyckelord för din bransch
 							</span>
@@ -261,7 +262,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Regelbundna SEO-rapporter
 							</span>
@@ -274,7 +275,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Konkurrentanalys
 							</span>
@@ -287,7 +288,7 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Optimerat innehåll för engagemang
 							</span>
@@ -300,12 +301,12 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Toppa listan på sökmotorer
 								<br />
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Uppföljning och uppdateringar
 							</span>
@@ -318,11 +319,11 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-white'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								UX & UI <br />
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Responsiv design <br />
 							</span>
@@ -335,12 +336,12 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Riktade annonser mot rätt folk
 								<br />
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Syns på toppen i sökresultat
 								<br />
@@ -354,12 +355,12 @@ const Service: React.FC<ServiceProps> = ({
 							<br />
 							<span className='text-light'>
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Välj bland 50 konsulter
 								<br />
 								<span className='service-green me-sm-3'>
-									<i className='fas fa-check'></i>
+									<FontAwesomeIcon icon={"check"}></FontAwesomeIcon>
 								</span>
 								Nytta garanti <br />
 							</span>

@@ -16,12 +16,14 @@ const HeroNine = () => {
 								Vi stöttar våra klienter genom den digitala transformationen och
 								erbjuder högkvalitativa, skräddarsydda lösningar. Med{" "}
 								<span className='text-info fw-bolder'>
-									<i className='fas fa-check'></i> 12 månaders garanti{" "}
+									<FontAwesomeIcon icon='fa-check'></FontAwesomeIcon> 12
+									månaders garanti
 								</span>
-								och{" "}
+								<span> och </span>
 								<span className='text-info fw-bolder'>
-									<i className='fas fa-check'></i> 6 månaders IT-support
-								</span>{" "}
+									<FontAwesomeIcon icon='fa-check'></FontAwesomeIcon> 6 månaders
+									IT-support
+								</span>
 								är vår ambition att leverera innovativa och säkra lösningar för
 								en mer hållbar framtid.
 							</p>

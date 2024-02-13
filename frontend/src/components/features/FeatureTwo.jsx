@@ -29,11 +29,11 @@ const FeatureTwo = ({ cardDark }) => {
 							<div className='feature-grid'>
 								{db.map((e, index) => (
 									<Link
+										key={index}
 										href={`/service/${e.tjänst_sida.rubrik}`}
 										className='text-decoration-none mt-3'
 									>
 										<div
-											key={index}
 											className={`feature-card shadow-sm rounded-custom p-5 ${
 												cardDark
 													? "bg-custom-light promo-border-hover border border-2 border-light text-white"

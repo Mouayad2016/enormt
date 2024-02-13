@@ -51,7 +51,7 @@
     "src/pages/index.jsx",
     "src/pages/_document.tsx",
     "src/pages/_app.tsx"
-, "src/components/header/OffCanvasMenu.jsx"  ],
+, "src/components/header/OffCanvasMenu.jsx", "src/components/hem/HeroNine.jsx"  ],
   "exclude": [
     "node_modules"
   ]

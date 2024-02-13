@@ -16,6 +16,7 @@ const {
 	faEnvelope,
 	faCommentAlt,
 	faCheck,
+	faClose,
 } = require("@fortawesome/free-solid-svg-icons");
 
 library.add(
@@ -33,5 +34,6 @@ library.add(
 	faPhone,
 	faEnvelope,
 	faCommentAlt,
-	faCheck
+	faCheck,
+	faClose
 );
