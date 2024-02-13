@@ -60,10 +60,10 @@ class MyDocument extends Document {
 					/>
 					<meta name='twitter:image' content='/assets/img/enormt/meta/so.png' />
 
-					{/* <link
+					<link
 						href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap'
 						rel='stylesheet'
-					/> */}
+					/>
 					<link rel='stylesheet' href='/assets/fonts/fontawesome-all.min.css' />
 					{/* Google Tag Manager */}
 					{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCL9E8MFP9"></script> */}
