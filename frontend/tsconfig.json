@@ -49,7 +49,7 @@
     "src/components/hem/service.tsx",
     "src/pages/404.tsx",
     "src/pages/index.jsx",
-    "src/pages/_document.jsx",
+    "src/pages/_document.tsx",
     "src/pages/_app.tsx"
 , "src/components/header/OffCanvasMenu.jsx", "src/components/hem/HeroNine.jsx"  ],
   "exclude": [
