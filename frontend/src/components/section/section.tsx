@@ -77,13 +77,13 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
 										))}
 									</ul>
 								</div>
-								<div className='col-lg-6 order-lg-1'>
+								<div className='col-lg-6 order-lg-1 align-items-center'>
 									<Image
 										src={`/assets/img/enormt/services/${section.imge}`}
 										alt=''
 										width={300}
 										height={300}
-										className='img-fluid'
+										className='img-fluid '
 									/>
 								</div>
 							</div>

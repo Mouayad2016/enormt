@@ -6,7 +6,6 @@ function HomeSection() {
 			<h2 className='mb-md-5 text-dark justify-content-center text-center'>
 				Anpassade plattformar
 			</h2>
-
 			<p className='res-fs-5 text-dark home-section-paragraph text-center'>
 				Vi levererar skräddarsydda plattformar till nordiska startups och
 				företag. Med många års erfarenhet av att utveckla både
