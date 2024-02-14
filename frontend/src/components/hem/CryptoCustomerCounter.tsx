@@ -31,7 +31,7 @@ const CryptoCustomerCounter = () => {
 							title='Webbutveckling'
 							desc='Anpassade webbapplikationer för alla plattformar.'
 							responsive={true}
-							link='service/webbutveckling'
+							link='service/Webbutveckling'
 							linkLable='Läs mer'
 							seo={true}
 							unikDesign={true}

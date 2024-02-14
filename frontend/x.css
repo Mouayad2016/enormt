@@ -3677,15 +3677,6 @@ textarea:-ms-input-placeholder {
 .home-section:before {
 	display: none;
 }
-.home-section-paragraph {
-	font-size: 20px;
-	line-height: 1.7;
-	max-width: 800px;
-	margin: 0 auto;
-	text-align: justify;
-	opacity: 0.9;
-	animation: fadeInUp 1s 0.5s both;
-}
 
 /* !NO hover on element on mobile */
 @media (max-width: 767px) {

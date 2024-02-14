@@ -28,8 +28,6 @@ const AboutPageHero = () => {
 										</Link>
 									</div>
 								</div>
-
-								<div className='col-6 display-none-on-ipad'></div>
 							</div>
 						</div>
 					</div>
