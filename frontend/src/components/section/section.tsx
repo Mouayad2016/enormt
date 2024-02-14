@@ -42,13 +42,13 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
 										))}
 									</ul>
 								</div>
-								<div className='col-lg-6 order-lg-2'>
+								<div className='col-lg-6 order-lg-2 d-flex justify-content-xl-center align-items-sm-center'>
 									<Image
 										width={300}
 										height={300}
 										src={`/assets/img/enormt/services/${section.imge}`}
 										alt={section.imge}
-										className='img-fluid'
+										className=''
 									/>
 								</div>
 							</div>
@@ -77,13 +77,13 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
 										))}
 									</ul>
 								</div>
-								<div className='col-lg-6 order-lg-1 align-items-center'>
+								<div className='col-lg-6 order-lg-1 d-flex justify-content-xl-center '>
 									<Image
 										src={`/assets/img/enormt/services/${section.imge}`}
 										alt=''
 										width={300}
 										height={300}
-										className='img-fluid '
+										className=''
 									/>
 								</div>
 							</div>
