@@ -34,10 +34,10 @@ class MyDocument extends Document {
 						href='%PUBLIC_URL%/assets/img/enormt/logo/apple-touch-icon.png'
 					/>
 
-					{/* <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-          /> */}
+					<meta
+						name='viewport'
+						content='width=device-width, initial-scale=1.0, maximum-scale=1.0'
+					/>
 					<meta name='theme-color' content='#000000' />
 
 					<meta property='og:image' content='/assets/img/enormt/meta/so.png' />
