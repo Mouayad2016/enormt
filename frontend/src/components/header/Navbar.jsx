@@ -9,7 +9,6 @@ const OffCanvasMenu = dynamic(() => import("./OffCanvasMenu"), {
 });
 const NavBarButton = dynamic(() => import("../button/navBarButton"), {
 	loading: () => <p>Loading...</p>,
-	ssr: false,
 });
 
 const Navbar = () => {

@@ -7,11 +7,9 @@ import Layout from "../components/layout/Layout";
 const FeatureTwo = dynamic(() => import("../components/features/FeatureTwo"));
 const FooterOne = dynamic(() => import("../components/footer/FooterOne"), {
 	loading: () => <p>Loading...</p>,
-	ssr: false,
 });
 const Navbar = dynamic(() => import("../components/header/Navbar"), {
 	loading: () => <p>Loading...</p>,
-	ssr: false,
 });
 
 const Services = () => {
