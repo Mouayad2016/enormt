@@ -19,8 +19,6 @@ import "../../fa-library";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-import "aos/dist/aos.css"; // You can also use <link> in your document's <head> section
-
 import type { AppProps } from "next/app";
 import React from "react";
 
