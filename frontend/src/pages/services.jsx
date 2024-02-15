@@ -1,8 +1,9 @@
 import React from "react";
 import PageHeader from "../components/header/PageHeader";
+import dynamic from "next/dynamic"; // Import dynamic from Next.js
 import PageMeta from "../components/meta/PageMeta";
-import FeatureTwo from "../components/features/FeatureTwo";
-import FooterOne from "../components/footer/FooterOne";
+const FeatureTwo = dynamic(() => import("../components/features/FeatureTwo"));
+const FooterOne = dynamic(() => import("../components/footer/FooterOne"));
 import Navbar from "../components/header/Navbar";
 import Layout from "../components/layout/Layout";
 
