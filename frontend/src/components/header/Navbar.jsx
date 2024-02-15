@@ -71,6 +71,7 @@ const Navbar = () => {
 					<div className='container d-flex align-items-center justify-content-lg-between position-relative'>
 						<div className='logo'>
 							<Link
+								prefetch={false}
 								href='/'
 								className='navbar-brand d-flex align-items-center mb-md-0 text-decoration-none'
 							>
@@ -102,12 +103,12 @@ const Navbar = () => {
 						<div className='collapse navbar-collapse justify-content-center'>
 							<ul className='nav col-12 col-md-auto justify-content-center main-menu'>
 								<li>
-									<Link href='/' className='nav-link'>
+									<Link href='/' className='nav-link' prefetch={false}>
 										Hem
 									</Link>
 								</li>
 								<li>
-									<Link href='/about' className='nav-link'>
+									<Link href='/about' className='nav-link' prefetch={false}>
 										Om oss
 									</Link>
 								</li>
@@ -115,13 +116,14 @@ const Navbar = () => {
 									<Link
 										href='/services'
 										className='nav-link'
+										prefetch={false}
 										// onClick={(e) => scrollToSection(e, 'services')}
 									>
 										Tjänster
 									</Link>
 								</li>
 								<li>
-									<Link href='/contact' className='nav-link'>
+									<Link href='/contact' className='nav-link' prefetch={false}>
 										Kontakta oss
 									</Link>
 								</li>
@@ -130,6 +132,7 @@ const Navbar = () => {
 									<Link
 										href='#prices'
 										className='nav-link'
+										prefetch={false}
 										onClick={(e) => scrollToSection(e, "prices")}
 									>
 										Priser
@@ -137,24 +140,18 @@ const Navbar = () => {
 								</li>
 
 								<li>
-									<Link href='/blogs' className='nav-link'>
+									<Link href='/blogs' className='nav-link' prefetch={false}>
 										Bloggar
 									</Link>
 								</li>
-								{/* <li>
-                  <Link href="/assistent" className="nav-link">
-                    AI assistent
-                  </Link>
-                </li> */}
-								{/* <li>
-                  <Link href="/advo" className="nav-link">
-                    Advo
-                  </Link>
-                </li> */}
 							</ul>
 						</div>
 						<div className='action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block'>
-							<Link href='/demo' className='display-none-max-with-1200'>
+							<Link
+								href='/demo'
+								className='display-none-max-with-1200'
+								prefetch={false}
+							>
 								<NavBarButton></NavBarButton>
 							</Link>
 						</div>

@@ -45,29 +45,6 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 		}
 	}
 
-	function scrollToPrices(event, sectionId) {
-		event.preventDefault();
-
-		const targetSection = document.getElementById(sectionId);
-
-		if (router.pathname === "/") {
-			if (targetSection) {
-				targetSection.scrollIntoView({
-					behavior: "smooth",
-				});
-			}
-		} else {
-			// Navigate to the homepage and then to the section
-			router.push("/").then(() => {
-				const target = document.getElementById(sectionId);
-				if (target) {
-					target.scrollIntoView({
-						behavior: "smooth",
-					});
-				}
-			});
-		}
-	}
 	const handleScroll = () => {
 		setScroll(window.scrollY);
 	};
@@ -77,6 +54,7 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 			<div className={`offcanvas offcanvas-end ${showClass}`} tabIndex={-1}>
 				<div className='offcanvas-header d-flex align-items-center mt-4'>
 					<Link
+						prefetch={false}
 						href='/'
 						className={`d-flex align-items-center mb-md-0 text-decoration-none `}
 					>
@@ -99,17 +77,18 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 				<div className='offcanvas-body'>
 					<ul className='nav col-12 col-md-auto justify-content-center main-menu'>
 						<li>
-							<Link href='/' className='nav-link'>
+							<Link prefetch={false} href='/' className='nav-link'>
 								Hem
 							</Link>
 						</li>
 						<li>
-							<Link href='/about' className='nav-link'>
+							<Link prefetch={false} href='/about' className='nav-link'>
 								Om oss
 							</Link>
 						</li>
 						<li>
 							<Link
+								prefetch={false}
 								href='/services'
 								className='nav-link'
 								onClick={(e) => scrollToSection(e, "services")}
@@ -118,12 +97,13 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 							</Link>
 						</li>
 						<li>
-							<Link href='/contact' className='nav-link'>
+							<Link prefetch={false} href='/contact' className='nav-link'>
 								Kontakta oss
 							</Link>
 						</li>
 						<li>
 							<Link
+								prefetch={false}
 								href='#prices'
 								className='nav-link'
 								onClick={(e) => scrollToSection(e, "prices")}
@@ -133,26 +113,15 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 						</li>
 
 						<li>
-							<Link href='/blogs' className='nav-link'>
+							<Link prefetch={false} href='/blogs' className='nav-link'>
 								Bloggar
 							</Link>
 						</li>
 						<li>
-							<Link href='/demo' className='nav-link'>
+							<Link prefetch={false} href='/demo' className='nav-link'>
 								Kom igång
 							</Link>
 						</li>
-						{/* <li>
-              <Link href="/assistent" className="nav-link">
-                AI assistent
-              </Link>
-            </li> */}
-
-						{/* <li>
-              <Link href="/advo" className="nav-link">
-                Advo
-              </Link>
-            </li> */}
 					</ul>
 					<div className='action-btns mt-4 ps-3'></div>
 				</div>
