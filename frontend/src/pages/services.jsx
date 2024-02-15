@@ -1,12 +1,18 @@
 import React from "react";
 import PageHeader from "../components/header/PageHeader";
-import dynamic from "next/dynamic"; // Import dynamic from Next.js
+import dynamic from "next/dynamic";
 import PageMeta from "../components/meta/PageMeta";
 import Layout from "../components/layout/Layout";
 
 const FeatureTwo = dynamic(() => import("../components/features/FeatureTwo"));
-const FooterOne = dynamic(() => import("../components/footer/FooterOne"));
-const Navbar = dynamic(() => import("../components/header/Navbar"));
+const FooterOne = dynamic(() => import("../components/footer/FooterOne"), {
+	loading: () => <p>Loading...</p>,
+	ssr: false,
+});
+const Navbar = dynamic(() => import("../components/header/Navbar"), {
+	loading: () => <p>Loading...</p>,
+	ssr: false,
+});
 
 const Services = () => {
 	return (

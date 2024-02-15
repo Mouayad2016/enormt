@@ -6,7 +6,6 @@ import Image from "next/image";
 
 const OffCanvasMenu = dynamic(() => import("./OffCanvasMenu"), {
 	loading: () => <p>Loading...</p>,
-	ssr: false,
 });
 const NavBarButton = dynamic(() => import("../button/navBarButton"), {
 	loading: () => <p>Loading...</p>,
