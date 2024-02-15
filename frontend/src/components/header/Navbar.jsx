@@ -113,12 +113,7 @@ const Navbar = () => {
 									</Link>
 								</li>
 								<li>
-									<Link
-										href='/services'
-										className='nav-link'
-										prefetch={false}
-										// onClick={(e) => scrollToSection(e, 'services')}
-									>
+									<Link href='/services' className='nav-link' prefetch={false}>
 										Tjänster
 									</Link>
 								</li>

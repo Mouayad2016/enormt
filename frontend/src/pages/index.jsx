@@ -1,7 +1,6 @@
 import React from "react";
 import PageMeta from "../components/meta/PageMeta";
 import CryptoCustomerCounter from "../components/hem/CryptoCustomerCounter";
-import TechTab from "../components/tabs/TechTab";
 import FooterOne from "../components/footer/FooterOne";
 import Navbar from "../components/header/Navbar";
 import Layout from "../components/layout/Layout";
