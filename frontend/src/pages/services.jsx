@@ -2,10 +2,11 @@ import React from "react";
 import PageHeader from "../components/header/PageHeader";
 import dynamic from "next/dynamic"; // Import dynamic from Next.js
 import PageMeta from "../components/meta/PageMeta";
+import Layout from "../components/layout/Layout";
+
 const FeatureTwo = dynamic(() => import("../components/features/FeatureTwo"));
 const FooterOne = dynamic(() => import("../components/footer/FooterOne"));
-import Navbar from "../components/header/Navbar";
-import Layout from "../components/layout/Layout";
+const Navbar = dynamic(() => import("../components/header/Navbar"));
 
 const Services = () => {
 	return (
