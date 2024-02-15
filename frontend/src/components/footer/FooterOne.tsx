@@ -4,7 +4,6 @@ import dynamic from "next/dynamic"; // Import dynamic from Next.js
 
 const SocialCard = dynamic(() => import("./socialCard"), {
 	loading: () => <p>Loading...</p>,
-	ssr: false,
 });
 
 type FooterOneProps = {
