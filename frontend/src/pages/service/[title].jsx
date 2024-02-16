@@ -48,8 +48,8 @@ const SingleService = () => {
 					keywords={meta_keywords}
 				/>
 				<Navbar />
-				<PageHeader title={"title"} desc={"dec"} />
-				<Section paddingTop={true} sections={sections} />
+				{/* <PageHeader title={title} desc={dec} />
+				<Section paddingTop={true} sections={sections} /> */}
 				<FooterOne footerGradient />
 			</Layout>{" "}
 		</>
