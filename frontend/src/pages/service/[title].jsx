@@ -1,12 +1,21 @@
 import React, { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+
 import PageHeader from "../../components/header/PageHeader";
 import PageMeta from "../../components/meta/PageMeta";
-import FooterOne from "../../components/footer/FooterOne";
-import Navbar from "../../components/header/Navbar";
+
 import Layout from "../../components/layout/Layout";
 import { useRouter } from "next/router";
 import db from "../../data/db/data";
 import Section from "../../components/section/section";
+
+const FooterOne = dynamic(() => import("../../components/footer/FooterOne"), {
+	loading: () => <p>Loading...</p>,
+});
+
+const Navbar = dynamic(() => import("../../components/header/Navbar"), {
+	loading: () => <p>Loading...</p>,
+});
 
 const SingleService = () => {
 	const [item, setitem] = useState({});
