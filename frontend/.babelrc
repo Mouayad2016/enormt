@@ -1,4 +1,11 @@
 {
-    "presets": ["next/babel"],
-    "plugins": []
-  }
+	"presets": [
+		[
+			"next/babel",
+			{
+				"targets": "> 0.25%, not dead"
+			}
+		]
+	],
+	"plugins": []
+}
