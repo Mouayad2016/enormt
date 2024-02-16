@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
+import { useRouter } from "next/router";
 
 import PageHeader from "../../components/header/PageHeader";
 import PageMeta from "../../components/meta/PageMeta";
 
 import Layout from "../../components/layout/Layout";
-import { useRouter } from "next/router";
 import db from "../../data/db/data";
 import Section from "../../components/section/section";
 
@@ -56,7 +56,7 @@ const SingleService = () => {
 					blogtags={null}
 				/>
 				<Section paddingTop={true} sections={sections} />
-				<FooterOne footerGradient />
+				{/* <FooterOne footerGradient /> */}
 			</Layout>{" "}
 		</>
 	);
