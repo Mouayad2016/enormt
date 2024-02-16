@@ -10,7 +10,7 @@ const FeatureTwo = ({ cardDark }) => {
 		<>
 			<section
 				className={`feature-section ptb-100 ${
-					cardDark ? "bg-dark" : "bg-light"
+					cardDark ? "bg-dark" : "bg-white"
 				}`}
 			>
 				<div className='container'>
