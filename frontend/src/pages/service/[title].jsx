@@ -42,7 +42,6 @@ const SingleService = () => {
 
 	return (
 		<>
-		
 			<Layout>
 				<PageMeta
 					title={meta_title}
@@ -56,7 +55,7 @@ const SingleService = () => {
 					integration={null}
 					blogtags={null}
 				/>
-				{/* <Section paddingTop={true} sections={sections} /> */}
+				<Section paddingTop={true} sections={sections} />
 				<FooterOne footerGradient />
 			</Layout>{" "}
 		</>
