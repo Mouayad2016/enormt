@@ -368,9 +368,7 @@
 .service-green {
 	color: rgb(136, 255, 125);
 }
-.feature-section {
-	min-height: 2500px;
-}
+
 /* Adjustments for smaller screens */
 
 @media (max-width: 500px) {
