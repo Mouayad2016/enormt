@@ -4,7 +4,7 @@ const PageHeader = ({ title, desc }) => {
 	return (
 		<>
 			{
-				<section className='gradient-backgroud position-relative overflow-hidden ptb-60'>
+				<section className='page-header-mini-height gradient-backgroud position-relative overflow-hidden ptb-60'>
 					<div className='container pt-5'>
 						<div className={`row`}>
 							<div className='col-lg-8 col-md-12'>

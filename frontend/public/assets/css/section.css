@@ -1,11 +1,29 @@
 .line_omaina {
-    stroke: bisque;
+	stroke: bisque;
 }
 
 .section_one {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 .section_tow {
-    padding-top: 20px;
+	padding-top: 20px;
+}
+
+.page-header-mini-height {
+	min-height: 450px; /* Default min-height for larger screens */
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+	.page-header-mini-height {
+		min-height: 350px; /* Slightly smaller for tablets */
+	}
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+	.page-header-mini-height {
+		min-height: 650px;
+	}
 }
