@@ -11,7 +11,8 @@ function SocialCard() {
 			<a href='https://www.linkedin.com/company/enormt-se/?viewAsMember=true'>
 				<div className='box box1'>
 					<span className='icon'>
-						<LinkedinIcon className='svg' alt='Linkedin' />
+						<LinkedinIcon className='svg' />
+						<span className='visually-hidden'>Linkedin</span>
 					</span>
 				</div>
 			</a>
@@ -34,7 +35,8 @@ function SocialCard() {
 			<a href='https://www.facebook.com/profile.php?id=61550948814250'>
 				<div className='box box3'>
 					<span className='icon'>
-						<FacebookIcon className='svg' alt='Facebook' />
+						<FacebookIcon className='svg' />
+						<span className='visually-hidden'>Facebook</span>
 					</span>
 				</div>
 			</a>
