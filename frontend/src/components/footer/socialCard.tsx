@@ -1,6 +1,6 @@
 import React from "react";
-import LinkedinIcon from "./socialCardAssets/linkedin.svg"; // Import the SVG as a component
-import FacebookIcon from "./socialCardAssets/facebook.svg"; // Import the SVG as a component
+import LinkedinIcon from "./socialCardAssets/linkedin.svg";
+import FacebookIcon from "./socialCardAssets/facebook.svg";
 
 function SocialCard() {
 	return (

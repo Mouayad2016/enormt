@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import dynamic from "next/dynamic"; // Import dynamic from Next.js
+import dynamic from "next/dynamic";
 
 const SocialCard = dynamic(() => import("./socialCard"), {
 	loading: () => <p>Loading...</p>,

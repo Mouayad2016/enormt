@@ -29,7 +29,6 @@ const FeatureTwo = ({ cardDark }) => {
 							<div className='feature-grid'>
 								{db.map((e, index) => (
 									<Link
-										aria-label='IT service'
 										key={index}
 										href={`/service/${e.tjänst_sida.rubrik}`}
 										className='text-decoration-none mt-3'
