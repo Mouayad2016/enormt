@@ -54,7 +54,7 @@ const Section: React.FC<ServiceProps> = ({ paddingTop, sections }) => {
 									/>
 								</div>
 							</div>
-						</div>{" "}
+						</div>
 					</div>
 				) : (
 					<div key={section.index} className='section_tow'>

@@ -48,7 +48,7 @@ const SingleService = () => {
 					description={meta_dec}
 					keywords={meta_keywords}
 				/>
-				<Navbar navDark={false} />
+				<Navbar />
 				<PageHeader
 					title={`${title}`}
 					desc={dec}
