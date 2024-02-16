@@ -56,7 +56,7 @@ const SingleService = () => {
 					blogtags={null}
 				/>
 				<Section paddingTop={true} sections={sections} />
-				{/* <FooterOne footerGradient /> */}
+				<FooterOne footerGradient />
 			</Layout>{" "}
 		</>
 	);
