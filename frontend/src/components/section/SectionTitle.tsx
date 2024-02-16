@@ -25,7 +25,7 @@ const SectionTitle: React.FC<ServiceProps> = ({
 							: "section-heading text-center-mobile"
 					}`}
 				>
-					<h4 className={`h5 ${dark ? "text-warning" : "text-black-50"}`}>
+					<h4 className={`h5 ${dark ? "text-warning" : "text-black"}`}>
 						{subtitle}
 					</h4>
 					<h2 className='text-dark pt-20 text-center-mobile'>{title}</h2>
