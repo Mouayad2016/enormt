@@ -21,10 +21,10 @@ const Services = () => {
 				keywords='IT-lösningar, webbutveckling, mobilappar, IT-supports, SEO, databashantering, IT-partners, skräddarsydda IT-lösningar, användarvänlig design, molntjänster'
 			></PageMeta>
 			{/* <Navbar /> */}
-			<PageHeader
+			{/* <PageHeader
 				title='Växande utbud av IT-lösningar'
 				desc='Vi erbjuder en omfattande portfölj av IT-tjänster, skräddarsydda för att möta just ert företags unika behov. Vårt team av experter specialiserar sig på att utveckla innovativa och skräddarsydda IT-lösningar som moderniserar & driver era affärsresultat framåt.'
-			/>
+			/> */}
 			<FeatureTwo />
 			<FooterOne footerGradient />
 		</Layout>
