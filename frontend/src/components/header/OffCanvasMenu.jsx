@@ -91,7 +91,7 @@ const OffCanvasMenu = ({ isOpen, toggleOffCanvas }) => {
 								prefetch={false}
 								href='/services'
 								className='nav-link'
-								onClick={(e) => scrollToSection(e, "services")}
+								// onClick={(e) => scrollToSection(e, "services")}
 							>
 								Tjänster
 							</Link>

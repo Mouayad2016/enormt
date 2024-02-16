@@ -20,7 +20,7 @@ const Services = () => {
 				description='Upptäck vårt utbud av IT-lösningar. Från skräddarsydda webbplatser till IT-system och mobilappar. Kontakta oss idag för att förbättra din affärs IT-behov.'
 				keywords='IT-lösningar, webbutveckling, mobilappar, IT-supports, SEO, databashantering, IT-partners, skräddarsydda IT-lösningar, användarvänlig design, molntjänster'
 			></PageMeta>
-			<Navbar />
+			{/* <Navbar /> */}
 			<PageHeader
 				title='Växande utbud av IT-lösningar'
 				desc='Vi erbjuder en omfattande portfölj av IT-tjänster, skräddarsydda för att möta just ert företags unika behov. Vårt team av experter specialiserar sig på att utveckla innovativa och skräddarsydda IT-lösningar som moderniserar & driver era affärsresultat framåt.'
