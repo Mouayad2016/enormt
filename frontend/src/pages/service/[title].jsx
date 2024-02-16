@@ -21,7 +21,6 @@ const SingleService = () => {
 	const [item, setitem] = useState({});
 	const router = useRouter();
 	const { title } = router.query;
-	console.log(title);
 	useEffect(() => {
 		const selectedItem = db.find((item) => item.tjänst_sida.rubrik === title);
 		setitem(selectedItem);
@@ -49,12 +48,7 @@ const SingleService = () => {
 					keywords={meta_keywords}
 				/>
 				<Navbar />
-				<PageHeader
-					title={`${title}`}
-					desc={dec}
-					integration={null}
-					blogtags={null}
-				/>
+				<PageHeader title={"title"} desc={"dec"} />
 				<Section paddingTop={true} sections={sections} />
 				<FooterOne footerGradient />
 			</Layout>{" "}
