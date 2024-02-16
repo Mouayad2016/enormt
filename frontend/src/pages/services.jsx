@@ -25,8 +25,8 @@ const Services = () => {
 				title='Växande utbud av IT-lösningar'
 				desc='Vi erbjuder en omfattande portfölj av IT-tjänster, skräddarsydda för att möta just ert företags unika behov. Vårt team av experter specialiserar sig på att utveckla innovativa och skräddarsydda IT-lösningar som moderniserar & driver era affärsresultat framåt.'
 			/> */}
-			<FeatureTwo />
-			<FooterOne footerGradient />
+			{/* <FeatureTwo /> */}
+			{/* <FooterOne footerGradient /> */}
 		</Layout>
 	);
 };
