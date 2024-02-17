@@ -32,7 +32,7 @@ const Home = () => {
 				/>
 				<Navbar />
 				<HeroNine />
-				{/* <CryptoCustomerCounter /> */}
+				<CryptoCustomerCounter />
 				<HomeSection></HomeSection>
 				<UXUIDesign></UXUIDesign>
 				<FooterOne footerGradient />

@@ -57,7 +57,7 @@ function DesignCard() {
 									</li>
 									<li className='fw-bold'>Inkludera källfil</li>
 								</ul>
-								<Link className='card__cta cta' href='/demo'>
+								<Link className='card__cta cta' href='/demo' prefetch={false}>
 									Kom igång
 								</Link>
 							</div>
@@ -99,7 +99,7 @@ function DesignCard() {
 									<li className='fw-bold'>Prototyp</li>
 									<li className='fw-bold'>Inkludera källfil</li>
 								</ul>
-								<Link className='card__cta cta' href='/demo'>
+								<Link className='card__cta cta' href='/demo' prefetch={false}>
 									Kom igång
 								</Link>
 							</div>
