@@ -17,23 +17,35 @@ const Navbar = dynamic(() => import("../../components/header/Navbar"), {
 	loading: () => <p>Loading...</p>,
 });
 
-const SingleService = () => {
-	const [item, setitem] = useState({});
-	const router = useRouter();
-	const { title } = router.query;
-	useEffect(() => {
-		const selectedItem = db.find((item) => item.tjänst_sida.rubrik === title);
-		setitem(selectedItem);
-	}, [title]);
+export async function getStaticPaths() {
+	const paths = db.map((item) => ({
+		params: { title: item.tjänst_sida.rubrik },
+	}));
 
+	return { paths, fallback: false };
+}
+export function getStaticProps(context) {
+	const title = context.params.title;
+	const selectedItem = db.find((item) => item.tjänst_sida.rubrik === title);
+
+	return {
+		props: {
+			item: selectedItem,
+		},
+	};
+}
+const SingleService = (item) => {
+	item = item.item;
 	let meta_title = "";
+	let title = "";
 	let meta_dec = "";
 	let meta_keywords = "";
 	let dec = "";
 	let sections = [];
 	if (item && item.tjänst_sida) {
 		meta_title = item.tjänst_sida.meta_title;
-		meta_dec = item.tjänst_sida.meta_dec;
+		meta_dec = item.tjänst_sida.rubrik;
+		title = item.tjänst_sida.rubrik;
 		meta_keywords = item.tjänst_sida.meta_keywords;
 		dec = item.tjänst_sida.underRubrik;
 		sections = item.tjänst_sida.sections;
