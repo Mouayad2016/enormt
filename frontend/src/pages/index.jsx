@@ -1,13 +1,26 @@
 import React from "react";
+import dynamic from "next/dynamic";
+
 import PageMeta from "../components/meta/PageMeta";
-import CryptoCustomerCounter from "../components/hem/CryptoCustomerCounter";
-import FooterOne from "../components/footer/FooterOne";
-import Navbar from "../components/header/Navbar";
 import Layout from "../components/layout/Layout";
 import HeroNine from "../components/hem/HeroNine";
 import HomeSection from "../components/hem/HomeSection";
-import UXUIDesign from "../components/hem/designCard";
 
+const FooterOne = dynamic(() => import("../components/footer/FooterOne"), {
+	loading: () => <p>Loading...</p>,
+});
+const Navbar = dynamic(() => import("../components/header/Navbar"), {
+	loading: () => <p>Loading...</p>,
+});
+const CryptoCustomerCounter = dynamic(
+	() => import("../components/hem/CryptoCustomerCounter"),
+	{
+		loading: () => <p>Loading...</p>,
+	}
+);
+const UXUIDesign = dynamic(() => import("../components/hem/designCard"), {
+	loading: () => <p>Loading...</p>,
+});
 const Home = () => {
 	return (
 		<>

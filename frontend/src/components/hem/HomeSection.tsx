@@ -10,7 +10,7 @@ function HomeSection() {
 				Vi levererar skräddarsydda plattformar till nordiska startups och
 				företag. Med många års erfarenhet av att utveckla både
 				<span className='text-omaina-green fw-bold'> webb </span> och
-				<span className='text-omaina-green fw-bold'> mobila </span>
+				<span className='text-omaina-green fw-bold'> app </span>
 				lösningar, strävar vi efter att skapa användarvänliga, innovativa och
 				pålitliga digitala upplevelser.
 			</p>
