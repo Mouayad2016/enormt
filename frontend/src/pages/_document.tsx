@@ -40,6 +40,8 @@ class MyDocument extends Document {
 						href='https://unpkg.com/@fortawesome/fontawesome-svg-core@1.2.17/styles.css'
 						integrity='sha384-bM49M0p1PhqzW3LfkRUPZncLHInFknBRbB7S0jPGePYM+u7mLTBbwL0Pj/dQ7WqR'
 						crossOrigin='anonymous'
+						rel='preload'
+						as='style'
 					></link>
 
 					<meta
