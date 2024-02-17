@@ -16,6 +16,13 @@ import "../../public/assets/css/navbar.css";
 import "../../public/assets/css/ContactBox.css";
 import "../../public/assets/css/section.css";
 import "../../fa-library";
+
+// Bug fixes for fontawsome with SSR
+// This ensures that the icon CSS is loaded immediately before attempting to render icons
+import { config } from "@fortawesome/fontawesome-svg-core";
+// Prevent fontawesome from dynamically adding its css since we did it manually above
+config.autoAddCss = false;
+
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 

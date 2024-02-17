@@ -1,5 +1,6 @@
 // fa-library.js
-const { library, config } = require("@fortawesome/fontawesome-svg-core");
+const { library } = require("@fortawesome/fontawesome-svg-core");
+
 const {
 	faGear,
 	faLock,

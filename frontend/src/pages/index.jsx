@@ -32,9 +32,9 @@ const Home = () => {
 				/>
 				<Navbar />
 				<HeroNine />
-				{/* <CryptoCustomerCounter /> */}
+				<CryptoCustomerCounter />
 				<HomeSection></HomeSection>
-				{/* <UXUIDesign></UXUIDesign> */}
+				<UXUIDesign></UXUIDesign>
 				<FooterOne footerGradient />
 			</Layout>
 		</>
