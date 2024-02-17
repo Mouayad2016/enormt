@@ -31,7 +31,8 @@ function DesignCard() {
 								<p className='card__heading'>Bas-UI/UX</p>
 								<p className='card__price'>
 									{" "}
-									9 990 <small>SEK</small>
+									Bas
+									{/* <small>SEK</small> */}
 								</p>
 								<ul className='card_bullets flow' role='list'>
 									<li className='fw-bold'>
@@ -67,8 +68,8 @@ function DesignCard() {
 							<div className='cards__card card'>
 								<p className='card__heading'>Pro-UI/UX</p>
 								<p className='card__price'>
-									{" "}
-									14 999 <small>SEK</small>
+									Pro
+									{/* 14 999 <small>SEK</small> */}
 								</p>
 								<ul className='card_bullets flow' role='list'>
 									<li className='fw-bold'>Upp till 2 designförslag</li>
@@ -110,7 +111,8 @@ function DesignCard() {
 							<div className='cards__card card'>
 								<p className='card__heading'>Premium-UI/UX</p>
 								<p className='card__price'>
-									19 999 <small>SEK</small>
+									Premium
+									{/* 19 999 <small>SEK</small> */}
 								</p>
 								<ul className='card_bullets flow' role='list'>
 									<li className='fw-bold'>Upp till 3 designförslag</li>
@@ -146,7 +148,7 @@ function DesignCard() {
 									<li className='fw-bold'>Prototyp</li>
 									<li className='fw-bold'>Inkludera källfil</li>
 								</ul>
-								<Link className='card__cta cta' href='/demo'>
+								<Link className='card__cta cta' href='/demo' prefetch={false}>
 									Kom igång
 								</Link>
 							</div>
