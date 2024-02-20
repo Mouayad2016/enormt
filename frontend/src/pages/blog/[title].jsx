@@ -31,7 +31,6 @@ export function getStaticProps(context) {
 }
 const SingleBlog = (item) => {
 	item = item.item;
-
 	let meta_title = "";
 	let title = "";
 	let meta_dec = "";

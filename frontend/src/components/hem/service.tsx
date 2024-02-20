@@ -83,8 +83,8 @@ const Service: React.FC<ServiceProps> = ({
 							placeholder='blur'
 							src='/assets/img/enormt/logo/logo-round-wight.png'
 							alt='Description'
-							height={80}
-							width={200}
+							height={50}
+							width={50}
 						/>
 					</span>
 				</div>
@@ -454,7 +454,7 @@ const Service: React.FC<ServiceProps> = ({
 						</a>
 					</div>
 					<div className='view-more'>
-						<Link href={link}>
+						<Link prefetch={false} href={link}>
 							<button className='view-more-button service-link'>
 								{linkLable}
 							</button>
