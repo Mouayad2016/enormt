@@ -1,13 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import dynamic from "next/dynamic";
+
 import BlogDetails from "../../components/blog/BlogDetails";
 import PageMeta from "../../components/meta/PageMeta";
 import PageHeader from "../../components/header/PageHeader";
-import FooterOne from "../../components/footer/FooterOne";
-import Navbar from "../../components/header/Navbar";
+
 import Layout from "../../components/layout/Layout";
 import db from "../../data/db/blogsData";
-import { useRouter } from "next/router";
 
+const FooterOne = dynamic(() => import("../../components/footer/FooterOne"), {
+	loading: () => <p>Loading...</p>,
+});
+const Navbar = dynamic(() => import("../../components/header/Navbar"), {
+	loading: () => <p>Loading...</p>,
+});
 export async function getStaticPaths() {
 	const paths = db.map((item) => ({
 		params: { title: item.title },

@@ -14,7 +14,7 @@ const BlogGrid = () => {
 									<div className='col-lg-6 col-lg-12' key={index}>
 										<div className='single-article feature-article rounded-custom my-3'>
 											<Link href={`/blog/${e.title}`} className='article-img'>
-												<img
+												<img // Lazy load causes problems with large content painting thats why i use html img tag insted
 													src={`/assets/img/enormt/webinare/${e.coverImg}`}
 													alt="Cover image for Enormt Blog webinar - 'From Idea to Reality: Succeeding with Your First Mobile & Web App'"
 													className='img-fluid'

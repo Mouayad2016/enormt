@@ -1,19 +1,19 @@
 import React from "react";
-import BlogGrid from "../components/blog/BlogGrid";
-import PageHeader from "../components/header/PageHeader";
-import PageMeta from "../components/meta/PageMeta";
-import FooterOne from "../components/footer/FooterOne";
-import Navbar from "../components/header/Navbar";
-import Layout from "../components/layout/Layout";
-import ChatBubbleComponent from "../components/assistent/ChatBubbleComponenet";
+import dynamic from "next/dynamic";
 
+import BlogGrid from "../components/blog/BlogGrid";
+import PageMeta from "../components/meta/PageMeta";
+import Layout from "../components/layout/Layout";
+
+const FooterOne = dynamic(() => import("../components/footer/FooterOne"), {
+	loading: () => <p>Loading...</p>,
+});
+const Navbar = dynamic(() => import("../components/header/Navbar"), {
+	loading: () => <p>Loading...</p>,
+});
 const Blogs = () => {
 	return (
 		<>
-			{" "}
-			{/* <div className="App">
-        <ChatBubbleComponent />
-      </div>{' '} */}
 			<Layout>
 				<PageMeta
 					title='Senaste nyheter och bloggar från Enormt | IT-tips och insikter'
