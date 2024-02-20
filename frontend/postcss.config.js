@@ -15,7 +15,7 @@ module.exports = {
 			},
 		],
 		[
-			// configure PurgeCSS
+			// configure PurgeCSSW
 			"@fullhuman/postcss-purgecss",
 			{
 				content: [
@@ -25,7 +25,6 @@ module.exports = {
 				defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
 				safelist: {
 					standard: ["html", "body"],
-					// deep: [/^mt-/, /^mb-/, "highlighted"],
 				},
 			},
 		],

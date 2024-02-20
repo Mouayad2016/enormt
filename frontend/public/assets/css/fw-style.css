@@ -1,0 +1,7 @@
+.fw-size-fixer {
+	max-height: 18px !important;
+	max-width: 18px !important;
+	/* background: transparent; */
+}
+
+/* This class is created to address issues with FontAwesome being ignored by PurgeCSS, which causes performance issues and significant layout shifts. */

@@ -1,5 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import React from "react";
+import Script from "next/script";
+import { useEffect } from "react";
 
 class MyDocument extends Document {
 	render() {
@@ -32,17 +34,16 @@ class MyDocument extends Document {
 						sizes='180x180'
 						href='%PUBLIC_URL%/assets/img/enormt/logo/apple-touch-icon.png'
 					/>
-					{/*  The following import prevents a Font Awesome icon server-side
+					{/* // The following import prevents a Font Awesome icon server-side
 					rendering bug, // where the icons flash from a very large icon down to
 					a properly sized one: */}
-					<link
+
+					{/* <link
 						rel='stylesheet'
 						href='https://unpkg.com/@fortawesome/fontawesome-svg-core@1.2.17/styles.css'
 						integrity='sha384-bM49M0p1PhqzW3LfkRUPZncLHInFknBRbB7S0jPGePYM+u7mLTBbwL0Pj/dQ7WqR'
 						crossOrigin='anonymous'
-						rel='preload'
-						as='style'
-					></link>
+					></link> */}
 
 					<meta
 						name='viewport'
@@ -80,6 +81,7 @@ class MyDocument extends Document {
 						}}
 					/>
 				</Head>
+
 				<body>
 					<noscript>
 						It looks like you have JavaScript disabled in your web browser. Our
