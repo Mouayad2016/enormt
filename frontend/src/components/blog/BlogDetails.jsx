@@ -62,7 +62,7 @@ const BlogDetails = (item) => {
 										})}
 									</ul>
 								</div>{" "}
-								{/* <iframe
+								<iframe
 									width='1051'
 									height='591'
 									loading='lazy'
@@ -71,7 +71,7 @@ const BlogDetails = (item) => {
 									frameborder='0'
 									allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
 									allowfullscreen
-								></iframe> */}
+								></iframe>
 							</div>
 						</div>
 					</div>
