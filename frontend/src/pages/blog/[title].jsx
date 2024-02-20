@@ -8,29 +8,42 @@ import Layout from "../../components/layout/Layout";
 import db from "../../data/db/blogsData";
 import { useRouter } from "next/router";
 
-const SingleBlog = () => {
-	const [item, setitem] = useState({});
-	const router = useRouter();
-	const { title } = router.query;
-	useEffect(() => {
-		const selectedItem = db.find((item) => item.title === title);
-		setitem(selectedItem);
-	}, [title]);
-	let varTitle = "";
+export async function getStaticPaths() {
+	const paths = db.map((item) => ({
+		params: { title: item.title },
+	}));
+	return { paths, fallback: false };
+}
+export function getStaticProps(context) {
+	const title = context.params.title;
+	const selectedItem = db.find((item) => item.title === title);
+	return {
+		props: {
+			item: selectedItem,
+		},
+	};
+}
+const SingleBlog = (item) => {
+	item = item.item;
+
+	let meta_title = "";
+	let title = "";
+	let meta_dec = "";
+	let meta_keywords = "";
 	let dec = "";
 	let key = "";
 	if (item) {
-		varTitle = item.page?.title || "";
+		title = item.page?.title || "";
 		dec = item.page?.desc || "";
 		key = item.page?.keywords || "";
 	}
 
 	return (
 		<Layout>
-			<PageMeta title={varTitle} description={dec} keywords={key} />
+			<PageMeta title={title} description={dec} keywords={key} />
 			<Navbar />
 			<PageHeader title={title} />
-			<BlogDetails item />
+			<BlogDetails item={item} />
 			<FooterOne />
 		</Layout>
 	);
