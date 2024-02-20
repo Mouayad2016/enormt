@@ -8582,6 +8582,9 @@ fieldset:disabled .btn {
 .text-light {
 	color: #fff !important;
 }
+.text-link {
+	color: #332FF9 !important;
+}
 
 .text-dark {
 	color: #0b163f !important;

@@ -220,7 +220,7 @@ const ContactsForm = () => {
 									>
 										Jag godkänner att Enormt får behandla mina personuppgifter i
 										enlighet med deras personuppgiftspolicy.
-										<Link href='/policy'>
+										<Link href='/policy' className='text-link'>
 											{" "}
 											användarvillkoren och integritetspolicyn
 										</Link>
