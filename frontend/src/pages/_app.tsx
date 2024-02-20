@@ -18,19 +18,16 @@ import "../../public/assets/css/section.css";
 import "../../public/assets/css/fw-style.css";
 
 // import "@fortawesome/fontawesome-svg-core/styles.css";
-
 // import { config } from "@fortawesome/fontawesome-svg-core";
 // config.autoAddCss = false;
 
 import "../../fa-library";
 // Bug fixes for fontawsome with SSR
 // This ensures that the icon CSS is loaded immediately before attempting to render icons
-
 // Prevent fontawesome from dynamically adding its css since we did it manually above
 
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
 import type { AppProps } from "next/app";
 import React from "react";
 
