@@ -2,85 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://www.enormt.se</loc>
-      <lastmod>2023-11-01</lastmod>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
       <loc>https://www.enormt.se/about</loc>
-      <lastmod>2023-10-15</lastmod>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.enormt.se/contact</loc>
-      <lastmod>2023-10-10</lastmod>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.5</priority>
    </url>
       <url>
       <loc>https://www.enormt.se/blogs</loc>
-      <lastmod>2023-11-01</lastmod>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
    </url>
    <url>
       <loc>https://www.enormt.se/blog/Din%20f%C3%B6rsta%20mobil%20eller%20webbapp%20|%20Enormt%20blog</loc>
-      <lastmod>2023-11-12</lastmod>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
-      <loc>https://www.enormt.se/assistent/2DgdibGxueheez8WkEz-I</loc>
-      <lastmod>2023-11-15</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.9</priority>
-   </url>
-     <url>
-      <loc>https://www.enormt.se/assistent/hI2-AxsGRe1GWEJSjG3cr</loc>
-      <lastmod>2023-11-15</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-     <url>
-      <loc>https://www.enormt.se/assistent/utZc2i81cT4SWVuPUUzvm</loc>
-      <lastmod>2023-11-15</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-     <url>
-      <loc>https://www.enormt.se/assistent/HW3R_fuvaaGkYHBIAhNBa</loc>
-      <lastmod>2023-11-15</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   <url>
       <loc>https://www.enormt.se/assistent</loc>
-      <lastmod>2023-11-15</lastmod>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
-      <loc>https://www.enormt.se/services</loc>
-      <lastmod>2023-11-10</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.9</priority>
-   </url>
-   <url>
-      <loc>https://www.enormt.se/service/IT-system</loc>
-      <lastmod>2023-09-20</lastmod>
+      <loc>https://www.enormt.se/service/it-system</loc>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
-      <loc>https://www.enormt.se/service/Mobilappar</loc>
-      <lastmod>2023-08-30</lastmod>
+      <loc>https://www.enormt.se/service/apputveckling</loc>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
-      <loc>https://www.enormt.se/service/Webbutveckling</loc>
-      <lastmod>2023-09-05</lastmod>
+      <loc>https://www.enormt.se/service/webbutveckling%20&%20hemsidor</loc>
+      <lastmod>2024-02-22</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>

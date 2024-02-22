@@ -11,7 +11,7 @@ const data = [
 			liCirkelBackGround: "bg-dark",
 			liClsssName: "fal icon-sm text-warning",
 			iconName: "gear",
-			rubrik: "IT-system",
+			rubrik: "it-system",
 			underRubrik:
 				"Utforska våra IT-system och hur de kan transformera din verksamhet. Genom att kombinera hårdvara, mjukvara och nätverk skapar vi skräddarsydda lösningar som stödjer och förbättrar dina arbetsprocesser. Våra leverantörer utvecklar system som hjälper dig höja din produktivitet.",
 			des: "Våra IT-system kombinerar avancerad teknologi och skräddarsydd mjukvara för att effektivisera dina affärsprocesser. Designade för säkerhet, skalbarhet och användarvänlighet, optimerar de produktivitet och kommunikation inom ditt företag.",
@@ -189,7 +189,7 @@ const data = [
 
 			underRubrik:
 				"En mobilappar kan förändra hur ditt företag interagerar med kunder och anställda. Genom att erbjuda moderna och kraftfulla lösningar direkt i fickan, möjliggörs en ständig uppkoppling och förbättrad produktiviteten i din verksamhet. En mobilapp är generellt mer pålitlig än en webbplats och våra leverantörer utvecklar anpassade appar för dina specifika behov och krav.",
-			rubrik: "Mobilappar",
+			rubrik: "apputveckling",
 			des: "Utveckla din verksamhets potential med skräddarsydda mobilappar. Vi erbjuder användarvänliga lösningar som placerar din tjänst i dina kunders och medarbetares händer, var de än är.",
 			sections: [
 				{
@@ -366,7 +366,7 @@ const data = [
 
 			underRubrik:
 				"En stark närvaro på nätet är idag grundläggande för framgångsrika företag och organisationer. En väl utformad och funktionsrik webbplats hjälper dig att nå din målgrupp, engagera användare och konvertera dem till lojala kunder. Våra leverantörer är specialiserade på att erbjuda skräddarsydda webblösningar som ger din organisation en unik och effektiv digital plattform för att stärka din verksamhet, kommunicera ditt varumärke och stödja dina affärsmål. ",
-			rubrik: "Webbutveckling",
+			rubrik: "webbutveckling & hemsidor",
 			des: "Skapa en stark närvaro online med våra responsiva och engagerande webbsidor och webbapplikationer. Vi fokuserar på användarvänlighet och modern design för att maximera användarupplevelsen.",
 			sections: [
 				{
