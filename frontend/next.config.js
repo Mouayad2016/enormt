@@ -21,6 +21,17 @@ const nextConfig = {
 				],
 			},
 			{
+				// Applying cache control to all assets under the /assets directory
+				source: "/_vercel/insights/:path*",
+				headers: [
+					{
+						key: "Cache-Control",
+						// Setting cache control for immutable assets to 1 year
+						value: "public, max-age=31536000, immutable",
+					},
+				],
+			},
+			{
 				// Extend this pattern to other asset directories as needed, for example, for SVG assets handled by SVGR
 				source: "/images/:path*",
 				headers: [
