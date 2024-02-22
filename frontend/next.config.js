@@ -21,8 +21,16 @@ const nextConfig = {
 				],
 			},
 			{
-				// Specifically targeting the speed-insights and insights scripts for long-term caching
-				source: "/_vercel/:folder/(script.js)",
+				source: "/_vercel/speed-insights/script.js",
+				headers: [
+					{
+						key: "Cache-Control",
+						value: "public, max-age=31536000, immutable",
+					},
+				],
+			},
+			{
+				source: "/_vercel/insights/script.js",
 				headers: [
 					{
 						key: "Cache-Control",
