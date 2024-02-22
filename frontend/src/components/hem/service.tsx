@@ -443,15 +443,15 @@ const Service: React.FC<ServiceProps> = ({
 
 				<div className='bottom'>
 					<div className='social-buttons-container'>
-						<a className='social-button .social-button1'>
+						<div className='social-button .social-button1'>
 							<Google className='svg' />
-						</a>
-						<a className='social-button .social-button2'>
+						</div>
+						<div className='social-button .social-button2'>
 							<OpenAI className='svg' />
-						</a>
-						<a className='social-button .social-button3'>
+						</div>
+						<div className='social-button .social-button3'>
 							<DevOPs className='svg' />
-						</a>
+						</div>
 					</div>
 					<div className='view-more'>
 						<Link prefetch={false} href={link}>

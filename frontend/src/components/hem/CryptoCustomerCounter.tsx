@@ -32,7 +32,7 @@ const CryptoCustomerCounter = () => {
 							desc='Anpassade webbapplikationer för alla plattformar.'
 							responsive={true}
 							link='service/Webbutveckling'
-							linkLable='Läs mer'
+							linkLable='Webbutveckling'
 							seo={true}
 							unikDesign={true}
 						/>
@@ -41,7 +41,7 @@ const CryptoCustomerCounter = () => {
 							desc='Utveckling av mobilappar för både Android och iOS.'
 							responsive={true}
 							link='service/Mobilappar'
-							linkLable='Läs mer'
+							linkLable='Mobilapp-|utveckling'
 							unikDesign={true}
 							allDevices={true}
 						/>
@@ -49,7 +49,7 @@ const CryptoCustomerCounter = () => {
 							title='IT-System'
 							desc='Helhetslösningar för att effektivisera er verksamhet.'
 							link='service/IT-system'
-							linkLable='Läs mer'
+							linkLable='IT-System'
 							garanti={true}
 							support={true}
 							auto={true}
