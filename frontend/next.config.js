@@ -49,18 +49,6 @@ const nextConfig = {
 				],
 			},
 			// Add more patterns here if you have other asset types or directories
-			{
-				// Cache policy for SSR pages
-				// Apply this pattern to the specific paths you want to cache, or use '/:path*' for all pages
-				source: "/:path*",
-				headers: [
-					{
-						key: "Cache-Control",
-						// This example sets a cache duration of 1 minute with stale-while-revalidate for 59 minutes
-						value: "public, max-age=60, stale-while-revalidate=3540",
-					},
-				],
-			},
 		];
 	},
 };
