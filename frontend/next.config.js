@@ -21,12 +21,11 @@ const nextConfig = {
 				],
 			},
 			{
-				// Applying cache control to all assets under the /assets directory
-				source: "/_vercel/insights/:path*",
+				// Specifically targeting the speed-insights and insights scripts for long-term caching
+				source: "/_vercel/:folder/(script.js)",
 				headers: [
 					{
 						key: "Cache-Control",
-						// Setting cache control for immutable assets to 1 year
 						value: "public, max-age=31536000, immutable",
 					},
 				],
