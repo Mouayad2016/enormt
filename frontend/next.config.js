@@ -20,24 +20,7 @@ const nextConfig = {
 					},
 				],
 			},
-			{
-				source: "/_vercel/speed-insights/script.js",
-				headers: [
-					{
-						key: "Cache-Control",
-						value: "public, max-age=31536000, immutable",
-					},
-				],
-			},
-			{
-				source: "/_vercel/insights/script.js",
-				headers: [
-					{
-						key: "Cache-Control",
-						value: "public, max-age=31536000, immutable",
-					},
-				],
-			},
+
 			{
 				// Extend this pattern to other asset directories as needed, for example, for SVG assets handled by SVGR
 				source: "/images/:path*",
@@ -48,7 +31,6 @@ const nextConfig = {
 					},
 				],
 			},
-			// Add more patterns here if you have other asset types or directories
 		];
 	},
 };
