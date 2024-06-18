@@ -1,4 +1,4 @@
-import Header from "../comp/Header";
+import Header from "../comp/contact/Header";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Footer from "@/comp/footer";
 import AboutNavbar from "@/comp/about/Navbar";
@@ -7,6 +7,7 @@ import AboutSlider from "@/comp/about/AboutSlider";
 import ContatUs from "@/comp/components/ContactUs";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import NavBar from "@/comp/Navbar";
 
 function About() {
 	const { t } = useTranslation("common");
@@ -14,7 +15,7 @@ function About() {
 	const isRTL = locale === "ar";
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header />
+			<NavBar />
 			<div className='relative overflow-hidden'>
 				<AboutNavbar />
 				<div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-white to-transparent z-20'></div>

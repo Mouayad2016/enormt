@@ -1,4 +1,4 @@
-import Header from "../../comp/Header";
+import Header from "../../comp/contact/Header";
 import ImageSlider from "../../comp/ImageSlider";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Effect from "@/comp/effect";
@@ -10,6 +10,7 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import VerticalSlider from "@/comp/VerticalSlider";
 import WebSiteHeader from "@/comp/website/websiteHeader";
+import NavBar from "@/comp/Navbar";
 
 function Website() {
 	const { t } = useTranslation("common");
@@ -43,7 +44,7 @@ function Website() {
 
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header />
+			<NavBar />
 			<div className='relative overflow-hidden'>
 				<WebSiteHeader />
 				<div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-white to-transparent z-20'></div>

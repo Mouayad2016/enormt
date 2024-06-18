@@ -29,12 +29,12 @@ const ServiesDropDown = () => {
 	return (
 		<div
 			className={`relative duration-300 transition-width ease-in-out ${
-				isOpen ? "w-[200px]" : "w-[70px]"
+				isOpen ? "w-[170px]" : "w-[70px]"
 			}`}
 		>
 			<button
 				onClick={toggleDropdown}
-				className='p-2 rounded flex items-center '
+				className='py-2 rounded flex items-center '
 			>
 				{t("links.services", "Default: Services")}
 			</button>

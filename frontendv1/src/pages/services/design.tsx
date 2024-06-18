@@ -1,4 +1,4 @@
-import Header from "../../comp/Header";
+import Header from "../../comp/contact/Header";
 import ImageSlider from "../../comp/ImageSlider";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Effect from "@/comp/effect";
@@ -10,6 +10,7 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import VerticalSlider from "@/comp/VerticalSlider";
 import DesginSlider from "../../comp/desgin/DesignSlider";
+import NavBar from "@/comp/Navbar";
 
 function Desgin() {
 	const { t } = useTranslation("common");
@@ -49,7 +50,7 @@ function Desgin() {
 
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header />
+			<NavBar />
 			<div className='relative overflow-hidden'>
 				<DesginSlider />
 				<TextHeader

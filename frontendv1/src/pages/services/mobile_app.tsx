@@ -1,6 +1,6 @@
 import HomeInfo from "@/comp/Info";
-import Header from "../../comp/Header";
-import Navbar from "../../comp/Navbar";
+import Header from "../../comp/contact/Header";
+import Navbar from "../../comp/VideoHeader";
 import ImageSlider from "../../comp/ImageSlider";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Effect from "@/comp/effect";
@@ -14,6 +14,7 @@ import TextHeader from "@/comp/TextHeader";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import ContatUsVideo from "@/comp/components/ContactUsVideo";
+import NavBar from "@/comp/Navbar";
 
 function MobileApp() {
 	const { t } = useTranslation("common");
@@ -52,7 +53,7 @@ function MobileApp() {
 	];
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header />
+			<NavBar />
 			<div className='relative overflow-hidden'>
 				<TextHeader
 					title={t("mobile_app_development.title")}

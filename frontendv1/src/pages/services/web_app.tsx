@@ -1,4 +1,4 @@
-import Header from "../../comp/Header";
+import Header from "../../comp/contact/Header";
 import ImageSlider from "../../comp/ImageSlider";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Effect from "@/comp/effect";
@@ -9,6 +9,7 @@ import ContatUs from "@/comp/components/ContactUs";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import VerticalSlider from "@/comp/VerticalSlider";
+import NavBar from "@/comp/Navbar";
 
 function WebApp() {
 	const { t } = useTranslation("common");
@@ -48,7 +49,7 @@ function WebApp() {
 
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header />
+			<NavBar />
 			<div className='relative overflow-hidden'>
 				<TextHeader
 					title={t("web_app_development.title")}

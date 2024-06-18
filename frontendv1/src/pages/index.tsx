@@ -1,6 +1,6 @@
 import HomeInfo from "@/comp/Info";
-import Header from "../comp/Header";
-import Navbar from "../comp/Navbar";
+import Header from "../comp/contact/Header";
+import VideoHeader from "../comp/VideoHeader";
 import ImageSlider from "../comp/ImageSlider";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Effect from "@/comp/effect";
@@ -12,6 +12,7 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import VerticalSlider from "@/comp/VerticalSlider";
 import DesginSlider from "@/comp/desgin/DesignSlider";
+import NavBar from "@/comp/Navbar";
 
 function Home() {
 	const { t } = useTranslation("common");
@@ -19,8 +20,8 @@ function Home() {
 	const isRTL = locale === "ar";
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header />
-			<Navbar />
+			<NavBar />
+			<VideoHeader />
 			<HomeInfo />
 
 			<div className='relative overflow-hidden'>

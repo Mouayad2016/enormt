@@ -1,6 +1,6 @@
 import HomeInfo from "@/comp/Info";
-import Header from "../comp/Header";
-import Navbar from "../comp/Navbar";
+import Header from "../comp/contact/Header";
+import Navbar from "../comp/VideoHeader";
 import ImageSlider from "../comp/ImageSlider";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Effect from "@/comp/effect";

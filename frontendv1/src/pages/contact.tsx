@@ -9,7 +9,8 @@ import BookMeeting from "@/comp/contact/BookMeeting";
 import AboutSlider from "@/comp/about/AboutSlider";
 import ContactForm from "@/comp/contact/ContactForm";
 import ContactUsWith from "@/comp/contact/ContactUsWith";
-import NoBGHeader from "../comp/Header";
+import NoBGHeader from "../comp/contact/Header";
+import NavBar from "@/comp/Navbar";
 
 function About() {
 	const { t } = useTranslation("common");
@@ -17,7 +18,7 @@ function About() {
 	const isRTL = locale === "ar";
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header />
+			<NavBar />
 			<NoBGHeader
 				title={t("contact.title")}
 				description={t("contact.description")}
