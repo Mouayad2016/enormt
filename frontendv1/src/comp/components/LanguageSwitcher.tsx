@@ -25,18 +25,17 @@ const LanguageDropdown = () => {
 		<div className='relative '>
 			<button
 				onClick={toggleDropdown}
-				className='px-4 py-2 rounded flex items-center '
+				className='px-4 py-2 rounded flex flex-row items-start  '
 			>
 				<p className='w-8'>
-					{" "}
 					{locale.toUpperCase() === "AR" ? "ض" : locale.toUpperCase()}
 				</p>
 				<div className='w-2'></div>
 				<Image
-					className='w-6'
+					className='w-[23px]'
 					src={`/images/flags/${flags[locale.toUpperCase()]}`}
-					width={20}
-					height={20}
+					width={100}
+					height={100}
 				></Image>
 			</button>
 			{isOpen && (

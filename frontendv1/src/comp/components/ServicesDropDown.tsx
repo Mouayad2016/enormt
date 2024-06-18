@@ -29,7 +29,7 @@ const ServiesDropDown = () => {
 	return (
 		<div
 			className={`relative duration-300 transition-width ease-in-out ${
-				isOpen ? "w-[170px]" : "w-[70px]"
+				!isOpen ? (isRTL ? "w-[54px]" : "w-[58.5px]") : "w-[170px]"
 			}`}
 		>
 			<button

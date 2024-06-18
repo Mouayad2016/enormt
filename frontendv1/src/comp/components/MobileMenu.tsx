@@ -7,6 +7,10 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 	const { t } = useTranslation("common");
 	const { locale } = useRouter();
 	const isRTL = locale === "ar";
+
+	const router = useRouter(); // Get the router object
+	const { pathname } = router;
+	const isActive = (route: any) => pathname === route;
 	return (
 		<div
 			className={`fixed top-0 ${
@@ -17,11 +21,11 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 					: isRTL
 					? "-left-full"
 					: "-right-full"
-			} h-full w-64 bg-black bg-opacity-70 shadow-md transition-all duration-300 ease-in-out transform p-2 ${
+			} h-full w-[80vw] sm:w-1/2 text-white bg-black bg-opacity-70 shadow-md transition-all duration-300 ease-in-out transform p-2 ${
 				isMenuOpen ? "opacity-100 scale-100" : "opacity-0 scale-95"
 			} z-40`}
 		>
-			<div className='flex items-center justify-between'>
+			<div className='flex  items-center justify-between'>
 				<div
 					className={`flex p-4 text-lg items-center ${
 						isRTL ? "pl-12" : "pr-12"
@@ -41,42 +45,104 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 					></Image>
 				</button>
 			</div>
+			<div className='w-full h-screen flex flex-col items-start pt-8 gap-6'>
+				<Link
+					href='/'
+					className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+						isActive("/") ? "text-blue-300" : ""
+					} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+					onClick={() => setMenuOpen(false)}
+				>
+					{t("links.home")}
+				</Link>
+				<Link
+					href='/about'
+					className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+						isActive("/about") ? "text-blue-300" : ""
+					} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+					onClick={() => setMenuOpen(false)}
+				>
+					{t("links.about_us")}
+				</Link>
+				<p
+					className={`px-4 text-center text-lg font-bold  ${
+						isRTL ? "font-notokufi" : "font-mono font-bold"
+					}`}
+				>
+					{" "}
+					{t("links.services")}
+				</p>
+				<ul className='gap-4 flex flex-col'>
+					<li className='px-6'>
+						-
+						<Link
+							href='/services/mobile_app'
+							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+								isActive("/services/mobile_app") ? "text-blue-300" : ""
+							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+							onClick={() => setMenuOpen(false)}
+						>
+							{t("services.mobile_app_development.title")}
+						</Link>
+					</li>
+					<li className='px-6'>
+						-
+						<Link
+							href='/services/web_app'
+							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+								isActive("/services/web_app") ? "text-blue-300" : ""
+							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+							onClick={() => setMenuOpen(false)}
+						>
+							{t("services.web_app_development.title")}
+						</Link>
+					</li>
+					<li className='px-6'>
+						-{" "}
+						<Link
+							href='/services/website'
+							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+								isActive("/services/website") ? "text-blue-300" : ""
+							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+							onClick={() => setMenuOpen(false)}
+						>
+							{t("services.website_development.title")}
+						</Link>
+					</li>
+					<li className='px-6'>
+						-{" "}
+						<Link
+							href='/services/design'
+							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+								isActive("/services/design") ? "text-blue-300" : ""
+							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+							onClick={() => setMenuOpen(false)}
+						>
+							{t("services.design_for_apps_and_websites.title")}
+						</Link>
+					</li>
+				</ul>
 
-			<Link
-				href=''
-				className='block p-4 text-lg font-bold'
-				onClick={() => setMenuOpen(false)}
-			>
-				{t("links.home")}
-			</Link>
-			<Link
-				href=''
-				className='block p-4 text-lg font-bold'
-				onClick={() => setMenuOpen(false)}
-			>
-				{t("links.about_us")}
-			</Link>
-			<Link
-				href=''
-				className='block p-4 text-lg font-bold'
-				onClick={() => setMenuOpen(false)}
-			>
-				{t("links.services")}
-			</Link>
-			<Link
-				href=''
-				className='block p-4 text-lg font-bold'
-				onClick={() => setMenuOpen(false)}
-			>
-				{t("links.career")}
-			</Link>
-			<Link
-				href=''
-				className='block p-4 text-lg font-bold'
-				onClick={() => setMenuOpen(false)}
-			>
-				{t("links.contact")}
-			</Link>
+				<Link
+					href='/careers'
+					className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+						isActive("/careers") ? "text-blue-300" : ""
+					} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+					onClick={() => setMenuOpen(false)}
+				>
+					{t("links.career")}
+				</Link>
+
+				<Link
+					href='/contact'
+					className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+						isActive("/contact") ? "text-blue-300" : ""
+					} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
+					onClick={() => setMenuOpen(false)}
+				>
+					{t("links.contact")}
+				</Link>
+			</div>
 		</div>
 	);
 };
