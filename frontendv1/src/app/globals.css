@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap");
+
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+	--font-primary: "Kanit", sans-serif; /* Assuming you want Kanit as the primary font */
+	--font-archivo: "Archivo Black", sans-serif;
+	--font-caveat: "Caveat", cursive;
+	--font-kanit: "Kanit", sans-serif;
+	--font-noto-kufi: "Noto Kufi Arabic", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
+}
+/* Custom scrollbar style */
+::-webkit-scrollbar {
+	width: 12px; /* Width of the scrollbar */
+	background-color: rgba(
+		214,
+		219,
+		220,
+		0.5
+	); /* Background color of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #333; /* Color of the draggable part of the scrollbar */
+	border-radius: 6px; /* Rounded corners of the draggable part */
+	border: 3px solid rgba(214, 219, 220, 0.5); /* Border around the draggable part */
+}
+
+::-webkit-scrollbar-track {
+	background-color: #949494; /* Color of the track */
+	border-radius: 0px; /* Rounded corners of the track */
+}
+
+/* Firefox scrollbar style */
+html {
+	scrollbar-width: thin; /* Can be 'auto', 'thin', or 'none' */
+	scrollbar-color: #949494 #000000; /* Thumb and track color */
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #ffffff; /* Replace with your desired color */
+
+	font-family: var(--font-primary);
+	color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+body[dir="rtl"] {
+	direction: rtl;
+}
+
+body[dir="rtl"] .text-left {
+	text-align: right;
+}
+
+body[dir="rtl"] .text-right {
+	text-align: left;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-33.3333%);
+	}
+}
+
+.slider {
+	display: flex;
+	white-space: nowrap;
+	animation: scroll 1s linear infinite; /* Adjust time for slower or faster scrolling */
+}
+
+.glass-effect {
+	background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+	backdrop-filter: blur(10px); /* Blur effect */
+	border: 1px solid rgba(255, 255, 255, 0.25); /* Subtle white border */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.glass-effect-strong-border {
+	background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+	backdrop-filter: blur(10px); /* Blur effect */
+	border: 1px solid rgba(255, 255, 255, 0.25); /* Subtle white border */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.custom_margin_left {
+	margin-left: calc((100vw - 1536px) / 2);
+	max-width: calc(100vw - (50vw - 750px));
+}
+.custom_margin_right {
+	margin-right: calc((100vw - 1536px) / 2);
+	max-width: calc(100vw - (50vw - 750px));
+}
+@media (max-width: 1536px) {
+	.custom_margin_left {
+		margin-left: 0;
+	}
+	.custom_margin_right {
+		margin-right: 0;
+	}
+}
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.scrollbar-hide {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+@keyframes slideRight {
+	from {
+		transform: translate3d(-100%, 0, 0); /* Move from left to center */
+	}
+	to {
+		transform: translate3d(0, 0, 0); /* End at center */
+	}
+}
+
+@keyframes slideLeft {
+	from {
+		transform: translate3d(0, 0, 0); /* Start at center */
+	}
+	to {
+		transform: translate3d(-100%, 0, 0); /* Move to left */
+	}
+}
+.slider-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.slider-animate {
+	display: flex;
+	position: relative;
+	transition: transform 1s; /* Optional: smooths out transitions */
+}
+
+.group-right,
+.group-left {
+	width: 100%; /* Each group takes full visible width of the container */
+	display: flex;
+	will-change: transform;
+}
+
+@keyframes slideRight-rtl {
+	from {
+		transform: translate3d(100%, 0, 0); /* Move from right to center */
+	}
+	to {
+		transform: translate3d(0, 0, 0); /* End at center */
+	}
+}
+
+@keyframes slideLeft-rtl {
+	from {
+		transform: translate3d(0, 0, 0); /* Start at center */
+	}
+	to {
+		transform: translate3d(100%, 0, 0); /* Move to right */
+	}
+}
+/* Apply RTL keyframes based on parent class */
+.rtl .group-right {
+	animation: slideRight-rtl 20s linear infinite;
+}
+
+.rtl .group-left {
+	animation: slideLeft-rtl 20s linear infinite;
+}
+.group-right {
+	animation: slideRight 20s linear infinite;
+}
+
+.group-left {
+	animation: slideLeft 20s linear infinite;
+}
+
+.slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.checkbox_input {
+	-webkit-appearance: none; /* Removes default styling on webkit browsers */
+	-moz-appearance: none; /* Removes default styling on Firefox browsers */
+	appearance: none;
+	margin: 0;
+	font: inherit;
+	color: currentColor;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	transform: translateY(-0.075em);
+	display: grid;
+	place-content: center;
+}
+
+.checkbox_input:checked {
+	background-color: #000000; /* Change this color to whatever you want */
+	border-color: #ffffff;
+}
+
+.checkbox_input:checked::before {
+	content: "";
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(14% 44%, 34% 64%, 78% 18%, 66% 18%, 34% 52%, 24% 42%);
+	background-color: white;
+	display: block;
+}

@@ -1,0 +1,267 @@
+{
+	"links": {
+		"home": "Home",
+		"about_us": "About Us",
+		"services": "Services",
+		"career": "Career",
+		"contact": "Contact"
+	},
+
+	"welcome": "We elevate your business with innovative tech solutions",
+	"description": "We help businesses develop custom solutions that align with their goals and elevate them to new heights. Specializing in modern technology, we manage your IT processes to achieve optimal outcomes and boost your sales. As your partner, we are responsible for your success. By building long-term relationships based on trust, our mission is to make your dreams a reality.",
+	"contact_btn": "Contact us",
+	"join_us_btn": "Join our team",
+	"what_we_do": "We boost your business with cutting-edge mobile and web apps",
+	"custom_solutions": {
+		"title": "Custom Solutions",
+		"description": "We build solutions based on your business needs. With a deep understanding of your challenges and requirements, we design the perfect solution to solve your business challenges."
+	},
+	"partnership": {
+		"title": "Partnership",
+		"description": "We understand the crucial role a tech partner plays for many businesses. Our commitment is to support and guide you through every step of your journey, ensuring mutual success. We consider your achievements as our own."
+	},
+	"quality": {
+		"title": "Quality",
+		"description": "Delivering high-quality apps is a commitment we take very seriously. Our solutions are built with excellence and undergo stringent quality control, including performance testing, code reviews, writing, and documentation."
+	},
+	"outcomes": {
+		"title": "Outcomes",
+		"description": "Our solutions deliver measurable results to drive your business forward, boosting sales or refining your model. We only take on projects where we foresee a positive impact."
+	},
+	"your_needs": {
+		"title": "Your needs",
+		"description": "We understand your needs in technology, business models, or processes. With over 7 years of experience, we excel in design, sales growth, market understanding, and business strategy. We're dedicated to helping at every stage."
+	},
+	"we_stand_out_with": "Our Distinguishing Features",
+
+	"out_effects": {
+		"customer_satisfaction": {
+			"title": "Customer Satisfaction",
+			"description": "We maintain top quality in every delivery."
+		},
+		"simplicity": {
+			"title": "Simplicity",
+			"description": "Our solutions are intuitive and easy to use."
+		},
+		"efficiency": {
+			"title": "Efficiency",
+			"description": "Our processes create better solutions."
+		},
+		"profitability": {
+			"title": "Profitability",
+			"description": "We offer competitive prices."
+		}
+	},
+	"our_services": "Our Services",
+	"services": {
+		"mobile_app_development": {
+			"title": "Mobile App Development",
+			"description": "We develop customized mobile apps for both iOS and Android. Our expertise is in delivering solutions that enhance your communication with customers through interactivity and user-friendliness. Perfect for you if you want to engage your customers in a dynamic and effective manner."
+		},
+		"web_app_development": {
+			"title": "Web App Development",
+			"description": "We design and implement web applications that are tailored for various platforms and devices. Our solutions ensure a strong online presence and are optimized to maximize user engagement. Perfect for you if you aim to expand your company's digital footprint and strengthen your brand."
+		},
+		"website_development": {
+			"title": "Website Development",
+			"description": "Our team creates websites using the latest technology, prioritizing both aesthetics and functionality. We ensure that your website is inviting and user-friendly, making it ideal for presenting your services and products professionally. Perfect for you if you want to enhance your digital presence and appeal to a broader customer base."
+		},
+		"design_for_apps_and_websites": {
+			"title": "Design for Apps and Websites",
+			"description": "We offer unique and targeted UI and UX design that not only looks great but also enhances the user experience. Our goal is to create designs that reflect your company’s values and differentiate you from the competition. Perfect for you if you value creativity and want a distinctive and memorable online presence."
+		}
+	},
+	"what_others_say_about_us": "What our clients say about us",
+	"testimonies": {
+		"testimonies_ft": {
+			"name": "Ahmad Daghrour",
+			"text": "We are very satisfied with the work. Big thanks for your effort and attention!"
+		},
+		"testimonies_se": {
+			"name": "Andul Aziz Kalagi",
+			"text": "We really love our new app 'KataKeet', and our customers are very satisfied. We hope to continue our cooperation with you. Thank you for paying attention to the details and for the wonderful service."
+		},
+		"testimonies_th": {
+			"name": "Kevin Vlajkovic",
+			"text": "Great work that increased our sales by 80% this year. Every consultation from you was important to our business. Thank you very much, and special thanks to Mr. Mouayad."
+		}
+	},
+	"about_header": "We can perfection and will guide you there",
+	"about_description": "We can pave your way to success with our deep understanding of modern tools and our expertise in technology across various industries. Together, we achieve outstanding results at competitive prices.",
+	"stack_title": "We use the most modern technology stack",
+	"about_us": {
+		"passion": {
+			"title": "Passion",
+			"description_one": "Founder Mouayad, with several years of experience as an entrepreneur and founder of Kilshi.com, as well as working in the food industry, has faced many challenges in making his startups successful. He has identified several problem areas that need to be addressed within marketing, automation, and app development. After seeking help from various tech and marketing companies, he realized that he could offer high-quality solutions to companies facing similar problems. With his passion and background as a developer, Mouayad has founded several tech companies. Now, together we lead SveaSoft, with the goal of offering high-quality services at competitive prices to help companies overcome their challenges.",
+			"description_two": "We take into account all aspects of your next development and help you with increasing sales, improving your brand, and streamlining your work. With extensive experience in automation and creating an online presence as well as building brands, we are well-prepared to support you."
+		},
+		"constant_learning": {
+			"title": "Constant Learning",
+			"description_one": "With many years of experience running businesses, we know what can lead to failures – at least we are aware of the mistakes we have made ourselves. Therefore, we guide you with our experiences and help you achieve your goals. We are tech experts and entrepreneurs who can provide you with the advice you need to overcome challenges. See us more as a close partner than as a tech company.",
+			"description_two": "We have developed several projects and have a loyal network both in Sweden and internationally, including many large IT companies. We treat your project as our own and only undertake work where we can guarantee a positive result."
+		},
+		"your_success_is_ours": {
+			"title": "Your Success is Our Success",
+			"description_one": "We work loyally and focus more on results than on profits. We care for your brand as if it were our own child, we take care of it and support you on your journey. We have helped several companies in e-commerce, driving schools, the restaurant industry, and startups. All you need to do is tell us as much as possible about your problems, and we will take care of the rest.",
+			"description_two": "The path to a successful solution begins with a deep understanding of challenges and problems. Therefore, we are successful because we strive to understand all your challenges and offer the most suitable solutions. Together we discuss various ways to achieve a certain result and collectively choose the best path forward."
+		},
+		"contact_us_container": {
+			"title": "Contact Us Today!",
+			"description": "Get in touch with us – we are here for you and ready for your projects, regardless of their scope. We are experts in tech and have a large international network that allows us to offer the most creative and high-quality solutions in all of Sweden."
+		}
+	},
+	"mobile_app_development": {
+		"title": "Mobile App Development",
+		"description": "We develop mobile apps for all devices. With our experience from many successful projects, we can create a professional mobile app for you with a high level of creativity and efficiency. We pay attention to every detail to ensure that your app suits its target audience and works perfectly on all devices.",
+		"info_title": "Learn about Mobile Apps",
+
+		"what_is_a_mobile_app": {
+			"title": "What is a mobile app?",
+			"description": "A mobile app is a program developed and designed to solve problems or streamline processes. Mobile apps operate on operating systems such as iOS and Android. A mobile app can integrate with many features on the device it is installed on, such as the camera, microphone, and GPS. Mobile apps are downloaded to mobile devices and are easily accessible to users. Mobile apps can be customized in infinite ways and adapted to the needs of users."
+		},
+		"when_should_i_choose_a_mobile_app": {
+			"title": "When should I choose a mobile app compared to a web app or desktop app?",
+			"description": "Apps of various types can be carefully customized to meet unique user needs, and each app category comes with its specific advantages and limitations. Mobile apps stand out with their distinct advantages, making them particularly valuable for certain applications. Their immediate availability right from the user's device makes mobile apps the most practical and accessible type of application. This constant presence among users not only promotes increased customer loyalty but also a stronger sense of belonging and significantly improves end-user satisfaction."
+		},
+		"what_is_the_best_technology_for_developing_a_mobile_app?": {
+			"title": "What is the best technology for developing a mobile app",
+			"description": "Mobile app development offers a wide range of technologies, allowing customization based on project size, target audience, and specific functionalities. For iOS-based applications, Swift is a popular choice, while Java and Kotlin are often preferred for Android apps. To streamline the development process and reduce costs, newer frameworks that enable cross-platform application development have become increasingly popular. These frameworks allow developers to create a single app that operates seamlessly on both iOS and Android. Prominent examples of such frameworks include Flutter, developed by Google, and React Native, developed by Facebook. The choice of framework greatly depends on the company's IT infrastructure and goals."
+		},
+		"ai_and_mobile_apps": {
+			"title": "AI and mobile apps",
+			"description": "The growing trend in artificial intelligence (AI) is significant and impacts many technology sectors, including mobile, web, and desktop applications. The integration of AI into these apps is becoming increasingly seamless and strategic, enabling developers to create more sophisticated and adaptable solutions. Depending on specific goals, AI can be applied in various ways. For example, developers might collaborate with AI providers like OpenAI to develop advanced chat applications using natural language processing to enhance communication, or image-generating apps using deep learning to create visual content from text descriptions. One of the major benefits of integrating AI into mobile apps is leveraging the built-in features of devices, such as cameras, to enhance app functionality. Cameras, for instance, can be used with image recognition algorithms to create innovative features like facial recognition, augmented reality (AR), and more. These integrations allow mobile apps to serve not only as tools for daily use but also as powerful interfaces for personal and professional technology use."
+		},
+		"what_does_a_mobile_app_cost?": {
+			"title": "What does a mobile app cost?",
+			"description": "The pricing for a mobile app can vary depending on the scope of the project. Factors that influence the cost include the project size and the number of work hours. We typically work on an hourly basis and bill accordingly, which we believe maintains the highest possible quality. A fixed price can be offered if desired by the client."
+		},
+		"how_does_it_work?": {
+			"title": "How does it work?",
+			"description": "The process of app development starts with a thorough understanding of the app's purpose and objectives. We analyze and clearly define the direction the app will take to ensure it meets your expectations and needs. This understanding leads us to the next step where we design a detailed layout and sketch that includes all necessary features and specifications required by the app. During the design phase, we consider various features that can enhance the user experience and increase the app’s value, such as versatile payment methods and secure login options. Thanks to our extensive networks and established partnerships, we can offer these services at discounted prices, providing you with cost-effective solutions. Once the design and functionality are established, we move to the programming phase where we develop the app with full resource allocation. We engage in the project from start to finish, including complete development, thorough testing, and ultimately, the launch. The app is published on platforms like Google Play and the App Store, where it becomes available to your users. We ensure that every step in the process is carried out with the highest quality and professionalism to ensure that the final product not only meets but exceeds your expectations."
+		},
+		"contact_us": {
+			"title": "Still Dusty?",
+			"description": "Are you unsure whether you need a mobile app or another type of solution? Talk to us. We offer a free initial consultation to guide you to the best solution for your case."
+		}
+	},
+	"web_app_development": {
+		"title": "Web App Development",
+		"description": "We develop web apps with a high level of professionalism and creativity. With our experience from many successful projects, we can create a professional web application for your business. With us, you can achieve the highest possible accomplishment.",
+		"info_title": "Learn about Web Applications",
+		"what_is_a_web_app": {
+			"title": "What is a Web Application?",
+			"description": "A web application is software developed to work across internet browsers and is accessible from various devices such as computers, tablets, and smartphones. It provides an interactive user interface, can be customized to perform specific functions and solve particular problems. Examples of web applications include Facebook and YouTube. Web applications can be integrated with various third-party services, such as Google, to offer features like Google sign-in. They can be designed and customized in many ways and require a direct internet connection to operate."
+		},
+		"when_should_i_choose_a_mobile_app": {
+			"title": "When Should I Choose a Web App Over a Mobile or Desktop App?",
+			"description": "A web app differs from mobile and desktop apps in that it requires an internet connection and operates in a browser. Web apps are more flexible because they do not require approval from third-party providers like Google Play or App Store for updates, making it easier to manage and update the app. Web apps give you complete control and freedom, plus the ability to retain all revenues from payments without needing to share them with external service providers. They also do not require installations and are immediately available to users, potentially offering a broader range and benefits such as improved search engine optimization for various search engines. It's also important to consider energy consumption and performance, as web apps may consume fewer resources on the device compared to native apps, but may be less efficient in some high-performance contexts."
+		},
+		"what_is_the_best_technology_for_developing_a_mobile_app": {
+			"title": "What is the Best Technology for Developing a Web App?",
+			"description": "There are many technologies for developing web applications, each with its own set of advantages and disadvantages. In Sweden, some of the latest and most popular technologies include React and Next. React is known for its flexibility and strong component-based structure, making it ideal for projects that require dynamic and complex user interfaces. Next, on the other hand, facilitates the development of server-rendered React applications and supports both static and dynamic page generation. Other options include Angular and Vue.js, Angular offers a more rigid structure preferred in large projects for complex control and data models, while Vue.js provides a blend of React and Angular features with relatively easier learning and high flexibility, among many other technologies. The choice of technology for developing a web app depends on the current tech stack of the organization, its goals, and strategic direction. Other factors such as performance, security, scalability, and developer productivity also play an important role in decision-making. Additionally, community support and the ecosystem for each technology should be considered, as these can help facilitate development and problem-solving."
+		},
+		"ai_and_web_apps": {
+			"title": "Artificial Intelligence and Web Applications",
+			"description": "The growing trend of artificial intelligence (AI) is impacting many technology sectors, including web, mobile, and desktop applications. Integrating AI into these applications is becoming more seamless and strategic, providing developers with opportunities to create more complex and customizable solutions. AI can be applied in various ways depending on specific goals, such as developing chat applications using natural language processing or image generation applications that use deep learning, or data analytics using AI."
+		},
+		"what_does_a_web_app_cost": {
+			"title": "What Does a Web App Cost?",
+			"description": "The cost of a web app can vary depending on the scope of the project. Key factors that influence the price include project size and the number of work hours. We typically work based on the number of work hours, which allows us to master any work we do and make it of the highest possible quality, but we can also offer a fixed price if the client wishes."
+		},
+		"how_does_it_work": {
+			"title": "How Will We Work on Your Project?",
+			"description": "The app development process begins with a comprehensive understanding of the app's purpose and goals. We analyze and clearly define the direction the app will take to ensure it meets your expectations and needs. This understanding leads us to the next step where we design a detailed layout and blueprint that includes all necessary features and specifications required by the app. During the design phase, we consider various features that could enhance user experience and add value to the app, such as multiple payment methods and secure login options. Thanks to our extensive networks and established partnerships, we can offer these services at discounted rates, providing you with economical solutions. Once the design and functionality are determined, we move to the programming phase where we develop the app with full resource customization. We engage in the project from start to finish, which includes full development, thorough testing, and finally, the launch. The app is deployed and becomes immediately available. We ensure that every step in the process is conducted with the highest quality and professionalism to ensure that the final product not only meets but exceeds your expectations."
+		},
+		"contact_us": {
+			"title": "Still Dusty?",
+			"description": "Are you unsure whether you need a web app or another type of solution? Talk to us. We offer a free initial consultation to guide you to the best solution for your case."
+		}
+	},
+	"design": {
+		"title": "Design for Apps and Websites (UX & UI)",
+		"description": "Creative and stylish design solutions that enhance your projects. We are experts in developing user-friendly UI and UX designs. Work created by us increases your credibility with customers and significantly strengthens your brand.",
+		"info_title": "Learn about UI and UX",
+		"what_is_ui_design": {
+			"title": "What is UI Design?",
+			"description": "UI, or User Interface design, concerns how a product's interface looks and functions. The task of a UI designer is to create an interface that is visually appealing and intuitive for the user. This includes the layout of screens, design of buttons, typography, color schemes, and other visual elements. The goal is to make the interaction as smooth and simple as possible."
+		},
+		"what_is_ux_design": {
+			"title": "What is UX Design?",
+			"description": "UX, or User Experience design, focuses on the entire experience of the user when interacting with the product. It encompasses UI, but also many other aspects such as usability, accessibility, and efficiency. The work of a UX designer often begins with research to understand user needs, followed by prototyping and user testing to iteratively improve the product. The goal is to create products that are not only easy to use but also deliver positive experiences that meet or exceed user expectations."
+		},
+		"What_is_important_to_consider_when_it_comes_to_UI_and_UX": {
+			"title": "What is Important to Consider When It Comes to UI and UX?",
+			"description": "For all types of design, the end-user is the most important aspect during the design process. This involves a deep understanding of users' needs, preferences, and behaviors, achieved through thorough user research and continuous feedback. An intuitive design is essential and should meet users' expectations and requirements. A good user interface (UI) should be clean and simple. It is also important to ensure that it is not overly complicated as this can intimidate users. All parts of the design, such as colors, fonts, and layout structures, create a complete user experience for your customers. The design must be created with responsiveness to ensure that the application is accessible and functions flawlessly regardless of the user's device. Inclusive design should also be a priority, which means considering accessibility guidelines such as offering text alternatives for images, ensuring suitable contrast between text and background, and that all functionality is accessible via keyboard. The user experience can also be negatively affected by long loading times or poor performance."
+		},
+		"how_does_a_good_design_affect_my_app_or_platform": {
+			"title": "How Does a Good Design Affect My App or Platform?",
+			"description": "A well-designed app or platform can have a significant impact on user engagement and satisfaction. An effective design not only improves visual appeal but also optimizes the user experience through intuitive interfaces and smooth interactions. This leads to increased user retention and can also enhance the credibility of your platform. Good design makes your application or platform appear more professional, which in turn attracts more users and strengthens your position in the market. Furthermore, well-thought-out design solutions help to minimize user frustration by anticipating and solving usability problems before they affect the user. In this way, good design is not just a matter of aesthetics, but a critical component in creating an effective, efficient, and appealing digital product."
+		},
+		"what_does_a_design_cost": {
+			"title": "What Does It Cost to Create a UI or UX Design?",
+			"description": "The cost of a design can vary depending on the scope of the project. Key factors influencing the price include the size of the project and the number of working hours. We usually work based on the number of working hours, which allows us to master all the work we perform and do it of the highest possible quality, but we can also offer a fixed price if the customer wishes."
+		},
+		"how_does_it_work": {
+			"title": "How Do We Develop Your Design?",
+			"description": "We begin with a thorough analysis of your unique needs and goals. This initial step is crucial to ensure that the design is both functional and visually appealing, while also reflecting your brand identity. After this, we start developing a detailed layout that clearly reflects the user experience you desire, and that is technically tailored to your platform. Our application of modern design principles and current trends ensures that the outcome is both innovative and relevant. During this phase, we place great emphasis on the user interface (UI) and user experience (UX), focusing on simple navigation and intuitive interactions. We explore various design elements such as color schemes, typography, and interactive components to enhance both the visual attraction and functionality of the design. Through the use of prototyping tools, we offer you a visual preview of the final product, allowing for ongoing feedback and adjustments before the final version is established. Throughout the process, we maintain an open dialogue with you and conduct regular meetings to ensure that our design meets your expectations. If there is a need for design changes, we implement these promptly, underscoring the importance of continuously receiving and implementing your feedback. Once the design is approved, we prepare a comprehensive packaging of all necessary files and documentation for smooth implementation. We provide all design resources, including style guides and user manuals, tailored to your project's specific needs. The delivery is customized to fit your project, whether it requires digital distribution via cloud services or direct transfer."
+		},
+		"contact_us": {
+			"title": "Still Dusty?",
+			"description": "Unsure about what you need for design? Have a chat with us. We offer a free initial consultation to guide you to the best solution for your case."
+		}
+	},
+	"website": {
+		"title": "Website Development",
+		"description": "We design and develop professional, attractive, and modern websites. We guarantee that your online presence will enhance your sales and attract new customers. Every website we develop maintains the highest possible standard of quality and creativity.",
+		"info_title": "Learn About Websites",
+		"what_is_a_website": {
+			"title": "What is a Website?",
+			"description": "A website is a web page created to represent your business on the internet. It should contain all the necessary information your customers need, such as offered services, opening hours, and what sets your company apart from others. The website should also provide all the details important to your customers, including contact information and address. A website is like an open window between your company and the world, aiming to increase sales and strengthen your brand. It can consist of one or more pages with designs, images, and videos. Your website is much like a store on the street everyone who passes your store should be tempted to enter and purchase your goods or services."
+		},
+		"when_should_i_choose_a_website": {
+			"title": "When Should I Have a Website?",
+			"description": "A website is necessary for any business that wants to maintain a permanent and sustainable presence in the business market. A website is the solution for constantly offering your products and services efficiently. A professionally designed website acts as a digital embassy, increases your company's visibility, strengthens your brand, and makes it easier for customers to discover and engage with your offerings. It also serves as a platform to showcase your company's history and strengths and enables direct communication with both current and potential customers. Investing in a high-quality website is not just a marketing strategy, but a necessity in today's competitive business environment."
+		},
+		"what_is_the_best_technology_for_developing_a_website": {
+			"title": "What is the Best Technology for Developing a Website?",
+			"description": "There are many technologies available for web development, and the choice depends on the brand and industry. Among these technologies, popular platforms like WordPress and Shopify are well-known for their user-friendliness and simplicity. For customized solutions, programming languages like JavaScript can be used along with libraries and frameworks such as React or Next.js. It is important to choose the technology that best fits your company's needs, your industry, and the features you wish to achieve. The right technology choice depends on the type of website, the desired goals, and the possibilities for future scalability."
+		},
+		"what_does_a_website_cost": {
+			"title": "What Does a Website Cost?",
+			"description": "The cost of developing a website can vary depending on the scope of the project. Key factors that influence the price include the size of the project, complexity, and the number of work hours required. We offer flexible pricing models based either on an hourly rate, which allows us to ensure work of the highest quality, or a fixed price if the customer prefers it. Generally, costs range from 10,000 to 30,000 SEK depending on the number of pages and the work required to develop a website. For more advanced pages, the price may be higher."
+		},
+		"how_does_it_work": {
+			"title": "How Do We Work with Your Website?",
+			"description": "The process of developing a website begins with a comprehensive understanding of your company's direction and goals. We analyze and clearly define the direction the website should take to ensure that it meets your expectations and needs. This understanding leads us to the next step, where we design a detailed layout and blueprint that includes all necessary features and specifications. During the design phase, we consider various functions that can enhance the user experience and add value to the website. Once the design and functionality are established, we move on to the programming stage where we develop the website with complete customization of resources. We are involved in the project from start to finish, which includes development, comprehensive testing, and finally the launch. The website is implemented and immediately available. We ensure that each step in the process is carried out with the highest quality and professionalism so that the final result not only meets your expectations but exceeds them."
+		},
+		"contact_us": {
+			"title": "Still Unsure?",
+			"description": "Unsure about how best to proceed with developing your company's website? Contact us for a free initial consultation. We will guide you through the best solutions for your unique case."
+		}
+	},
+	"career": {
+		"title": "Join Our Team",
+		"description": "We support your professional and personal development through our specialized work in IT development and digital marketing. Are you ready to take the next step in your career? Send us a job application to initiate a dialogue about future opportunities. Together, we can achieve great successes and promote your personal and professional development.",
+		"info_title": "Available Positions",
+		"no_data_message": "No available positions.",
+		"spontaneous_application": {
+			"title": "Spontaneous Application",
+			"description": "Send a spontaneous application to us via email, email your CV and cover letter to"
+		}
+	},
+	"contact": {
+		"title": "Discuss the possibilities with us",
+		"description": "Take the right step towards improving your business, increase your sales, and explore what we can offer you.",
+		"book_meeting": {
+			"title": "Book a Meeting Instantly",
+			"btn_label": "Book Meeting"
+		}
+	},
+	"people": {
+		"mouayad": {
+			"name": "Mouayad Mouayad",
+			"title": "Founder",
+			"bio": "Hello, my name is Mouayad and I work as a business developer and IT manager. My goal is to help you understand the opportunities we can explore together. During our first meeting, we will discuss your options and determine if we are the right partner for you."
+		}
+	}
+}

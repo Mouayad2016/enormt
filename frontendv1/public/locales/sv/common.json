@@ -1,0 +1,265 @@
+{
+	"links": {
+		"home": "Hem",
+		"about_us": "Om Oss",
+		"services": "Tjänster",
+		"career": "Karriär",
+		"contact": "Kontakt"
+	},
+	"welcome": "Vi tar ditt företag till nya höjder med modern teknik",
+	"description": "Vi hjälper företag och organisationer att utveckla skräddarsydda IT lösningar som löser deras utmaningar och ökar deras försäljning. Din framgång är vårt uppdrag. Genom att vara din engagerade samarbetspartner strävar vi efter att bygga en långsiktig relation med målet att förverkliga dina drömmar.",
+	"contact_btn": "Kontakta us",
+	"join_us_btn": "Gå med i vårt lag",
+	"what_we_do": "Vi boostar ditt företag med toppmoderna mobil- och webbappar",
+	"custom_solutions": {
+		"title": "Skräddarsydd",
+		"description": "Vi utvecklar lösningar baserade på dina affärsbehov. Med en djup förståelse för dina utmaningar och krav, designar vi den perfekta lösningen för att lösa dina utmaningar."
+	},
+	"partnership": {
+		"title": "Partnerskap",
+		"description": "Vi förstår den avgörande roll som en teknisk partner spelar för många företag. Vår strävan är att stödja och vägleda dig genom varje steg av din resa, för att säkerställa ömsesidig framgång. Vi ser dina framgångar som våra egna."
+	},
+	"quality": {
+		"title": "Kvalitet",
+		"description": "Att leverera högkvalitativa appar är ett åtagande vi tar på största allvar. Våra lösningar är byggda med högsta kvalitet och genomgår sträng kvalitetskontroll, inklusive prestandatestning, kodgranskningar och dokumentation."
+	},
+	"outcomes": {
+		"title": "Resultat",
+		"description": "Våra lösningar är utformade för att leverera mätbara resultat och driva ditt företag framåt, antingen genom att öka försäljningen eller förfina din affärsmodell. Vi åtar oss endast projekt där vi tydligt kan förutse en positiv påverkan för våra partners."
+	},
+	"your_needs": {
+		"title": "Dina Behov",
+		"description": "Vi förstår dina behov, vare sig de är baserade på teknik, en affärsmodell eller en process. Med över 7 års erfarenhet av att utveckla projekt från grunden, är vi experter på utveckling, design, försäljningstillväxt, marknadsförståelse och affärsstrategier."
+	},
+
+	"we_stand_out_with": "Våra Utmärkande Drag",
+	"out_effects": {
+		"customer_satisfaction": {
+			"title": "Kundnöjdhet",
+			"description": "Vi håller toppkvalitet i varje leverans."
+		},
+		"simplicity": {
+			"title": "Enkelhet",
+			"description": "Våra lösningar är intuitiva och lättanvända."
+		},
+		"efficiency": {
+			"title": "Effektivitet",
+			"description": "Våra processer skapar bättre lösningar."
+		},
+		"profitability": {
+			"title": "Lönsamhet",
+			"description": "Vi erbjudere konkurenskraftiga priser."
+		}
+	},
+	"our_services": "Våra Tjäsnter",
+	"services": {
+		"mobile_app_development": {
+			"title": "Mobilapputveckling",
+			"description": "Vi utvecklar personanpassade mobila appar för både iOS och Android. Vår expertis ligger i att leverera lösningar som stärker din kommunikation med kunderna genom interaktivitet och användarvänlighet. Perfekt för dig som vill engagera dina kunder på ett dynamiskt och effektivt sätt."
+		},
+		"web_app_development": {
+			"title": "Webbapputveckling",
+			"description": "Vi designar och implementerar webbapplikationer som är anpassade efter olika plattformar och enheter. Våra lösningar garanterar en stark online närvaro och är optimerade för att maximera användarens engagemang. Perfekt för dig som siktar på att utöka ditt företags digitala fotavtryck och stärka ditt varumärke."
+		},
+		"website_development": {
+			"title": "Hemsideutveckling",
+			"description": "Vårt team skapar hemsidor med den senaste teknologin, prioriterande både estetik och funktionalitet. Vi ser till att din webbplats är både inbjudande och lättanvänd, vilket gör den idealisk för att presentera dina tjänster och produkter på ett professionellt sätt. Perfekt för dig som vill förbättra din digitala närvaro och tilltala en bredare kundbas."
+		},
+		"design_for_apps_and_websites": {
+			"title": "Design för appar och hemsidor",
+			"description": "Vi erbjuder unik och målgruppsanpassad UI- och UX-design som inte bara ser bra ut utan också förbättrar användarupplevelsen. Vårt mål är att skapa design som speglar ditt företags värden och differentierar dig från konkurrensen. Perfekt för dig som värdesätter kreativitet och vill ha en distinkt och minnesvärd närvaro online."
+		}
+	},
+	"what_others_say_about_us": "Vad våra kunder säger om oss",
+	"testimonies": {
+		"testimonies_ft": {
+			"name": "Ahmad Daghrour",
+			"text": "Vi är mycket nöjda med arbetet. Stort tack för ert engagemang och arbete!"
+		},
+		"testimonies_se": {
+			"name": "Andul Aziz Kalagi",
+			"text": "Vi älskade verkligen vår nya app 'KataKeet'. Våra kunder är mycket nöjda. Vi hoppas på att fortsätta vårt samarbete med er. Tack för er uppmärksamhet på detaljerna och den underbara servicen."
+		},
+		"testimonies_th": {
+			"name": "Kevin Vlajkovic",
+			"text": "Fantastiskt arbete! Vi lyckades öka våra försäljningar med 80% i år. Varje konsultation från er var viktig för oss. Tack så mycket, särskilt tack till Mouayad."
+		}
+	},
+	"about_header": "Vi kan perfektion och kommer att ta dig dit",
+	"about_description": "Vi kan bana din väg till framgång med vår djupa förståelse av moderna verktyg och vår expertis inom teknik över olika branscher. Tillsammans når vi enastående resultat med konkurrenskraftiga priser.",
+	"stack_title": "Vi använder oss av den mest moderna teknikstacken",
+	"about_us": {
+		"passion": {
+			"title": "Passion",
+			"description_one": "Grundare Mouayad, med flera års erfarenhet som entreprenör och grundare av Kilshi.com, samt verksam inom matbranschen, har stött på många utmaningar för att få sina startups att lyckas. Han har identifierat flera problemområden som behöver lösas inom marknadsföring, automatisering och apputveckling. Efter att själv ha sökt hjälp från olika teknik- och marknadsföringsföretag insåg han att han kunde erbjuda högkvalitativa lösningar till företag som möter liknande problem. Med sin passion och bakgrund som utvecklare har Mouayad grundat flera teknikbolag. Nu leder vi tillsammans SveaSoft, med målet att erbjuda tjänster av hög kvalitet och konkurrenskraftiga priser för att hjälpa företag att övervinna deras utmaningar.",
+			"description_two": "Vi tar hänsyn till alla aspekter av din nästa utveckling och hjälper dig med att öka försäljningen, förbättra ditt varumärke, och effektivisera ditt arbete. Med lång erfarenhet av automatisering och skapande av internetnärvaro samt byggande av varumärken, är vi väl förberedda att stödja dig."
+		},
+		"constant_learning": {
+			"title": "Ständigt Lärande",
+			"description_one": "Med många års erfarenhet av att driva företag, vet vi vad som kan leda till misslyckanden – åtminstone känner vi till de misstag som vi själva begått. Därför guidar vi dig med våra erfarenheter och hjälper dig att nå dina mål. Vi är teknikexperter och entreprenörer som kan ge dig de råd du behöver för att övervinna utmaningar. Se oss mer som en nära partner än som ett teknikföretag.",
+			"description_two": "Vi har utvecklat flera projekt och har ett lojalt nätverk både inom Sverige och internationellt, inklusive många stora IT-bolag. Vi behandlar ditt projekt som vårt eget och åtar oss endast arbete där vi kan garantera ett positivt resultat."
+		},
+		"your_success_is_ours": {
+			"title": "Din framgång är vår framgång",
+			"description_one": "Vi arbetar lojalt och fokuserar mer på resultat än på vinster. Vi bryr oss om ditt varumärke som om det vore vårt eget barn, vi tar hand om det och stödjer dig på din resa. Vi har hjälpt flera företag inom e-handel, trafikskolor, restaurangbranschen och startups. Det enda du behöver göra är att berätta för oss så mycket som möjligt om dina problem, så tar vi hand om resten.",
+			"description_two": "Vägen till en lyckad lösning börjar med en djup förståelse för utmaningar och problem. Därför är vi framgångsrika, vi strävar efter att förstå alla dina utmaningar och erbjuder de mest passande lösningarna. Tillsammans diskuterar vi olika sätt att nå ett visst resultat och gemensamt väljer vi den bästa vägen framåt."
+		}
+	},
+	"contact_us_container": {
+		"title": "Kontakta oss idag!",
+		"description": "Hör av dig till oss – vi finns här för dig och är redo för dina projekt, oavsett omfattning. Vi är experter inom tech och har ett stort internationellt nätverk som gör att vi kan erbjuda de mest kreativa och kvalitativa lösningarna i hela Sverige."
+	},
+	"mobile_app_development": {
+		"title": "Mobilapputveckling",
+		"description": "Vi utvecklar mobilappar för alla enheter. Med vår erfarenhet från många framgångsrika projekt kan vi skapa en professionell mobilapp för dig med hög nivå av kreativitet och effektivitet. Vi tar hänsyn till varje detalj för att säkerställa att din app passar sin målgrupp och fungerar perfekt på alla enheter.",
+		"info_title": "Lär dig om Mobilappar",
+		"what_is_a_mobile_app": {
+			"title": "Vad är en mobilapp?",
+			"description": "En mobilapp är ett program utvecklat och designat för att lösa problem eller effektivisera processer. Mobilappar fungerar på operativsystem som iOS och Android. En mobilapp kan integrera med många funktioner på enheten den installeras på, såsom kamera, mikrofon och GPS. Mobilappar laddas ner till mobila enheter och är lättillgängliga för användarna. Mobilappar kan skräddarsys på oändliga sätt och anpassas efter användarnas behov. "
+		},
+		"when_should_i_choose_a_mobile_app": {
+			"title": "När väljer jag en mobilapp jämfört med en webbapp eller datorapp?",
+			"description": "Appar av olika typer kan anpassas noggrant för att tillgodose unika användarbehov och varje appkategori kommer med sina specifika fördelar och begränsningar. Mobilappar sticker ut med sina distinkta fördelar, vilket gör dem särskilt värdefulla för vissa tillämpningar. Deras omedelbara tillgänglighet direkt från användarens enhet gör mobilappar till den mest praktiska och lättillgängliga typen av applikation. Denna ständiga närvaro hos användarna främjar inte bara en ökad kundlojalitet utan även en starkare känsla av tillhörighet och förbättrar slutanvändarens tillfredsställelse avsevärt."
+		},
+		"what_is_the_best_technology_for_developing_a_mobile_app": {
+			"title": "Vad är den bästa tekniken för att ta fram en mobilapp",
+			"description": "Utveckling av mobilappar erbjuder ett brett spektrum av tekniker, vilket möjliggör anpassning efter projektets storlek, den avsedda målgruppen och de specifika funktionaliteterna. För iOS-baserade applikationer är Swift ett populärt val, medan Java och Kotlin ofta föredras för Android-appar. För att effektivisera utvecklingsprocessen och minska kostnaderna har nyare ramverk som möjliggör utveckling av plattformsoberoende applikationer blivit allt mer populära. Dessa ramverk tillåter utvecklare att skapa en enda app som fungerar sömlöst på både iOS och Android. Ett framträdande exempel på sådana ramverk är Flutter, utvecklat av Google. Ett annat är React Native, utvecklat av Facebook. Valet av ramverk beror mycket på företagets IT-infrastruktur och mål."
+		},
+		"ai_and_mobile_apps": {
+			"title": "AI och mobilappar",
+			"description": "Den växande trenden inom artificiell intelligens (AI) är betydande och påverkar många teknologisektorer, inklusive mobil-, webb- och datorapplikationer. Integrationen av AI i dessa appar blir alltmer sömlös och strategisk, vilket ger utvecklare möjlighet att skapa mer sofistikerade och anpassningsbara lösningar. Beroende på de specifika målen kan AI tillämpas på olika sätt. Till exempel kan utvecklare samarbeta med AI-leverantörer som OpenAI för att utveckla avancerade chattapplikationer som använder naturlig språkbehandling för att förbättra kommunikationen eller bildgenererande appar som använder djupinlärning för att skapa visuellt innehåll från textbeskrivningar. En av de största fördelarna med att integrera AI i mobilappar är att man kan utnyttja enheternas inbyggda funktioner, såsom kameror, för att förbättra appens funktionalitet. Kameror kan till exempel användas tillsammans med bildigenkänningsalgoritmer för att skapa innovativa funktioner som ansiktsigenkänning, augmented reality (AR) och mer. Dessa integrationer gör det möjligt för mobilappar att inte bara tjäna som verktyg för daglig användning utan också som kraftfulla gränssnitt för personlig och professionell teknologianvändning."
+		},
+		"what_does_a_mobile_app_cost": {
+			"title": "Vad kostar en mobilapp",
+			"description": "Prissättningen för en mobilapp kan variera beroende på projektets omfattning. Faktorer som påverkar priset inkluderar projektets storlek och antal arbetstimmar. Vi arbetar vanligtvis på timbasis och fakturerar baserat på detta, vilket vi anser upprätthåller den högsta möjliga kvaliteten. Ett fast pris kan erbjudas om så önskas av kunden."
+		},
+		"how_does_it_work": {
+			"title": "Hur går det till?",
+			"description": "Processen för apputveckling börjar med en noggrann förståelse av appens syfte och målsättningar. Vi analyserar och definierar klart vilken riktning appen ska ta för att säkerställa att den möter era förväntningar och behov. Denna förståelse leder oss till nästa steg där vi utformar en detaljerad design och skiss som inkluderar alla nödvändiga funktioner och specifikationer som appen kräver. Under designfasen överväger vi olika funktioner som kan förbättra användarupplevelsen och öka appens värde, såsom mångsidiga betalningsmetoder och säkra inloggningsalternativ. Tack vare våra omfattande nätverk och etablerade partnerskap kan vi erbjuda dessa tjänster till rabatterade priser, vilket ger er kostnadseffektiva lösningar. När designen och funktionaliteten har fastställts, övergår vi till programmeringsfasen där vi utvecklar appen med full resursallokering. Vi engagerar oss i projektet från start till mål, vilket inkluderar den fullständiga utvecklingen, noggranna tester och slutligen lanseringen. Appen publiceras på plattformar som Google Play och App Store, där den blir tillgänglig för era användare. Vi ser till att varje steg i processen utförs med högsta kvalitet och professionalism för att säkerställa att den färdiga produkten inte bara uppfyller, utan överträffar era förväntningar."
+		},
+		"contact_us": {
+			"title": "Är det fortfarande dammigt?",
+			"description": "Är du osäker på om du behöver en mobilapp eller annan typ av lösning? Ta en snack med oss. Kostnadsfritt guidar vi dig i vårt första konsultation för den bästa lösningen för ditt fall."
+		}
+	},
+	"web_app_development": {
+		"title": "Webbapplikations- utveckling",
+		"description": "Vi utvecklar webbappar med hög nivå av professionalism och kreativitet. Med vår erfarenhet av många framgångsrika projekt kan vi skapa en professionell webbapplikation för ditt företag. Med oss kan du förvänta dig att nå de högsta möjliga höjderna.",
+		"info_title": "Lär dig om webbapplikationer",
+		"what_is_a_web_app": {
+			"title": "Vad är en webbapplikation?",
+			"description": "En webbapplikation är en mjukvara utvecklad för att fungera över internetwebbläsare och är tillgänglig från olika enheter såsom datorer, surfplattor och smartphones. Den erbjuder ett interaktivt användargränssnitt, kan anpassas för att utföra specifika funktioner och lösa särskilda problem, såsom Facebook- och YouTube-appar. Webbapplikationer kan integreras med olika tredjepartstjänster som Google för att erbjuda inloggning via Google som exempel. De kan designas och anpassas på många sätt och kräver en direkt internetanslutning för att fungera."
+		},
+		"when_should_i_choose_a_mobile_app": {
+			"title": "När ska jag välja en webbapplikation över en mobil- eller skrivbordsapplikation?",
+			"description": "En webbapplikation skiljer sig från mobil- och skrivbordsapplikationer genom att den kräver en internetanslutning och fungerar i en webbläsare. Webbapplikationer är mer flexibla eftersom de inte kräver godkännande från tredjepartstjänster såsom Google Play eller App Store för uppdateringar, vilket gör det enklare att hantera och uppdatera applikationen. Webbapplikationer ger dig full kontroll och frihet jämfört med andra typer av appar, samt möjligheten att behålla alla intäkter från betalningar utan att behöva dela dem med externa tjänsteleverantörer. De kräver inte heller installationer och är omedelbart tillgängliga för användarna, vilket gör dem högt tillgängliga för era kunder och erbjuder också fördelar som förbättrad sökmotoroptimering för olika sökmotorer. Det är också viktigt att överväga energiförbrukning och prestanda, eftersom webbapplikationer kan förbruka färre resurser på enheten jämfört med infödda applikationer, men kan vara mindre effektiva i vissa högpresterande sammanhang."
+		},
+		"what_is_the_best_technology_for_developing_a_mobile_app": {
+			"title": "Vilken är den bästa tekniken för att utveckla en webbapplikation?",
+			"description": "Det finns många teknologier för att utveckla webbapplikationer, var och en med sina egna fördelar och nackdelar. I Sverige är några av de senaste och mest populära teknikerna React och Next. React är känt för sin flexibilitet och starka komponentbaserade struktur, vilket gör det idealiskt för projekt som kräver dynamiska och komplexa användargränssnitt. Next å andra sidan underlättar utvecklingen av serverrenderade React-applikationer och stöder både statisk och dynamisk sidgenerering. Andra alternativ inkluderar Angular och Vue.js, där Angular erbjuder en mer strikt struktur som föredras i stora projekt för komplexa kontroll- och datamodeller, medan Vue.js ger en blandning av Reacts och Angulars funktioner med relativt enklare inlärning och hög flexibilitet. Valet av teknik för att utveckla en webbapplikation beror på organisationens nuvarande teknikstack, mål och strategisk riktning. Andra faktorer som prestanda, säkerhet, skalbarhet och utvecklarproduktivitet spelar en viktig roll i beslutsprocessen. Dessutom bör stöd från gemenskapen och ekosystemet för varje teknik beaktas, eftersom detta kan underlätta utvecklingen och problemlösningen."
+		},
+		"ai_and_web_apps": {
+			"title": "Artificiell intelligens och webbapplikationer",
+			"description": "Den växande trenden för artificiell intelligens (AI) påverkar många tekniksektorer, inklusive webb-, mobil- och skrivbordsapplikationer. Integrationen av AI i dessa applikationer blir allt mer sömlös och strategisk, vilket ger utvecklare möjligheter att skapa mer komplexa och anpassningsbara lösningar. AI kan tillämpas på olika sätt beroende på specifika mål, såsom att utveckla chattapplikationer som använder naturlig språkbehandling eller bildgenereringsapplikationer som använder djupinlärning, eller dataanalys med AI."
+		},
+		"what_does_a_web_app_cost": {
+			"title": "Vad kostar en webbapplikation?",
+			"description": "Kostnaden för en webbapplikation kan variera beroende på projektets omfattning. Nyckelfaktorer som påverkar priset inkluderar projektets storlek och antalet arbetstimmar. Vi arbetar vanligtvis baserat på antalet arbetstimmar, vilket gör att vi kan bemästra alla arbeten vi utför och göra det av högsta möjliga kvalitet, men vi kan också erbjuda ett fast pris om kunden önskar det."
+		},
+		"how_does_it_work": {
+			"title": "Hur kommer vi att arbeta med ditt projekt?",
+			"description": "Processen för att utveckla applikationen börjar med en omfattande förståelse för applikationens syfte och mål. Vi analyserar och definierar tydligt den riktning applikationen kommer att ta för att säkerställa att den uppfyller dina förväntningar och behov. Denna förståelse leder oss till nästa steg där vi designar en detaljerad layout och ritning som inkluderar alla nödvändiga funktioner och specifikationer som applikationen kräver. Under designfasen överväger vi olika funktioner som kan förbättra användarupplevelsen och öka applikationens värde, såsom flera betalningsmetoder och säkra inloggningsalternativ. Tack vare våra omfattande nätverk och etablerade partnerskap kan vi erbjuda dessa tjänster till rabatterade priser, vilket ger dig ekonomiska lösningar. När designen och funktionaliteten är fastställda går vi vidare till programmeringsfasen där vi utvecklar applikationen med fullständig anpassning av resurserna. Vi engagerar oss i projektet från början till slut, vilket inkluderar fullständig utveckling, noggrann testning och slutligen lanseringen. Applikationen distribueras och blir omedelbart tillgänglig. Vi säkerställer att varje steg i processen utförs med högsta kvalitet och professionalitet för att säkerställa att den slutliga produkten inte bara möter utan överträffar dina förväntningar."
+		},
+		"contact_us": {
+			"title": "Är det fortfarande dammigt?",
+			"description": "Är du osäker på om du behöver en webbapp eller annan typ av lösning? Ta en snack med oss. Kostnadsfritt guidar vi dig i vårt första konsultation för den bästa lösningen för ditt fall."
+		}
+	},
+	"design": {
+		"title": "Design för Appar och Hemsidor (UX & UI)",
+		"description": "Kreativa och stiliga designlösningar som förhöjer dina projekt. Vi är experter på att utveckla användarvänliga UI- och UX-designer. Arbete skapad av oss ökar din trovärdighet hos kunderna och stärker ditt varumärke avsevärt.",
+		"info_title": "Lär dig UI och UX",
+		"what_is_ui_design": {
+			"title": "Vad är UI design?",
+			"description": "UI, eller användargränssnittsdesign, handlar om hur en produkts gränssnitt ser ut och fungerar. UI-designerns uppgift är att skapa ett gränssnitt som är visuellt tilltalande och intuitivt för användaren. Detta inkluderar layout av skärmar, design av knappar, typografi, färgscheman och andra visuella element. Målet är att göra interaktionen så smidig och enkel som möjligt."
+		},
+		"what_is_ux_design": {
+			"title": "Vad är UX design?",
+			"description": "UX, eller användarupplevelsedesign, fokuserar på hela användarens upplevelse när de interagerar med produkten. Det innefattar UI, men även många andra aspekter som användbarhet, tillgänglighet och effektivitet. UX-designerns arbete börjar ofta med forskning för att förstå användarens behov, följt av prototyping och användartestning för att iterativt förbättra produkten. Målet är att skapa produkter som inte bara är lätta att använda, utan också levererar positiva upplevelser som uppfyller eller överträffar användarens förväntningar."
+		},
+		"What_is_important_to_consider_when_it_comes_to_UI_and_UX": {
+			"title": "Vad är viktigt att tänka på när det gäller UI och UX?",
+			"description": "För alla typer av design är slutanvändaren den viktigaste aspekten under designprocessen. Detta innebär en djupgående förståelse för användarnas behov, preferenser och beteenden, vilket uppnås genom noggranna användarundersökningar och kontinuerlig feedback. En intuitiv design är essentiell och den bör möta användarnas förväntningar och krav. En bra användargränssnitt (UI) ska vara rent och enkelt. Man ska också se till att inte göra det komplicerat då det skrämmer användarna. Alla delar i design, såsom färger, typsnitt och layoutstrukturer, skapar en hel användarupplevelse för dina kunder. Designen måste skapas med responsivitet för att applikationen ska vara tillgänglig och fungera felfritt oavsett användarens enhet. Inkluderande design bör också vara en prioritet, vilket betyder att man måste beakta tillgänglighetsriktlinjer såsom att erbjuda textalternativ för bilder, säkerställa passande kontraster mellan text och bakgrund, och att all funktionalitet är tillgänglig via tangentbordet. Användarupplevelsen kan också drabbas negativt av långa laddningstider eller dålig prestanda."
+		},
+		"how_does_a_good_design_affect_my_app_or_platform": {
+			"title": "Hur påverkar en bra design min app eller plattform?",
+			"description": "En väldesignad app eller plattform kan ha en betydande inverkan på användarnas engagemang och tillfredsställelse. En effektiv design inte bara förbättrar den visuella appell, utan optimerar också användarupplevelsen genom intuitiva gränssnitt och smidiga interaktioner. Detta leder till en ökad användarretention och kan även förstärka trovärdigheten för din plattform. Bra design gör att din applikation eller plattform framstår som mer professionell, vilket i sin tur attraherar fler användare och stärker din position på marknaden. Vidare bidrar genomtänkta designlösningar till att minimera användarfrustration genom att förutse och lösa användbarhetsproblem innan de påverkar användaren. På detta sätt är en bra design inte bara en fråga om estetik, utan en kritisk komponent i att skapa en effektiv, effektiv och tilltalande digital produkt."
+		},
+		"what_does_a_design_cost": {
+			"title": "Vad kostar det att skapa en UI eller UX design?",
+			"description": "Kostnaden för en design kan variera beroende på projektets omfattning. Nyckelfaktorer som påverkar priset inkluderar projektets storlek och antalet arbetstimmar. Vi arbetar vanligtvis baserat på antalet arbetstimmar, vilket gör att vi kan bemästra alla arbeten vi utför och göra det av högsta möjliga kvalitet, men vi kan också erbjuda ett fast pris om kunden önskar det."
+		},
+		"how_does_it_work": {
+			"title": "Hur kommer vi ta fram din design?",
+			"description": "Vi inleder med en grundlig analys av dina unika behov och mål. Detta inledande steg är avgörande för att säkerställa att designen blir både funktionell och visuellt tilltalande, samtidigt som den speglar ditt varumärkes identitet. Efter det påbörjar vi att utveckla en detaljerad layout som tydligt reflekterar den användarupplevelse du önskar, och som är tekniskt anpassad till din plattform. Vår tillämpning av moderna designprinciper och aktuella trender garanterar att resultatet är både innovativt och relevant. Under denna fas lägger vi stor vikt vid användargränssnittet (UI) och användarupplevelsen (UX), där vi fokuserar på enkel navigering och intuitiva interaktioner. Vi utforskar olika designelement som färgscheman, typografi och interaktiva komponenter för att förstärka såväl den visuella attraktionen som funktionaliteten i designen. Genom användning av prototypingverktyg erbjuder vi dig en visuell förhandsvisning av den slutgiltiga produkten, vilket möjliggör för löpande feedback och anpassningar innan den slutgiltiga versionen fastställs. Under hela processen upprätthåller vi en öppen dialog med dig och genomför regelbundna möten för att säkerställa att vår design uppfyller dina förväntningar. Om det finns behov av designändringar, genomför vi dessa omgående, vilket understryker vikten av att kontinuerligt ta emot och implementera din feedback. När designen har godkänts, förbereder vi en omfattande paketering av alla nödvändiga filer och dokumentation för en smidig implementering. Vi tillhandahåller alla designresurser, inklusive stilguider och användarmanualer, anpassade efter ditt projekts specifika behov. Leveransen anpassas för att passa ditt projekt, oavsett om det kräver digital distribution via molntjänster eller direktöverföring."
+		},
+		"contact_us": {
+			"title": "Är det fortfarande dammigt?",
+			"description": "Är du osäker på vad du behöver för design? Ta en snack med oss. Kostnadsfritt guidar vi dig i vårt första konsultation för den bästa lösningen för ditt fall."
+		}
+	},
+	"website": {
+		"title": "Hemsideutveckling",
+		"description": "Vi designar och utvecklar professionella, attraktiva och moderna hemsidor. Vi garanterar att din närvaro online kommer att förbättra din försäljning och locka nya kunder. Varje webbplats som vi utvecklar upprätthåller högsta möjliga standard av kvalitet och kreativitet.",
+		"info_title": "Lär dig om hemsidor",
+		"what_is_a_website": {
+			"title": "Vad är en hemsida?",
+			"description": "En hemsida är en webbsida som skapas för att representera ditt företag på internet. Den bör innehålla all nödvändig information dina kunder behöver, såsom erbjudna tjänster, öppettider och vad som skiljer ditt företag från andra. Webbplatsen bör också tillhandahålla alla detaljer som är viktiga för dina kunder, inklusive kontaktinformation och adress. En webbplats är som ett öppet fönster mellan ditt företag och världen, vars syfte är att öka försäljningen och stärka ditt varumärke. Den kan bestå av en eller flera sidor med designer, bilder och videor. Din webbplats liknar mycket en butik på gatan alla som passerar din butik bör frestas att gå in och köpa dina varor eller tjänster."
+		},
+		"when_should_i_choose_a_website": {
+			"title": "När ska jag ha en hemsida?",
+			"description": "En hemsida är nödvändig för alla företag som vill behålla en permanent och hållbar närvaro på affärsmarknaden. En hemsida är lösningen för att ständigt kunna erbjuda dina produkter och tjänster på ett effektivt sätt. En professionellt designad webbplats fungerar som en digital ambassad, ökar ditt företags synlighet, stärker ditt varumärke och underlättar för kunder att upptäcka och engagera sig i dina erbjudanden. Den fungerar också som en plattform för att visa upp ditt företags historia och styrkor samt möjliggör direkt kommunikation med både nuvarande och potentiella kunder. Att investera i en högkvalitativ webbplats är inte bara en marknadsföringsstrategi, utan en nödvändighet i dagens konkurrenskraftiga affärsmiljö."
+		},
+		"what_is_the_best_technology_for_developing_a_website": {
+			"title": "Vilken är den bästa tekniken för att utveckla en hemsida?",
+			"description": "Det finns många teknologier tillgängliga för webbutveckling, och valet beror på varumärket och branschen. Bland dessa teknologier är populära plattformar som WordPress och Shopify välkända för sin användarvänlighet och enkelhet. För skräddarsydda lösningar kan programmeringsspråk som JavaScript användas tillsammans med bibliotek och ramverk som React eller Next.js. Det är viktigt att välja den teknik som bäst passar ditt företags behov, din bransch och de funktioner du önskar uppnå. Rätt teknikval beror på typen av webbplats, de önskade målen och möjligheterna till framtida skalbarhet."
+		},
+		"what_does_a_website_cost": {
+			"title": "Vad kostar en hemsida?",
+			"description": "Kostnaden för att utveckla en hemsida kan variera beroende på projektets omfattning. Nyckelfaktorer som påverkar priset inkluderar projektets storlek, komplexitet och antalet arbetstimmar som krävs. Vi erbjuder flexibla prissättningsmodeller baserade antingen på timtaxa, vilket ger oss möjlighet att säkerställa arbete av högsta kvalitet, eller ett fast pris om kunden föredrar det. Generellt sett varierar kostnaderna mellan 10 000 och 30 000 kronor beroende på antalet sidor och det arbete som krävs för att utveckla en hemsida. För mer avancerade sidor kan priset vara högre."
+		},
+		"how_does_it_work": {
+			"title": "Hur arbetar vi med din hemsida?",
+			"description": "Processen för att utveckla en hemsida börjar med en omfattande förståelse för ditt företags riktning och mål. Vi analyserar och definierar tydligt den riktning som webbplatsen bör ta för att säkerställa att den uppfyller dina förväntningar och behov. Denna förståelse leder oss till nästa steg, där vi designar en detaljerad layout och ritning som inkluderar alla nödvändiga funktioner och specifikationer. Under designfasen överväger vi olika funktioner som kan förbättra användarupplevelsen och lägga till värde på webbplatsen. När designen och funktionaliteten är fastställda, går vi vidare till programmeringsstadiet där vi utvecklar webbplatsen med fullständig anpassning av resurserna. Vi är involverade i projektet från start till mål, vilket inkluderar utveckling, omfattande testning och slutligen lanseringen. Webbplatsen implementeras och blir omedelbart tillgänglig. Vi säkerställer att varje steg i processen utförs med högsta kvalitet och professionalism så att det slutliga resultatet inte bara uppfyller dina förväntningar utan överträffar dem."
+		},
+		"contact_us": {
+			"title": "Är det fortfarande dammigt?",
+			"description": "Är du osäker på hur du bäst går tillväga för att utveckla din företags hemsida? Kontakta oss för en kostnadsfri initial konsultation. Vi guidar dig genom de bästa lösningarna för ditt unika fall."
+		}
+	},
+	"career": {
+		"title": "Bli en del av vårt team",
+		"description": "Vi stödjer din professionella och personliga utveckling genom vårt specialiserade arbete inom IT-utveckling och digital marknadsföring. Är du redo att ta nästa steg i din karriär? Skicka en jobbansökan till oss för att inleda en dialog om framtida möjligheter. Tillsammans kan vi uppnå stora framgångar och främja din personliga och professionella utveckling.",
+		"info_title": "Lediga tjänster",
+		"no_data_message": "Inga tillgängliga tjänster.",
+		"spontaneous_application": {
+			"title": "Spontant ansökan",
+			"description": "Shicka en sponatnt ansökan till oss via mejl, mejla ditt CV och persoblig brev till"
+		}
+	},
+	"contact": {
+		"title": "Diskutera möjligheterna med oss",
+		"description": "Ta det rätta steget mot att förbättra ditt företag, öka din försäljning och utforska vad vi kan erbjuda dig.",
+		"book_meeting": {
+			"title": "Boka ett möte direkt",
+			"btn_label": "Boka möte"
+		}
+	},
+	"people": {
+		"mouayad": {
+			"name": "Mouayad Mouayad",
+			"title": "Grundare",
+			"bio": "Hej, jag heter Mouayad och arbetar som affärsutvecklare och IT-ansvarig. Mitt mål är att hjälpa dig att förstå de möjligheter vi kan utforska tillsammans. Under vårt första möte kommer vi att diskutera dina alternativ och avgöra om vi är rätt samarbetspartnern för dig."
+		}
+	}
+}
