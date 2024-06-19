@@ -2,6 +2,7 @@ import Image from "next/image";
 import CenterLayout from "../components/CenterLayout";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const ContatUs = ({ title, desc, video }: any) => {
 	const { t } = useTranslation("common");
@@ -19,9 +20,12 @@ const ContatUs = ({ title, desc, video }: any) => {
 										{title}
 									</p>
 									<p className='mt-2'>{desc}</p>
-									<button className='py-2 mt-4 max-w-[150px] rounded-full font-caveat text-black glass-effect'>
+									<Link
+										href={"/contact"}
+										className='py-2 mt-4 max-w-[150px] rounded-full font-caveat text-black glass-effect text-center'
+									>
 										{t("contact_btn")}
-									</button>
+									</Link>
 								</div>
 								{video == true ? (
 									<video

@@ -9,9 +9,9 @@ const slides = [
 	"/logos/nordea.svg",
 	"/logos/paybal.svg",
 	"/logos/swish.svg",
-	"/logos/trustly.svg",
-	"/logos/transportstyrelsen.svg",
-	"/logos/microsoft.svg",
+	// "/logos/trustly.svg",
+	// "/logos/transportstyrelsen.svg",
+	// "/logos/microsoft.svg",
 ];
 
 const LogoSlider = () => {
@@ -39,10 +39,10 @@ const LogoSlider = () => {
 							className='flex-shrink-0 opacity-50'
 							style={{ width: `${100 / slides.length}%` }}
 						>
-							<div className='flex items-center justify-center h-full px-4'>
+							<div className='flex items-center justify-center h-full  px-4'>
 								<Image
 									alt='Swedish companies logos'
-									className='h-22 object-contain'
+									className='h-22 w-22 object-contain'
 									src={slide}
 									height={120}
 									width={120}

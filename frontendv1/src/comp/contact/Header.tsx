@@ -10,7 +10,7 @@ function NoBGHeader({ title, description }: any) {
 	return (
 		<div
 			className={`relative top-0 left-0 w-full max-h-[1024px] 
-					h-[400px] sm:h-[450px]
+					h-[480px] sm:h-[450px]
 				 flex flex-col justify-end bg-black 
 						
 							bg-opacity-0 text-black`}
@@ -33,7 +33,6 @@ function NoBGHeader({ title, description }: any) {
 						<div className='lg:max-w-3xl md:max-w-2xl sm:max-w-xl'>
 							<p className=' text-lg md:text-xl lg:text-2xl '>{description}</p>
 						</div>
-						<div className='h-6'></div>
 					</div>
 				</CenterLayout>
 			</div>

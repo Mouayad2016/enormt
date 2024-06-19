@@ -253,13 +253,53 @@
 		"book_meeting": {
 			"title": "Boka ett möte direkt",
 			"btn_label": "Boka möte"
+		},
+		"contact_with": {
+			"title": "Så kan du komma i kontakt med oss",
+			"phone": {
+				"header": "RING OSS",
+				"main": "+46733524957",
+				"footer": "Våra öppettider är alla vardagar mellan 10 och 17. Vi talar Svenska, Arabiska och Engelska."
+			},
+			"mail": {
+				"header": "MEJLA OSS",
+				"main": "hej@sveasoftab.se",
+				"footer": "Mejla när som helst, vi svarar inom 24 timmar!"
+			},
+			"visit": {
+				"header": "BESÖK OSS",
+				"main": "Visättravägen 12",
+				"footer": "Kom på besök när du känner för det, även utan bokning."
+			},
+			"send_a_message": {
+				"header": "DIREKT MEDDELANDE",
+				"main": "👇🏻",
+				"footer": "Fyll i formuläret nedan och berätta så gott du kan om dina behov, så återkommer vi inom kort."
+			}
+		},
+		"form": {
+			"title": "Skicka ett meddelande",
+			"labels": {
+				"name": "Namn",
+				"email": "E-postadress*",
+				"phone": "Telefonnummer",
+				"message": "Meddelande*",
+				"policy": "Jag godkänner villkoren i SveaSoft AB:s integritetspolicy.",
+				"submit_button": "Skicka"
+			}
 		}
 	},
 	"people": {
 		"mouayad": {
 			"name": "Mouayad Mouayad",
 			"title": "Grundare",
-			"bio": "Hej, jag heter Mouayad och arbetar som affärsutvecklare och IT-ansvarig. Mitt mål är att hjälpa dig att förstå de möjligheter vi kan utforska tillsammans. Under vårt första möte kommer vi att diskutera dina alternativ och avgöra om vi är rätt samarbetspartnern för dig."
+			"bio": "Hej, jag heter Mouayad och arbetar som affärsutvecklare och IT-ansvarig. Mitt mål är att hjälpa dig att förstå de möjligheter vi kan utforska tillsammans. Under vårt första möte kommer vi att diskutera dina alternativ och avgöra om vi är rätt samarbetspartnern för dig.",
+			"mail": "mouayad@sveasoft.se",
+			"phone": "+46733524957"
 		}
+	},
+	"footer": {
+		"contact": "Kontakt",
+		"links": "Länkar"
 	}
 }

@@ -23,7 +23,6 @@ function Home() {
 			<NavBar />
 			<VideoHeader />
 			<HomeInfo />
-
 			<div className='relative overflow-hidden'>
 				<Effect />
 				<div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-white to-transparent z-20'></div>
@@ -37,7 +36,6 @@ function Home() {
 					title={t("contact_us_container.title")}
 					desc={t("contact_us_container.description")}
 				/>
-				{/* <div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-black to-transparent z-20'></div> */}
 				<Footer />
 			</div>
 		</main>

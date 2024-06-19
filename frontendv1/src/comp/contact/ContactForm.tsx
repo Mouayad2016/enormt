@@ -8,7 +8,7 @@ function ContactForm() {
 	const isRTL = locale === "ar";
 	return (
 		<CenterLayout>
-			<div className='flex flex-col md:flex-row justify-center mb-12 md:h-[580px] glass-effect  '>
+			<div className='flex flex-col md:flex-row justify-center mb-12 md:h-[580px]  '>
 				<div
 					className={`bg-gray-300 bg-opacity-75 w-full md:w-3/5 ${
 						isRTL
@@ -24,10 +24,12 @@ function ContactForm() {
 						} `}
 					>
 						<form className='text-black flex flex-col p-4 h-full'>
-							<h3 className='text-xl font-bold mb-6'>Skicka ett meddelande</h3>
+							<h3 className='text-2xl font-bold mb-6'>
+								{t("contact.form.title")}
+							</h3>
 
 							<label htmlFor='name' className='mb-1 font-semibold'>
-								Namn
+								{t("contact.form.labels.name")} :
 							</label>
 							<input
 								className='p-2 mb-4 bg-white rounded-md border-2 border-white focus:border-thistle focus:outline-none'
@@ -38,7 +40,7 @@ function ContactForm() {
 							/>
 
 							<label htmlFor='email' className='mb-1 font-semibold'>
-								E-postadress*
+								{t("contact.form.labels.email")} :
 							</label>
 							<input
 								className='p-2 mb-4 bg-white rounded-md border-2 border-white focus:border-thistle focus:outline-none'
@@ -49,7 +51,7 @@ function ContactForm() {
 							/>
 
 							<label htmlFor='phone' className='mb-1 font-semibold'>
-								Telefonnummer
+								{t("contact.form.labels.phone")} :
 							</label>
 							<input
 								className='p-2 mb-4 bg-white rounded-md border-2 border-white focus:border-thistle focus:outline-none'
@@ -59,7 +61,7 @@ function ContactForm() {
 							/>
 
 							<label htmlFor='message' className='mb-1 font-semibold'>
-								Meddelande*
+								{t("contact.form.labels.message")} :
 							</label>
 							<textarea
 								className='p-2 mb-4 bg-white rounded-md border-2 border-white focus:border-thistle focus:outline-none'
@@ -77,7 +79,7 @@ function ContactForm() {
 									className='checkbox_input'
 								/>
 								<label htmlFor='privacy' className='flex-1'>
-									Jag godkänner villkoren i SveaSoft AB integritetspolicy
+									{t("contact.form.labels.policy")}
 								</label>
 							</div>
 
@@ -85,7 +87,7 @@ function ContactForm() {
 								type='submit'
 								className='mt-4 bg-thistle hover:bg-thistle-dark text-white font-bold p-2 rounded-xl shadow-lg transition-colors duration-300 ease-in-out'
 							>
-								Skicka
+								{t("contact.form.labels.submit_button")}
 							</button>
 						</form>
 					</div>

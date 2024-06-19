@@ -10,7 +10,7 @@ function InfoGrid({ title, info }: any) {
 	const isRTL = locale === "ar";
 
 	return (
-		<div className='flex flex-col justify-between pb-12  bg-white text-black'>
+		<div className='flex flex-col justify-between pb-12 pt-6  bg-white text-black'>
 			<CenterLayout>
 				<div className='relative flex flex-col items-start justify-center md:justify-start mt-4 mb-8 md:mt-8 lg:mt-16 md:mb-8 '>
 					<div className='max-w-2xl lg:max-w-3xl'>

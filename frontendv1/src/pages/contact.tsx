@@ -3,6 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import Footer from "@/comp/footer";
+import SliderNumber from "@/comp/components/LogoSlider";
 
 import BookMeeting from "@/comp/contact/BookMeeting";
 
@@ -11,6 +12,7 @@ import ContactForm from "@/comp/contact/ContactForm";
 import ContactUsWith from "@/comp/contact/ContactUsWith";
 import NoBGHeader from "../comp/contact/Header";
 import NavBar from "@/comp/Navbar";
+import CenterLayout from "@/comp/components/CenterLayout";
 
 function About() {
 	const { t } = useTranslation("common");
@@ -24,11 +26,28 @@ function About() {
 				description={t("contact.description")}
 			/>
 			<BookMeeting />
-			<ContactUsWith />
-			<ContactForm />
 			<div className='pb-12'>
 				<AboutSlider noTitle={true} />
 			</div>
+			<ContactUsWith />
+			<CenterLayout>
+				<div className='bg-black mb-12 py-6'>
+					<SliderNumber />
+				</div>{" "}
+			</CenterLayout>
+			<ContactForm />
+			{/* <CenterLayout>
+				<div className='flex items-center justify-start w-full mb-16 mt-4'>
+					<video
+						autoPlay
+						loop
+						muted
+						className='object-cover w-full h-full rounded-xl shadow-xl border-4 border-gray-300'
+					>
+						<source src='/videos/sveasoft_ab.mp4' type='video/mp4' />
+					</video>
+				</div>
+			</CenterLayout> */}
 			<Footer />
 		</main>
 	);

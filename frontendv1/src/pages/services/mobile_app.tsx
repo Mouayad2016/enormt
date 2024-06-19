@@ -63,7 +63,7 @@ function MobileApp() {
 				/>
 
 				<ImageSlider isHeader={true} />
-				<div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-white to-transparent z-20'></div>
+				{/* <div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-white to-transparent z-20'></div> */}
 				<InfoGrid
 					info={services}
 					title={t("mobile_app_development.info_title")}
@@ -81,7 +81,7 @@ function MobileApp() {
 					title={t("mobile_app_development.contact_us.title")}
 					desc={t("mobile_app_development.contact_us.description")}
 				/> */}
-				<div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-black to-transparent z-20'></div>
+				{/* <div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-black to-transparent z-20'></div> */}
 				<Footer />
 			</div>
 		</main>

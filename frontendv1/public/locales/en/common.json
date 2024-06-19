@@ -250,18 +250,58 @@
 		}
 	},
 	"contact": {
-		"title": "Discuss the possibilities with us",
+		"title": "Discuss possibilities with us",
 		"description": "Take the right step towards improving your business, increase your sales, and explore what we can offer you.",
 		"book_meeting": {
 			"title": "Book a Meeting Instantly",
 			"btn_label": "Book Meeting"
+		},
+		"contact_with": {
+			"title": "How You Can Contact Us",
+			"phone": {
+				"header": "CALL US",
+				"main": "+46733524957",
+				"footer": "Our opening hours are weekdays from 10 AM to 5 PM. We speak English, Swedish, and Arabic."
+			},
+			"mail": {
+				"header": "EMAIL US",
+				"main": "hello@sveasoftab.se",
+				"footer": "Email anytime, we respond within 24 hours!"
+			},
+			"visit": {
+				"header": "VISIT US",
+				"main": "Visättravägen 12",
+				"footer": "Feel free to visit anytime, even without an appointment."
+			},
+			"send_a_message": {
+				"header": "DIRECT MESSAGE",
+				"main": "👇🏻",
+				"footer": "Fill out the form below. Try to provide as much information as you can, we will contact you immediately."
+			}
+		},
+		"form": {
+			"title": "Send a Message",
+			"labels": {
+				"name": "Name",
+				"email": "Email Address*",
+				"phone": "Phone Number",
+				"message": "Message*",
+				"policy": "I accept the terms of the SveaSoft AB privacy policy.",
+				"submit_button": "Submit"
+			}
 		}
 	},
 	"people": {
 		"mouayad": {
 			"name": "Mouayad Mouayad",
 			"title": "Founder",
-			"bio": "Hello, my name is Mouayad and I work as a business developer and IT manager. My goal is to help you understand the opportunities we can explore together. During our first meeting, we will discuss your options and determine if we are the right partner for you."
+			"bio": "Hello, my name is Mouayad and I work as a business developer and IT manager. My goal is to help you understand the opportunities we can explore together. During our first meeting, we will discuss your options and determine if we are the right partner for you.",
+			"mail": "mouayad@sveasoft.se",
+			"phone": "+46733524957"
 		}
+	},
+	"footer": {
+		"contact": "Contact",
+		"links": "Links"
 	}
 }

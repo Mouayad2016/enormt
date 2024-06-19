@@ -21,7 +21,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 					: isRTL
 					? "-left-full"
 					: "-right-full"
-			} h-full w-[80vw] sm:w-1/2 text-white bg-black bg-opacity-70 shadow-md transition-all duration-300 ease-in-out transform p-2 ${
+			} h-full w-[90vw] sm:w-1/2 text-white bg-black bg-opacity-70 shadow-md transition-all duration-300 ease-in-out transform p-2 ${
 				isMenuOpen ? "opacity-100 scale-100" : "opacity-0 scale-95"
 			} z-40`}
 		>
@@ -77,7 +77,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 						-
 						<Link
 							href='/services/mobile_app'
-							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+							className={`px-2 md:px-4 text-center text-md font-bold hover:text-blue-300 ${
 								isActive("/services/mobile_app") ? "text-blue-300" : ""
 							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
 							onClick={() => setMenuOpen(false)}
@@ -89,7 +89,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 						-
 						<Link
 							href='/services/web_app'
-							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+							className={`px-2 md:px-4 text-center text-md font-bold hover:text-blue-300 ${
 								isActive("/services/web_app") ? "text-blue-300" : ""
 							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
 							onClick={() => setMenuOpen(false)}
@@ -101,7 +101,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 						-{" "}
 						<Link
 							href='/services/website'
-							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+							className={`px-2 md:px-4 text-center text-md font-bold hover:text-blue-300 ${
 								isActive("/services/website") ? "text-blue-300" : ""
 							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
 							onClick={() => setMenuOpen(false)}
@@ -113,7 +113,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu, setMenuOpen }: any) => {
 						-{" "}
 						<Link
 							href='/services/design'
-							className={`px-4 text-center text-lg font-bold hover:text-blue-300 ${
+							className={`px-2 md:px-4 text-center text-md font-bold hover:text-blue-300 ${
 								isActive("/services/design") ? "text-blue-300" : ""
 							} ${isRTL ? "font-notokufi" : "font-mono font-bold"}`}
 							onClick={() => setMenuOpen(false)}

@@ -47,7 +47,7 @@ function Website() {
 			<NavBar />
 			<div className='relative overflow-hidden'>
 				<WebSiteHeader />
-				<div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-white to-transparent z-20'></div>
+				{/* <div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-white to-transparent z-20'></div> */}
 				<InfoGrid info={services} title={t("website.info_title")} />
 			</div>
 			<Effect />
@@ -58,7 +58,7 @@ function Website() {
 					desc={t("website.contact_us.description")}
 					video={true}
 				/>
-				<div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-black to-transparent z-20'></div>
+				{/* <div className='absolute inset-x-0 top-2/2 transform -translate-y-1/2 h-12 bg-gradient-to-b from-transparent via-black to-transparent z-20'></div> */}
 				<Footer />
 			</div>
 		</main>
